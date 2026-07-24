@@ -1,0 +1,2 @@
+A quizz game written in Python using the PyQt6 graphics library and JSON files for questions.
+It allows you to choose between various themes (for example: history, geographics, etc) and tracks your score as you progress in those tests.
