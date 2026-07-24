@@ -1,0 +1,46 @@
+{
+    "questions": {
+        "1": {
+            "content": "What is the capital of France ?",
+            "answer": "Paris",
+            "reward": 10,
+            "widgets": [
+                "button text='Paris'",
+                "button text='London'",
+                "button text='Roma'",
+                "button text='Madrid'"
+            ]
+        },
+        "2": {
+            "content": "What is the capital of United Kingdom ?",
+            "answer": "London",
+            "reward": 10,
+            "widgets": [
+                "button text='London'", 
+                "button text='Paris'", 
+                "button text='Pittsburg'", 
+                "button text='Glasgow'"
+            ]
+        },
+
+        "3": {
+            "content": "What is the capital of United States ?",
+            "answer": "Washington D.C",
+            "reward": 10,
+            "widgets": [
+            "button text='New York'", 
+            "button text='Washington D.C'",
+            "button text='Los Angeles'",
+            "button text ='Dallas'",
+            "button text ='Seattle'"
+            ]            
+        },
+
+        "4": {
+            "content": "In which country is located the city of Toulouse ?",
+            "awnser": "France",
+            "reward": 15,
+            "widgets": ["input length='6'"]
+        }
+    }
+}
