@@ -7,17 +7,21 @@ class MainAppWindow(QMainWindow):
 
     def __init__(self):
         # Initialize the QMainWindow object
-        super.__init__()
+        super().__init__()
+
+        # Set window title
+        self.setWindowTitle("PyGuessR")
 
         # Layout for the widgets
         display_layout = QGridLayout()
 
-        self.setLayout(display_layout)
+        #self.setLayout(display_layout)
 
 
 
 application = QApplication([])
 window = MainAppWindow()
+window.show()
 application.exec()
 
 
