@@ -19,6 +19,14 @@ class MainAppWindow(QMainWindow):
         available_themes = get_themes()
         print(available_themes)
 
+        # Dictionnary associating themes with their absolute file paths
+        theme_paths = {}
+
+        for theme in available_themes:
+            theme_paths[theme] = get_theme_abspath(theme)
+
+        print(theme_paths)    
+
 
 
 application = QApplication([])
