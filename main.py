@@ -1,5 +1,6 @@
 # Main application script
 from PyQt6.QtWidgets import QApplication, QMainWindow, QGridLayout
+from list_themes import *
 
 
 class MainAppWindow(QMainWindow):
@@ -14,6 +15,9 @@ class MainAppWindow(QMainWindow):
 
         # Layout for the widgets
         display_layout = QGridLayout()
+
+        available_themes = get_themes()
+        print(available_themes)
 
 
 
