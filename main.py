@@ -15,8 +15,6 @@ class MainAppWindow(QMainWindow):
         # Layout for the widgets
         display_layout = QGridLayout()
 
-        #self.setLayout(display_layout)
-
 
 
 application = QApplication([])
