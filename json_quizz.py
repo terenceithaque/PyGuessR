@@ -10,4 +10,37 @@ class JSONQuizzFormat:
         json_file : the JSON file from which the quizz content (questions, answers, etc.) is parsed by using the json module."""
 
         self.file = json_file
+
+        # Parse the content of the JSON file
+
+
+        self.quizz_content = {}
+
+        with open(json_file, "r") as f:
+            self.quizz_content = json.load(f)
+
+
+
+        # Get the questions of the quizz
+        self.questions = self.quizz_content["questions"]
+
         
+
+    def get_question_numbers(self) -> list:
+        """Return the list of question numbers in crescent order."""
+
+        numbers = [] # List of question numbers
+        for number in self.questions.keys():
+            numbers.append(int(number))
+
+        return numbers    
+
+        
+
+
+
+
+# Executed only if the scripted is runned directly
+if __name__ == "__main__":
+    quizz = JSONQuizzFormat("quizz/geographics/level_1.json")
+    print("Question numbers :", quizz.get_question_numbers())
