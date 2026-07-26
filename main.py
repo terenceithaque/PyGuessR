@@ -46,14 +46,15 @@ class MainAppWindow(QMainWindow):
 
 
         # Create buttons to choose a theme
-        x = 1
-        y = 0
+
+        x = 0 # x is the row of the button
+        y = 1 # y is the column
 
         for theme in theme_paths.keys():
             theme_button = QPushButton(text=theme, parent=central_widget)
             theme_button.setFixedWidth(80)
             theme_button.setFixedHeight(30)
-            parent_layout.addWidget(theme_button, x, y)
+            parent_layout.addWidget(theme_button, y, x)
             x += 1
             if x == 3:
                 x = 0
