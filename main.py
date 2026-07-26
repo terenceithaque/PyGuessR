@@ -1,5 +1,5 @@
 # Main application script
-from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QLabel
+from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QLabel, QPushButton
 from PyQt6.QtGui import QFont
 from PyQt6.QtCore import Qt
 from list_themes import *
@@ -42,12 +42,23 @@ class MainAppWindow(QMainWindow):
         theme_label.setFont(theme_label_font)
         theme_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-
-        
-
-        
-
         parent_layout.addWidget(theme_label, 0, 0)
+
+
+        # Create buttons to choose a theme
+        x = 1
+        y = 0
+
+        for theme in theme_paths.keys():
+            theme_button = QPushButton(text=theme, parent=central_widget)
+            theme_button.setFixedWidth(80)
+            theme_button.setFixedHeight(30)
+            parent_layout.addWidget(theme_button, x, y)
+            x += 1
+            if x == 3:
+                x = 0
+                y += 1
+
 
 
 
