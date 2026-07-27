@@ -2,6 +2,21 @@
 import json
 
 
+
+class JSONQuestion:
+    def __init__(self, content:str, answer:str, reward:int, widgets:list) -> None:
+        """A specific question of the quizz.\n
+        - content: the content of the question (ex. 'What is the capital of France ?')
+        - answer: the correct answer to the question (ex. 'Paris')
+        - reward: the number of points the player grants if he correctly answers
+        - widgets: a list descripting widgets offered to the players (buttons, inputs, etc)."""
+
+        self.content = content
+        self.answer = answer
+        self.reward = reward
+        self.widgets = widgets
+
+
 class JSONQuizzFormat:
     
 
@@ -36,12 +51,14 @@ class JSONQuizzFormat:
         return numbers
 
 
-    def get_question(self, number:int) -> dict:
-        """Returns the dictionnary representing the data of a question identified by the given number."""
+    def get_question(self, number:int) -> JSONQuestion:
+        """Returns the question identified by the given number."""
 
         assert number in self.get_question_numbers(), f"Invalid question number ({number})."
 
-        return self.questions[str(number)]         
+        question_data = self.questions[str(number)]
+
+        return JSONQuestion(question_data["content"], question_data["answer"], question_data["reward"], question_data["widgets"])    
 
         
 
