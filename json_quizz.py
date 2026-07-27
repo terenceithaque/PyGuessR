@@ -33,7 +33,15 @@ class JSONQuizzFormat:
         for number in self.questions.keys():
             numbers.append(int(number))
 
-        return numbers    
+        return numbers
+
+
+    def get_question(self, number:int) -> dict:
+        """Returns the dictionnary representing the data of a question identified by the given number."""
+
+        assert number in self.get_question_numbers(), f"Invalid question number ({number})."
+
+        return self.questions[str(number)]         
 
         
 
@@ -44,3 +52,4 @@ class JSONQuizzFormat:
 if __name__ == "__main__":
     quizz = JSONQuizzFormat("quizz/geographics/level_1.json")
     print("Question numbers :", quizz.get_question_numbers())
+    print("Question n°1 :", quizz.get_question(1))
