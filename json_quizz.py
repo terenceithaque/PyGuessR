@@ -1,6 +1,6 @@
 """This script handles the JSON format used for the quizz and provides a JSONQuizzFormat class."""
 import json
-
+import random
 
 
 class JSONQuestion:
@@ -15,6 +15,12 @@ class JSONQuestion:
         self.answer = answer
         self.reward = reward
         self.widgets = widgets
+
+
+    def is_answer_correct(self, player_answer:str) -> bool:
+        """Returns True if the given player answer is correct or False if it is not."""
+        return player_answer == self.answer
+
 
 
 class JSONQuizzFormat:
@@ -39,6 +45,7 @@ class JSONQuizzFormat:
         # Get the questions of the quizz
         self.questions = self.quizz_content["questions"]
 
+
         
 
     def get_question_numbers(self) -> list:
@@ -49,6 +56,26 @@ class JSONQuizzFormat:
             numbers.append(int(number))
 
         return numbers
+
+
+    def question_serie(self, length=10) -> list:
+        """Returns a list of numbers representing the questions asked to the player.
+        - length : the length of the list, 10 by default."""
+
+        serie = [] # Question serie list
+
+        question_numbers = self.get_question_numbers()
+
+        while len(serie) < length:
+            number = random.choice(question_numbers)
+            print(number)
+            print(serie)
+            if number not in serie:
+                serie.append(number)
+
+        return serie        
+        
+
 
 
     def get_question(self, number:int) -> JSONQuestion:
@@ -70,3 +97,4 @@ if __name__ == "__main__":
     quizz = JSONQuizzFormat("quizz/geographics/level_1.json")
     print("Question numbers :", quizz.get_question_numbers())
     print("Question n°1 :", quizz.get_question(1))
+    print("Question serie :", quizz.question_serie(4))
