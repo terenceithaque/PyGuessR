@@ -41,6 +41,25 @@
             "awnser": "France",
             "reward": 15,
             "widgets": ["input length='6'"]
+        },
+
+        "5": {
+            "content": "Which of these countries is NOT part of the European Union ?",
+            "answer": "United Kingdom",
+            "reward": 15,
+            "widgets": ["button text='France'", "button text='United Kingdom'", "button text='Spain'", "button text='Italy'"]
+        },
+        "6": {
+            "content": "Where is the Pacific ocean located ?",
+            "answer": "Between U.S and Asia",
+            "reward": 15,
+            "widgets": ["button text='Between Europe and U.S'", "button text='Between U.S and Asia'"]
+        },
+        "7": {
+            "content": "Athens (Greece) is NOT a capital city.",
+            "answer": "No",
+            "reward": 15,
+            "widgets": ["button text='Yes'", "button text='No'"]
         }
     }
 }
