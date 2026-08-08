@@ -3,6 +3,7 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QLa
 from PyQt6.QtGui import QFont
 from PyQt6.QtCore import Qt
 from list_themes import *
+from quizz_window import *
 
 
 class MainAppWindow(QMainWindow):
@@ -64,7 +65,14 @@ class MainAppWindow(QMainWindow):
 
     def start_quizz(self, theme:str) -> None:
         """Hides the home window and start """
-        print("Absolute file path to quizz level 1:", get_quizz_abspath(theme, level=1))
+        quizz_path = get_quizz_abspath(theme, level=1)
+        print("Absolute file path to quizz level 1:", quizz_path)
+
+        self.hide() # Hide the home window
+
+        quizz_window = QuizzWindow(quizz_path)
+        quizz_window.show()
+
 
 
 application = QApplication([])

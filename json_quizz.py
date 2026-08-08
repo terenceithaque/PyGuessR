@@ -37,7 +37,7 @@ class JSONQuizzFormat:
 
         self.quizz_content = {}
 
-        with open(json_file, "r") as f:
+        with open(json_file, "r", encoding="utf-8") as f:
             self.quizz_content = json.load(f)
 
 
