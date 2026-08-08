@@ -52,6 +52,7 @@ class MainAppWindow(QMainWindow):
 
         for theme in theme_paths.keys():
             theme_button = QPushButton(text=theme, parent=central_widget)
+            theme_button.clicked.connect(lambda: self.start_quizz(theme))
             theme_button.setFixedWidth(80)
             theme_button.setFixedHeight(30)
             parent_layout.addWidget(theme_button, y, x)
@@ -61,6 +62,9 @@ class MainAppWindow(QMainWindow):
                 y += 1
 
 
+    def start_quizz(self, theme:str) -> None:
+        """Hides the home window and start """
+        print("Absolute file path to quizz level 1:", get_quizz_abspath(theme, level=1))
 
 
 application = QApplication([])

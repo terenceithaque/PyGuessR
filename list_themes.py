@@ -18,3 +18,10 @@ def get_theme_abspath(theme:str) -> str:
     assert theme in os.listdir(f"{script_dir}/quizz"), f"The requested theme ({theme}) does not exist."
 
     return os.path.abspath(f"{script_dir}/quizz/{theme}")
+
+
+def get_quizz_abspath(theme:str, level:int=1) -> str:
+    """Returns the absolute file path to the quizz file corresponding to the corresponding themes and difficulty levels."""
+
+    theme_path = get_theme_abspath(theme) # Get the absolute file path to the theme's folder
+    return os.path.join(theme_path, f"level_{level}.json")
