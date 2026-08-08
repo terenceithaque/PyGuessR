@@ -53,7 +53,10 @@ class MainAppWindow(QMainWindow):
 
         for theme in theme_paths.keys():
             theme_button = QPushButton(text=theme, parent=central_widget)
-            theme_button.clicked.connect(lambda: self.start_quizz(theme))
+            theme_button.clicked.connect(
+                lambda checked=False, theme=theme: self.start_quizz(theme)
+            )
+
             theme_button.setFixedWidth(80)
             theme_button.setFixedHeight(30)
             parent_layout.addWidget(theme_button, y, x)
