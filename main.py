@@ -16,6 +16,10 @@ class MainAppWindow(QMainWindow):
         # Set window title
         self.setWindowTitle("PyGuessR")
 
+
+        # Current quizz window
+        self.quizz_window = None
+
         
 
         central_widget = QWidget()
@@ -73,8 +77,9 @@ class MainAppWindow(QMainWindow):
 
         self.hide() # Hide the home window
 
-        quizz_window = QuizzWindow(quizz_path)
-        quizz_window.show()
+        self.quizz_window = QuizzWindow(quizz_path)
+        #self.quizz_window.setParent(self)
+        self.quizz_window.show()
 
 
 
