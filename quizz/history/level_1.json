@@ -1,0 +1,34 @@
+{
+    "questions": {
+        "1": {
+            "content": "World War I took place in...",
+            "answer": "1914-1918",
+            "reward": 10,
+            "widgets": [
+                "button text='1939-1945'", 
+                "button text='1814-1818'", 
+                "button text='1914-1918'"
+            ]
+        },
+        "2": {
+            "content": "World War II took place in...",
+            "answer": "1939-1945",
+            "reward": 10,
+            "widgets": [
+                "button text='1814-1818'",
+                "button text='1914-1918'",
+                "button text='1939-1945'"
+            ]
+        },
+        "3": {
+            "content": "The French revolution started in...",
+            "answer": "1789",
+            "reward": 10,
+            "widgets": [
+                "button text='1788'",
+                "button text='1789'",
+                "button text='1790'"
+            ]
+        }
+    }
+}
