@@ -4,11 +4,23 @@ from json_quizz import *
 import random
 
 
+class QuestionPage:
+    def __init__(self, question_number:str, json_content:dict) -> None:
+        """A page containing a question in the quizz referenced by a question number (string) with its content and widgets.
+        - question_number: a string containing the number referencing the question.
+        - json_content: the JSON content of the quizz file."""
+
+        self.question_number = question_number
+
+
+
 class QuizzWindow(QMainWindow):
     def __init__(self, quizz_file:str) -> None:
         """A QuizzWindow object represents a game window inside of which random questions from the given JSON quizz file appear.
         - quizz_file: the path to JSON file containing the quizz questions."""
         super().__init__()
+
+        self.setWindowTitle(f"{quizz_file} - PyGuessR")
 
         # The QStackedWidget allows to handle several quizz pages all by displaying only one at a time
         central_widget = QStackedWidget()
