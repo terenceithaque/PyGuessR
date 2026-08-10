@@ -1,33 +1,1013 @@
 {
     "questions": {
         "1": {
-            "content": "World War I took place in...",
-            "answer": "1914-1918",
+            "content": "The Renaissance began in...",
+            "answer": "14th century",
             "reward": 10,
             "widgets": [
-                "button text='1939-1945'", 
-                "button text='1814-1818'", 
-                "button text='1914-1918'"
+                "button text='12th century'",
+                "button text='14th century'",
+                "button text='16th century'"
             ]
         },
         "2": {
-            "content": "World War II took place in...",
-            "answer": "1939-1945",
+            "content": "The American Declaration of Independence was adopted in...",
+            "answer": "1776",
             "reward": 10,
             "widgets": [
-                "button text='1814-1818'",
-                "button text='1914-1918'",
-                "button text='1939-1945'"
+                "button text='1766'",
+                "button text='1776'",
+                "button text='1786'"
             ]
         },
         "3": {
-            "content": "The French revolution started in...",
+            "content": "The French Revolution began in...",
             "answer": "1789",
             "reward": 10,
             "widgets": [
                 "button text='1788'",
                 "button text='1789'",
                 "button text='1790'"
+            ]
+        },
+        "4": {
+            "content": "The Industrial Revolution began in...",
+            "answer": "18th century",
+            "reward": 10,
+            "widgets": [
+                "button text='16th century'",
+                "button text='18th century'",
+                "button text='20th century'"
+            ]
+        },
+        "5": {
+            "content": "The Roman Empire fell in the West in...",
+            "answer": "476",
+            "reward": 10,
+            "widgets": [
+                "button text='376'",
+                "button text='476'",
+                "button text='576'"
+            ]
+        },
+        "6": {
+            "content": "The Battle of Hastings took place in...",
+            "answer": "1066",
+            "reward": 10,
+            "widgets": [
+                "button text='966'",
+                "button text='1066'",
+                "button text='1166'"
+            ]
+        },
+        "7": {
+            "content": "The Magna Carta was signed in...",
+            "answer": "1215",
+            "reward": 10,
+            "widgets": [
+                "button text='1115'",
+                "button text='1215'",
+                "button text='1315'"
+            ]
+        },
+        "8": {
+            "content": "The Black Death reached Europe in the...",
+            "answer": "14th century",
+            "reward": 10,
+            "widgets": [
+                "button text='12th century'",
+                "button text='14th century'",
+                "button text='16th century'"
+            ]
+        },
+        "9": {
+            "content": "Christopher Columbus reached the Americas in...",
+            "answer": "1492",
+            "reward": 10,
+            "widgets": [
+                "button text='1392'",
+                "button text='1492'",
+                "button text='1592'"
+            ]
+        },
+        "10": {
+            "content": "The French First Republic was proclaimed in...",
+            "answer": "1792",
+            "reward": 10,
+            "widgets": [
+                "button text='1789'",
+                "button text='1792'",
+                "button text='1804'"
+            ]
+        },
+        "11": {
+            "content": "Napoleon became Emperor of the French in...",
+            "answer": "1804",
+            "reward": 10,
+            "widgets": [
+                "button text='1794'",
+                "button text='1804'",
+                "button text='1814'"
+            ]
+        },
+        "12": {
+            "content": "The Battle of Waterloo took place in...",
+            "answer": "1815",
+            "reward": 10,
+            "widgets": [
+                "button text='1805'",
+                "button text='1815'",
+                "button text='1825'"
+            ]
+        },
+        "13": {
+            "content": "The abolition of slavery in the French colonies was first decreed in...",
+            "answer": "1794",
+            "reward": 10,
+            "widgets": [
+                "button text='1784'",
+                "button text='1794'",
+                "button text='1804'"
+            ]
+        },
+        "14": {
+            "content": "The Haitian Revolution began in...",
+            "answer": "1791",
+            "reward": 10,
+            "widgets": [
+                "button text='1781'",
+                "button text='1791'",
+                "button text='1801'"
+            ]
+        },
+        "15": {
+            "content": "The United States Civil War began in...",
+            "answer": "1861",
+            "reward": 10,
+            "widgets": [
+                "button text='1851'",
+                "button text='1861'",
+                "button text='1871'"
+            ]
+        },
+        "16": {
+            "content": "The United States Civil War ended in...",
+            "answer": "1865",
+            "reward": 10,
+            "widgets": [
+                "button text='1855'",
+                "button text='1865'",
+                "button text='1875'"
+            ]
+        },
+        "17": {
+            "content": "The Eiffel Tower was completed in...",
+            "answer": "1889",
+            "reward": 10,
+            "widgets": [
+                "button text='1879'",
+                "button text='1889'",
+                "button text='1899'"
+            ]
+        },
+        "18": {
+            "content": "The first modern Olympic Games were held in...",
+            "answer": "1896",
+            "reward": 10,
+            "widgets": [
+                "button text='1886'",
+                "button text='1896'",
+                "button text='1906'"
+            ]
+        },
+        "19": {
+            "content": "The Titanic sank in...",
+            "answer": "1912",
+            "reward": 10,
+            "widgets": [
+                "button text='1902'",
+                "button text='1912'",
+                "button text='1922'"
+            ]
+        },
+        "20": {
+            "content": "The Russian Revolution took place in...",
+            "answer": "1917",
+            "reward": 10,
+            "widgets": [
+                "button text='1907'",
+                "button text='1917'",
+                "button text='1927'"
+            ]
+        },
+        "21": {
+            "content": "The Treaty of Versailles was signed in...",
+            "answer": "1919",
+            "reward": 10,
+            "widgets": [
+                "button text='1909'",
+                "button text='1919'",
+                "button text='1929'"
+            ]
+        },
+        "22": {
+            "content": "The Great Depression began in...",
+            "answer": "1929",
+            "reward": 10,
+            "widgets": [
+                "button text='1919'",
+                "button text='1929'",
+                "button text='1939'"
+            ]
+        },
+        "23": {
+            "content": "The Spanish Civil War began in...",
+            "answer": "1936",
+            "reward": 10,
+            "widgets": [
+                "button text='1926'",
+                "button text='1936'",
+                "button text='1946'"
+            ]
+        },
+        "24": {
+            "content": "The Spanish Civil War ended in...",
+            "answer": "1939",
+            "reward": 10,
+            "widgets": [
+                "button text='1937'",
+                "button text='1939'",
+                "button text='1941'"
+            ]
+        },
+        "25": {
+            "content": "The attack on Pearl Harbor took place in...",
+            "answer": "1941",
+            "reward": 10,
+            "widgets": [
+                "button text='1939'",
+                "button text='1941'",
+                "button text='1943'"
+            ]
+        },
+        "26": {
+            "content": "The D-Day landings took place in...",
+            "answer": "1944",
+            "reward": 10,
+            "widgets": [
+                "button text='1942'",
+                "button text='1944'",
+                "button text='1946'"
+            ]
+        },
+        "27": {
+            "content": "The United Nations was founded in...",
+            "answer": "1945",
+            "reward": 10,
+            "widgets": [
+                "button text='1935'",
+                "button text='1945'",
+                "button text='1955'"
+            ]
+        },
+        "28": {
+            "content": "India gained independence in...",
+            "answer": "1947",
+            "reward": 10,
+            "widgets": [
+                "button text='1937'",
+                "button text='1947'",
+                "button text='1957'"
+            ]
+        },
+        "29": {
+            "content": "The People's Republic of China was founded in...",
+            "answer": "1949",
+            "reward": 10,
+            "widgets": [
+                "button text='1939'",
+                "button text='1949'",
+                "button text='1959'"
+            ]
+        },
+        "30": {
+            "content": "The Korean War began in...",
+            "answer": "1950",
+            "reward": 10,
+            "widgets": [
+                "button text='1940'",
+                "button text='1950'",
+                "button text='1960'"
+            ]
+        },
+        "31": {
+            "content": "The Korean War armistice was signed in...",
+            "answer": "1953",
+            "reward": 10,
+            "widgets": [
+                "button text='1943'",
+                "button text='1953'",
+                "button text='1963'"
+            ]
+        },
+        "32": {
+            "content": "The first human entered space in...",
+            "answer": "1961",
+            "reward": 10,
+            "widgets": [
+                "button text='1951'",
+                "button text='1961'",
+                "button text='1971'"
+            ]
+        },
+        "33": {
+            "content": "The Cuban Missile Crisis took place in...",
+            "answer": "1962",
+            "reward": 10,
+            "widgets": [
+                "button text='1952'",
+                "button text='1962'",
+                "button text='1972'"
+            ]
+        },
+        "34": {
+            "content": "The first Moon landing took place in...",
+            "answer": "1969",
+            "reward": 10,
+            "widgets": [
+                "button text='1959'",
+                "button text='1969'",
+                "button text='1979'"
+            ]
+        },
+        "35": {
+            "content": "The Berlin Wall was built in...",
+            "answer": "1961",
+            "reward": 10,
+            "widgets": [
+                "button text='1951'",
+                "button text='1961'",
+                "button text='1971'"
+            ]
+        },
+        "36": {
+            "content": "The Berlin Wall fell in...",
+            "answer": "1989",
+            "reward": 10,
+            "widgets": [
+                "button text='1979'",
+                "button text='1989'",
+                "button text='1999'"
+            ]
+        },
+        "37": {
+            "content": "The Soviet Union dissolved in...",
+            "answer": "1991",
+            "reward": 10,
+            "widgets": [
+                "button text='1981'",
+                "button text='1991'",
+                "button text='2001'"
+            ]
+        },
+        "38": {
+            "content": "The Maastricht Treaty was signed in...",
+            "answer": "1992",
+            "reward": 10,
+            "widgets": [
+                "button text='1982'",
+                "button text='1992'",
+                "button text='2002'"
+            ]
+        },
+        "39": {
+            "content": "The European Union was officially established in...",
+            "answer": "1993",
+            "reward": 10,
+            "widgets": [
+                "button text='1983'",
+                "button text='1993'",
+                "button text='2003'"
+            ]
+        },
+        "40": {
+            "content": "The first Crusade began in...",
+            "answer": "1096",
+            "reward": 10,
+            "widgets": [
+                "button text='999'",
+                "button text='1096'",
+                "button text='1196'"
+            ]
+        },
+        "41": {
+            "content": "The Fourth Crusade captured Constantinople in...",
+            "answer": "1204",
+            "reward": 10,
+            "widgets": [
+                "button text='1104'",
+                "button text='1204'",
+                "button text='1304'"
+            ]
+        },
+        "42": {
+            "content": "The Ottoman conquest of Constantinople took place in...",
+            "answer": "1453",
+            "reward": 10,
+            "widgets": [
+                "button text='1353'",
+                "button text='1453'",
+                "button text='1553'"
+            ]
+        },
+        "43": {
+            "content": "The Spanish Armada was defeated in...",
+            "answer": "1588",
+            "reward": 10,
+            "widgets": [
+                "button text='1578'",
+                "button text='1588'",
+                "button text='1598'"
+            ]
+        },
+        "44": {
+            "content": "The English Civil War began in...",
+            "answer": "1642",
+            "reward": 10,
+            "widgets": [
+                "button text='1632'",
+                "button text='1642'",
+                "button text='1652'"
+            ]
+        },
+        "45": {
+            "content": "The American Revolution began in...",
+            "answer": "1775",
+            "reward": 10,
+            "widgets": [
+                "button text='1765'",
+                "button text='1775'",
+                "button text='1785'"
+            ]
+        },
+        "46": {
+            "content": "The French Declaration of the Rights of Man was adopted in...",
+            "answer": "1789",
+            "reward": 10,
+            "widgets": [
+                "button text='1779'",
+                "button text='1789'",
+                "button text='1799'"
+            ]
+        },
+        "47": {
+            "content": "The Congress of Vienna took place in...",
+            "answer": "1815",
+            "reward": 10,
+            "widgets": [
+                "button text='1805'",
+                "button text='1815'",
+                "button text='1825'"
+            ]
+        },
+        "48": {
+            "content": "The unification of Germany was completed in...",
+            "answer": "1871",
+            "reward": 10,
+            "widgets": [
+                "button text='1861'",
+                "button text='1871'",
+                "button text='1881'"
+            ]
+        },
+        "49": {
+            "content": "The unification of Italy was completed in...",
+            "answer": "1871",
+            "reward": 10,
+            "widgets": [
+                "button text='1861'",
+                "button text='1871'",
+                "button text='1881'"
+            ]
+        },
+        "50": {
+            "content": "The Suez Canal opened in...",
+            "answer": "1869",
+            "reward": 10,
+            "widgets": [
+                "button text='1859'",
+                "button text='1869'",
+                "button text='1879'"
+            ]
+        },
+        "51": {
+            "content": "The Panama Canal opened in...",
+            "answer": "1914",
+            "reward": 10,
+            "widgets": [
+                "button text='1904'",
+                "button text='1914'",
+                "button text='1924'"
+            ]
+        },
+        "52": {
+            "content": "The League of Nations was created in...",
+            "answer": "1920",
+            "reward": 10,
+            "widgets": [
+                "button text='1910'",
+                "button text='1920'",
+                "button text='1930'"
+            ]
+        },
+        "53": {
+            "content": "The Nazi Party came to power in Germany in...",
+            "answer": "1933",
+            "reward": 10,
+            "widgets": [
+                "button text='1923'",
+                "button text='1933'",
+                "button text='1943'"
+            ]
+        },
+        "54": {
+            "content": "The Holocaust took place primarily during...",
+            "answer": "World War II",
+            "reward": 10,
+            "widgets": [
+                "button text='World War I'",
+                "button text='World War II'",
+                "button text='Cold War'"
+            ]
+        },
+        "55": {
+            "content": "The Cold War began after...",
+            "answer": "World War II",
+            "reward": 10,
+            "widgets": [
+                "button text='World War I'",
+                "button text='World War II'",
+                "button text='The Napoleonic Wars'"
+            ]
+        },
+        "56": {
+            "content": "The Marshall Plan was announced in...",
+            "answer": "1947",
+            "reward": 10,
+            "widgets": [
+                "button text='1937'",
+                "button text='1947'",
+                "button text='1957'"
+            ]
+        },
+        "57": {
+            "content": "NATO was founded in...",
+            "answer": "1949",
+            "reward": 10,
+            "widgets": [
+                "button text='1939'",
+                "button text='1949'",
+                "button text='1959'"
+            ]
+        },
+        "58": {
+            "content": "The Warsaw Pact was created in...",
+            "answer": "1955",
+            "reward": 10,
+            "widgets": [
+                "button text='1945'",
+                "button text='1955'",
+                "button text='1965'"
+            ]
+        },
+        "59": {
+            "content": "The Vietnam War ended in...",
+            "answer": "1975",
+            "reward": 10,
+            "widgets": [
+                "button text='1965'",
+                "button text='1975'",
+                "button text='1985'"
+            ]
+        },
+        "60": {
+            "content": "The Iranian Revolution took place in...",
+            "answer": "1979",
+            "reward": 10,
+            "widgets": [
+                "button text='1969'",
+                "button text='1979'",
+                "button text='1989'"
+            ]
+        },
+        "61": {
+            "content": "The Falklands War took place in...",
+            "answer": "1982",
+            "reward": 10,
+            "widgets": [
+                "button text='1972'",
+                "button text='1982'",
+                "button text='1992'"
+            ]
+        },
+        "62": {
+            "content": "Nelson Mandela became President of South Africa in...",
+            "answer": "1994",
+            "reward": 10,
+            "widgets": [
+                "button text='1984'",
+                "button text='1994'",
+                "button text='2004'"
+            ]
+        },
+        "63": {
+            "content": "The September 11 attacks took place in...",
+            "answer": "2001",
+            "reward": 10,
+            "widgets": [
+                "button text='1991'",
+                "button text='2001'",
+                "button text='2011'"
+            ]
+        },
+        "64": {
+            "content": "The ancient Olympic Games originated in...",
+            "answer": "Greece",
+            "reward": 10,
+            "widgets": [
+                "button text='Rome'",
+                "button text='Greece'",
+                "button text='Egypt'"
+            ]
+        },
+        "65": {
+            "content": "The pyramids of Giza were built in...",
+            "answer": "Ancient Egypt",
+            "reward": 10,
+            "widgets": [
+                "button text='Ancient Greece'",
+                "button text='Ancient Egypt'",
+                "button text='Ancient Rome'"
+            ]
+        },
+        "66": {
+            "content": "The Colosseum was built in...",
+            "answer": "Ancient Rome",
+            "reward": 10,
+            "widgets": [
+                "button text='Ancient Greece'",
+                "button text='Ancient Rome'",
+                "button text='Ancient Egypt'"
+            ]
+        },
+        "67": {
+            "content": "Democracy developed in ancient...",
+            "answer": "Athens",
+            "reward": 10,
+            "widgets": [
+                "button text='Athens'",
+                "button text='Sparta'",
+                "button text='Carthage'"
+            ]
+        },
+        "68": {
+            "content": "Julius Caesar was assassinated in...",
+            "answer": "44 BC",
+            "reward": 10,
+            "widgets": [
+                "button text='54 BC'",
+                "button text='44 BC'",
+                "button text='34 BC'"
+            ]
+        },
+        "69": {
+            "content": "Augustus became the first Roman emperor in...",
+            "answer": "27 BC",
+            "reward": 10,
+            "widgets": [
+                "button text='37 BC'",
+                "button text='27 BC'",
+                "button text='17 BC'"
+            ]
+        },
+        "70": {
+            "content": "The eruption of Mount Vesuvius destroyed Pompeii in...",
+            "answer": "AD 79",
+            "reward": 10,
+            "widgets": [
+                "button text='AD 59'",
+                "button text='AD 79'",
+                "button text='AD 99'"
+            ]
+        },
+        "71": {
+            "content": "The Battle of Tours took place in...",
+            "answer": "732",
+            "reward": 10,
+            "widgets": [
+                "button text='632'",
+                "button text='732'",
+                "button text='832'"
+            ]
+        },
+        "72": {
+            "content": "William the Conqueror became King of England in...",
+            "answer": "1066",
+            "reward": 10,
+            "widgets": [
+                "button text='1056'",
+                "button text='1066'",
+                "button text='1076'"
+            ]
+        },
+        "73": {
+            "content": "Joan of Arc was executed in...",
+            "answer": "1431",
+            "reward": 10,
+            "widgets": [
+                "button text='1411'",
+                "button text='1431'",
+                "button text='1451'"
+            ]
+        },
+        "74": {
+            "content": "The printing press is associated with Johannes Gutenberg in the...",
+            "answer": "15th century",
+            "reward": 10,
+            "widgets": [
+                "button text='13th century'",
+                "button text='15th century'",
+                "button text='17th century'"
+            ]
+        },
+        "75": {
+            "content": "The Protestant Reformation began in...",
+            "answer": "1517",
+            "reward": 10,
+            "widgets": [
+                "button text='1507'",
+                "button text='1517'",
+                "button text='1527'"
+            ]
+        },
+        "76": {
+            "content": "The Thirty Years' War began in...",
+            "answer": "1618",
+            "reward": 10,
+            "widgets": [
+                "button text='1608'",
+                "button text='1618'",
+                "button text='1628'"
+            ]
+        },
+        "77": {
+            "content": "The American Constitution was adopted in...",
+            "answer": "1787",
+            "reward": 10,
+            "widgets": [
+                "button text='1777'",
+                "button text='1787'",
+                "button text='1797'"
+            ]
+        },
+        "78": {
+            "content": "The French monarchy was abolished in...",
+            "answer": "1792",
+            "reward": 10,
+            "widgets": [
+                "button text='1782'",
+                "button text='1792'",
+                "button text='1802'"
+            ]
+        },
+        "79": {
+            "content": "The Louisiana Purchase took place in...",
+            "answer": "1803",
+            "reward": 10,
+            "widgets": [
+                "button text='1793'",
+                "button text='1803'",
+                "button text='1813'"
+            ]
+        },
+        "80": {
+            "content": "The Greek War of Independence began in...",
+            "answer": "1821",
+            "reward": 10,
+            "widgets": [
+                "button text='1811'",
+                "button text='1821'",
+                "button text='1831'"
+            ]
+        },
+        "81": {
+            "content": "The Opium Wars began in...",
+            "answer": "1839",
+            "reward": 10,
+            "widgets": [
+                "button text='1829'",
+                "button text='1839'",
+                "button text='1849'"
+            ]
+        },
+        "82": {
+            "content": "The Communist Manifesto was published in...",
+            "answer": "1848",
+            "reward": 10,
+            "widgets": [
+                "button text='1838'",
+                "button text='1848'",
+                "button text='1858'"
+            ]
+        },
+        "83": {
+            "content": "The Crimean War began in...",
+            "answer": "1853",
+            "reward": 10,
+            "widgets": [
+                "button text='1843'",
+                "button text='1853'",
+                "button text='1863'"
+            ]
+        },
+        "84": {
+            "content": "The Emancipation Proclamation was issued in...",
+            "answer": "1863",
+            "reward": 10,
+            "widgets": [
+                "button text='1853'",
+                "button text='1863'",
+                "button text='1873'"
+            ]
+        },
+        "85": {
+            "content": "The Meiji Restoration began in...",
+            "answer": "1868",
+            "reward": 10,
+            "widgets": [
+                "button text='1858'",
+                "button text='1868'",
+                "button text='1878'"
+            ]
+        },
+        "86": {
+            "content": "The Berlin Conference took place in...",
+            "answer": "1884-1885",
+            "reward": 10,
+            "widgets": [
+                "button text='1874-1875'",
+                "button text='1884-1885'",
+                "button text='1894-1895'"
+            ]
+        },
+        "87": {
+            "content": "The Wright brothers made their first powered flight in...",
+            "answer": "1903",
+            "reward": 10,
+            "widgets": [
+                "button text='1893'",
+                "button text='1903'",
+                "button text='1913'"
+            ]
+        },
+        "88": {
+            "content": "The first Nobel Prizes were awarded in...",
+            "answer": "1901",
+            "reward": 10,
+            "widgets": [
+                "button text='1891'",
+                "button text='1901'",
+                "button text='1911'"
+            ]
+        },
+        "89": {
+            "content": "The Bolsheviks seized power during the Russian Revolution in...",
+            "answer": "1917",
+            "reward": 10,
+            "widgets": [
+                "button text='1907'",
+                "button text='1917'",
+                "button text='1927'"
+            ]
+        },
+        "90": {
+            "content": "The armistice ending World War I was signed in...",
+            "answer": "1918",
+            "reward": 10,
+            "widgets": [
+                "button text='1914'",
+                "button text='1918'",
+                "button text='1922'"
+            ]
+        },
+        "91": {
+            "content": "The Munich Agreement was signed in...",
+            "answer": "1938",
+            "reward": 10,
+            "widgets": [
+                "button text='1928'",
+                "button text='1938'",
+                "button text='1948'"
+            ]
+        },
+        "92": {
+            "content": "The atomic bombs were dropped on Hiroshima and Nagasaki in...",
+            "answer": "1945",
+            "reward": 10,
+            "widgets": [
+                "button text='1935'",
+                "button text='1945'",
+                "button text='1955'"
+            ]
+        },
+        "93": {
+            "content": "The Nuremberg Trials began in...",
+            "answer": "1945",
+            "reward": 10,
+            "widgets": [
+                "button text='1935'",
+                "button text='1945'",
+                "button text='1955'"
+            ]
+        },
+        "94": {
+            "content": "The Universal Declaration of Human Rights was adopted in...",
+            "answer": "1948",
+            "reward": 10,
+            "widgets": [
+                "button text='1938'",
+                "button text='1948'",
+                "button text='1958'"
+            ]
+        },
+        "95": {
+            "content": "The Cuban Revolution succeeded in...",
+            "answer": "1959",
+            "reward": 10,
+            "widgets": [
+                "button text='1949'",
+                "button text='1959'",
+                "button text='1969'"
+            ]
+        },
+        "96": {
+            "content": "The Prague Spring took place in...",
+            "answer": "1968",
+            "reward": 10,
+            "widgets": [
+                "button text='1958'",
+                "button text='1968'",
+                "button text='1978'"
+            ]
+        },
+        "97": {
+            "content": "The Apollo 11 Moon landing took place in...",
+            "answer": "1969",
+            "reward": 10,
+            "widgets": [
+                "button text='1965'",
+                "button text='1969'",
+                "button text='1973'"
+            ]
+        },
+        "98": {
+            "content": "The Watergate scandal led to President Nixon's resignation in...",
+            "answer": "1974",
+            "reward": 10,
+            "widgets": [
+                "button text='1964'",
+                "button text='1974'",
+                "button text='1984'"
+            ]
+        },
+        "99": {
+            "content": "The Chernobyl disaster occurred in...",
+            "answer": "1986",
+            "reward": 10,
+            "widgets": [
+                "button text='1976'",
+                "button text='1986'",
+                "button text='1996'"
+            ]
+        },
+        "100": {
+            "content": "The reunification of Germany took place in...",
+            "answer": "1990",
+            "reward": 10,
+            "widgets": [
+                "button text='1980'",
+                "button text='1990'",
+                "button text='2000'"
+            ]
+        },
+        "101": {
+            "content": "The Rwandan genocide took place in...",
+            "answer": "1994",
+            "reward": 10,
+            "widgets": [
+                "button text='1984'",
+                "button text='1994'",
+                "button text='2004'"
             ]
         }
     }

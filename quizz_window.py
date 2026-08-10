@@ -11,6 +11,7 @@ class QuestionPage:
         - json_content: the JSON content of the quizz file."""
 
         self.question_number = question_number
+        self.json_content = json_content
 
 
 

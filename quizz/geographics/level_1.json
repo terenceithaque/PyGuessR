@@ -1,74 +1,1115 @@
 {
     "questions": {
         "1": {
-            "content": "What is the capital of France ?",
-            "answer": "Paris",
+            "content": "What is the capital of Germany ?",
+            "answer": "Berlin",
             "reward": 10,
             "widgets": [
-                "button text='Paris'",
-                "button text='London'",
-                "button text='Roma'",
-                "button text='Madrid'"
+                "button text='Berlin'",
+                "button text='Munich'",
+                "button text='Hamburg'",
+                "button text='Frankfurt'"
             ]
         },
         "2": {
-            "content": "What is the capital of United Kingdom ?",
-            "answer": "London",
+            "content": "What is the capital of Spain ?",
+            "answer": "Madrid",
             "reward": 10,
             "widgets": [
-                "button text='London'", 
-                "button text='Paris'", 
-                "button text='Pittsburg'", 
-                "button text='Glasgow'"
+                "button text='Barcelona'",
+                "button text='Madrid'",
+                "button text='Seville'",
+                "button text='Valencia'"
             ]
         },
-
         "3": {
-            "content": "What is the capital of United States ?",
-            "answer": "Washington D.C",
+            "content": "What is the capital of Italy ?",
+            "answer": "Rome",
             "reward": 10,
             "widgets": [
-            "button text='New York'", 
-            "button text='Washington D.C'",
-            "button text='Los Angeles'",
-            "button text ='Dallas'",
-            "button text ='Seattle'"
-            ]            
+                "button text='Milan'",
+                "button text='Naples'",
+                "button text='Rome'",
+                "button text='Turin'"
+            ]
         },
-
         "4": {
-            "content": "In which country is located the city of Toulouse ?",
-            "awnser": "France",
-            "reward": 15,
-            "widgets": ["input length='6'"]
-        },
-
-        "5": {
-            "content": "Which of these countries is NOT part of the European Union ?",
-            "answer": "United Kingdom",
-            "reward": 15,
+            "content": "What is the capital of Portugal ?",
+            "answer": "Lisbon",
+            "reward": 10,
             "widgets": [
-                "button text='France'", 
-                "button text='United Kingdom'", 
-                "button text='Spain'", 
-                "button text='Italy'"
+                "button text='Porto'",
+                "button text='Lisbon'",
+                "button text='Braga'",
+                "button text='Faro'"
+            ]
+        },
+        "5": {
+            "content": "What is the capital of Belgium ?",
+            "answer": "Brussels",
+            "reward": 10,
+            "widgets": [
+                "button text='Brussels'",
+                "button text='Antwerp'",
+                "button text='Ghent'",
+                "button text='Liège'"
             ]
         },
         "6": {
-            "content": "Where is the Pacific ocean located ?",
-            "answer": "Between U.S and Asia",
-            "reward": 15,
+            "content": "What is the capital of Switzerland ?",
+            "answer": "Bern",
+            "reward": 10,
             "widgets": [
-                "button text='Between Europe and U.S'", 
-                "button text='Between U.S and Asia'"
+                "button text='Zurich'",
+                "button text='Geneva'",
+                "button text='Bern'",
+                "button text='Basel'"
             ]
         },
         "7": {
-            "content": "Athens (Greece) is NOT a capital city.",
+            "content": "What is the capital of Austria ?",
+            "answer": "Vienna",
+            "reward": 10,
+            "widgets": [
+                "button text='Salzburg'",
+                "button text='Vienna'",
+                "button text='Graz'",
+                "button text='Innsbruck'"
+            ]
+        },
+        "8": {
+            "content": "What is the capital of Greece ?",
+            "answer": "Athens",
+            "reward": 10,
+            "widgets": [
+                "button text='Athens'",
+                "button text='Thessaloniki'",
+                "button text='Patras'",
+                "button text='Heraklion'"
+            ]
+        },
+        "9": {
+            "content": "What is the capital of Norway ?",
+            "answer": "Oslo",
+            "reward": 10,
+            "widgets": [
+                "button text='Oslo'",
+                "button text='Bergen'",
+                "button text='Trondheim'",
+                "button text='Stavanger'"
+            ]
+        },
+        "10": {
+            "content": "What is the capital of Sweden ?",
+            "answer": "Stockholm",
+            "reward": 10,
+            "widgets": [
+                "button text='Stockholm'",
+                "button text='Gothenburg'",
+                "button text='Malmo'",
+                "button text='Uppsala'"
+            ]
+        },
+        "11": {
+            "content": "What is the capital of Denmark ?",
+            "answer": "Copenhagen",
+            "reward": 10,
+            "widgets": [
+                "button text='Aarhus'",
+                "button text='Odense'",
+                "button text='Copenhagen'",
+                "button text='Aalborg'"
+            ]
+        },
+        "12": {
+            "content": "What is the capital of Finland ?",
+            "answer": "Helsinki",
+            "reward": 10,
+            "widgets": [
+                "button text='Turku'",
+                "button text='Helsinki'",
+                "button text='Tampere'",
+                "button text='Espoo'"
+            ]
+        },
+        "13": {
+            "content": "What is the capital of Ireland ?",
+            "answer": "Dublin",
+            "reward": 10,
+            "widgets": [
+                "button text='Dublin'",
+                "button text='Cork'",
+                "button text='Galway'",
+                "button text='Limerick'"
+            ]
+        },
+        "14": {
+            "content": "What is the capital of Poland ?",
+            "answer": "Warsaw",
+            "reward": 10,
+            "widgets": [
+                "button text='Krakow'",
+                "button text='Warsaw'",
+                "button text='Gdansk'",
+                "button text='Wroclaw'"
+            ]
+        },
+        "15": {
+            "content": "What is the capital of Czech Republic ?",
+            "answer": "Prague",
+            "reward": 10,
+            "widgets": [
+                "button text='Prague'",
+                "button text='Brno'",
+                "button text='Ostrava'",
+                "button text='Plzen'"
+            ]
+        },
+        "16": {
+            "content": "What is the capital of Hungary ?",
+            "answer": "Budapest",
+            "reward": 10,
+            "widgets": [
+                "button text='Budapest'",
+                "button text='Debrecen'",
+                "button text='Szeged'",
+                "button text='Pecs'"
+            ]
+        },
+        "17": {
+            "content": "What is the capital of Romania ?",
+            "answer": "Bucharest",
+            "reward": 10,
+            "widgets": [
+                "button text='Cluj-Napoca'",
+                "button text='Bucharest'",
+                "button text='Brasov'",
+                "button text='Iasi'"
+            ]
+        },
+        "18": {
+            "content": "What is the capital of Bulgaria ?",
+            "answer": "Sofia",
+            "reward": 10,
+            "widgets": [
+                "button text='Varna'",
+                "button text='Sofia'",
+                "button text='Plovdiv'",
+                "button text='Burgas'"
+            ]
+        },
+        "19": {
+            "content": "What is the capital of Croatia ?",
+            "answer": "Zagreb",
+            "reward": 10,
+            "widgets": [
+                "button text='Split'",
+                "button text='Dubrovnik'",
+                "button text='Zagreb'",
+                "button text='Rijeka'"
+            ]
+        },
+        "20": {
+            "content": "What is the capital of Serbia ?",
+            "answer": "Belgrade",
+            "reward": 10,
+            "widgets": [
+                "button text='Novi Sad'",
+                "button text='Belgrade'",
+                "button text='Nis'",
+                "button text='Kragujevac'"
+            ]
+        },
+        "21": {
+            "content": "What is the capital of Slovenia ?",
+            "answer": "Ljubljana",
+            "reward": 10,
+            "widgets": [
+                "button text='Maribor'",
+                "button text='Ljubljana'",
+                "button text='Koper'",
+                "button text='Celje'"
+            ]
+        },
+        "22": {
+            "content": "What is the capital of Slovakia ?",
+            "answer": "Bratislava",
+            "reward": 10,
+            "widgets": [
+                "button text='Kosice'",
+                "button text='Bratislava'",
+                "button text='Presov'",
+                "button text='Nitra'"
+            ]
+        },
+        "23": {
+            "content": "What is the capital of Estonia ?",
+            "answer": "Tallinn",
+            "reward": 10,
+            "widgets": [
+                "button text='Tallinn'",
+                "button text='Tartu'",
+                "button text='Narva'",
+                "button text='Parnu'"
+            ]
+        },
+        "24": {
+            "content": "What is the capital of Latvia ?",
+            "answer": "Riga",
+            "reward": 10,
+            "widgets": [
+                "button text='Riga'",
+                "button text='Daugavpils'",
+                "button text='Liepaja'",
+                "button text='Jelgava'"
+            ]
+        },
+        "25": {
+            "content": "What is the capital of Lithuania ?",
+            "answer": "Vilnius",
+            "reward": 10,
+            "widgets": [
+                "button text='Kaunas'",
+                "button text='Vilnius'",
+                "button text='Klaipeda'",
+                "button text='Siauliai'"
+            ]
+        },
+        "26": {
+            "content": "What is the capital of Iceland ?",
+            "answer": "Reykjavik",
+            "reward": 10,
+            "widgets": [
+                "button text='Akureyri'",
+                "button text='Reykjavik'",
+                "button text='Kopavogur'",
+                "button text='Hafnarfjordur'"
+            ]
+        },
+        "27": {
+            "content": "What is the capital of Ukraine ?",
+            "answer": "Kyiv",
+            "reward": 10,
+            "widgets": [
+                "button text='Lviv'",
+                "button text='Odesa'",
+                "button text='Kyiv'",
+                "button text='Kharkiv'"
+            ]
+        },
+        "28": {
+            "content": "What is the capital of Turkey ?",
+            "answer": "Ankara",
+            "reward": 10,
+            "widgets": [
+                "button text='Istanbul'",
+                "button text='Ankara'",
+                "button text='Izmir'",
+                "button text='Bursa'"
+            ]
+        },
+        "29": {
+            "content": "What is the capital of Canada ?",
+            "answer": "Ottawa",
+            "reward": 10,
+            "widgets": [
+                "button text='Toronto'",
+                "button text='Ottawa'",
+                "button text='Montreal'",
+                "button text='Vancouver'"
+            ]
+        },
+        "30": {
+            "content": "What is the capital of Mexico ?",
+            "answer": "Mexico City",
+            "reward": 10,
+            "widgets": [
+                "button text='Cancun'",
+                "button text='Monterrey'",
+                "button text='Mexico City'",
+                "button text='Guadalajara'"
+            ]
+        },
+        "31": {
+            "content": "What is the capital of Brazil ?",
+            "answer": "Brasilia",
+            "reward": 10,
+            "widgets": [
+                "button text='Rio de Janeiro'",
+                "button text='Sao Paulo'",
+                "button text='Brasilia'",
+                "button text='Salvador'"
+            ]
+        },
+        "32": {
+            "content": "What is the capital of Argentina ?",
+            "answer": "Buenos Aires",
+            "reward": 10,
+            "widgets": [
+                "button text='Cordoba'",
+                "button text='Rosario'",
+                "button text='Buenos Aires'",
+                "button text='Mendoza'"
+            ]
+        },
+        "33": {
+            "content": "What is the capital of Chile ?",
+            "answer": "Santiago",
+            "reward": 10,
+            "widgets": [
+                "button text='Valparaiso'",
+                "button text='Santiago'",
+                "button text='Concepcion'",
+                "button text='Antofagasta'"
+            ]
+        },
+        "34": {
+            "content": "What is the capital of Peru ?",
+            "answer": "Lima",
+            "reward": 10,
+            "widgets": [
+                "button text='Cusco'",
+                "button text='Arequipa'",
+                "button text='Lima'",
+                "button text='Trujillo'"
+            ]
+        },
+        "35": {
+            "content": "What is the capital of Colombia ?",
+            "answer": "Bogota",
+            "reward": 10,
+            "widgets": [
+                "button text='Medellin'",
+                "button text='Cali'",
+                "button text='Bogota'",
+                "button text='Cartagena'"
+            ]
+        },
+        "36": {
+            "content": "What is the capital of Australia ?",
+            "answer": "Canberra",
+            "reward": 10,
+            "widgets": [
+                "button text='Sydney'",
+                "button text='Melbourne'",
+                "button text='Canberra'",
+                "button text='Perth'"
+            ]
+        },
+        "37": {
+            "content": "What is the capital of New Zealand ?",
+            "answer": "Wellington",
+            "reward": 10,
+            "widgets": [
+                "button text='Auckland'",
+                "button text='Christchurch'",
+                "button text='Wellington'",
+                "button text='Hamilton'"
+            ]
+        },
+        "38": {
+            "content": "What is the capital of Japan ?",
+            "answer": "Tokyo",
+            "reward": 10,
+            "widgets": [
+                "button text='Osaka'",
+                "button text='Kyoto'",
+                "button text='Tokyo'",
+                "button text='Nagoya'"
+            ]
+        },
+        "39": {
+            "content": "What is the capital of China ?",
+            "answer": "Beijing",
+            "reward": 10,
+            "widgets": [
+                "button text='Shanghai'",
+                "button text='Beijing'",
+                "button text='Guangzhou'",
+                "button text='Shenzhen'"
+            ]
+        },
+        "40": {
+            "content": "What is the capital of India ?",
+            "answer": "New Delhi",
+            "reward": 10,
+            "widgets": [
+                "button text='Mumbai'",
+                "button text='New Delhi'",
+                "button text='Kolkata'",
+                "button text='Chennai'"
+            ]
+        },
+        "41": {
+            "content": "What is the capital of South Korea ?",
+            "answer": "Seoul",
+            "reward": 10,
+            "widgets": [
+                "button text='Busan'",
+                "button text='Seoul'",
+                "button text='Incheon'",
+                "button text='Daegu'"
+            ]
+        },
+        "42": {
+            "content": "What is the capital of Thailand ?",
+            "answer": "Bangkok",
+            "reward": 10,
+            "widgets": [
+                "button text='Phuket'",
+                "button text='Bangkok'",
+                "button text='Chiang Mai'",
+                "button text='Pattaya'"
+            ]
+        },
+        "43": {
+            "content": "What is the capital of Vietnam ?",
+            "answer": "Hanoi",
+            "reward": 10,
+            "widgets": [
+                "button text='Ho Chi Minh City'",
+                "button text='Hanoi'",
+                "button text='Da Nang'",
+                "button text='Hue'"
+            ]
+        },
+        "44": {
+            "content": "What is the capital of Egypt ?",
+            "answer": "Cairo",
+            "reward": 10,
+            "widgets": [
+                "button text='Alexandria'",
+                "button text='Cairo'",
+                "button text='Giza'",
+                "button text='Luxor'"
+            ]
+        },
+        "45": {
+            "content": "What is the capital of Morocco ?",
+            "answer": "Rabat",
+            "reward": 10,
+            "widgets": [
+                "button text='Casablanca'",
+                "button text='Marrakesh'",
+                "button text='Rabat'",
+                "button text='Tangier'"
+            ]
+        },
+        "46": {
+            "content": "What is the capital of Algeria ?",
+            "answer": "Algiers",
+            "reward": 10,
+            "widgets": [
+                "button text='Oran'",
+                "button text='Algiers'",
+                "button text='Constantine'",
+                "button text='Annaba'"
+            ]
+        },
+        "47": {
+            "content": "What is the capital of Kenya ?",
+            "answer": "Nairobi",
+            "reward": 10,
+            "widgets": [
+                "button text='Mombasa'",
+                "button text='Nairobi'",
+                "button text='Kisumu'",
+                "button text='Nakuru'"
+            ]
+        },
+        "48": {
+            "content": "What is the capital of South Africa ?",
+            "answer": "Pretoria",
+            "reward": 10,
+            "widgets": [
+                "button text='Cape Town'",
+                "button text='Pretoria'",
+                "button text='Johannesburg'",
+                "button text='Durban'"
+            ]
+        },
+        "49": {
+            "content": "What is the capital of Nigeria ?",
+            "answer": "Abuja",
+            "reward": 10,
+            "widgets": [
+                "button text='Lagos'",
+                "button text='Abuja'",
+                "button text='Kano'",
+                "button text='Ibadan'"
+            ]
+        },
+        "50": {
+            "content": "Which country is the city of Marseille located in ?",
+            "answer": "France",
+            "reward": 15,
+            "widgets": [
+                "button text='France'",
+                "button text='Italy'",
+                "button text='Spain'",
+                "button text='Belgium'"
+            ]
+        },
+        "51": {
+            "content": "Which country is the city of Munich located in ?",
+            "answer": "Germany",
+            "reward": 15,
+            "widgets": [
+                "button text='Austria'",
+                "button text='Germany'",
+                "button text='Switzerland'",
+                "button text='Poland'"
+            ]
+        },
+        "52": {
+            "content": "Which country is the city of Barcelona located in ?",
+            "answer": "Spain",
+            "reward": 15,
+            "widgets": [
+                "button text='Portugal'",
+                "button text='France'",
+                "button text='Spain'",
+                "button text='Italy'"
+            ]
+        },
+        "53": {
+            "content": "Which country is the city of Naples located in ?",
+            "answer": "Italy",
+            "reward": 15,
+            "widgets": [
+                "button text='Greece'",
+                "button text='Italy'",
+                "button text='Croatia'",
+                "button text='Malta'"
+            ]
+        },
+        "54": {
+            "content": "Which country is the city of Manchester located in ?",
+            "answer": "United Kingdom",
+            "reward": 15,
+            "widgets": [
+                "button text='Ireland'",
+                "button text='United Kingdom'",
+                "button text='France'",
+                "button text='Belgium'"
+            ]
+        },
+        "55": {
+            "content": "Which country is the city of Vancouver located in ?",
+            "answer": "Canada",
+            "reward": 15,
+            "widgets": [
+                "button text='Canada'",
+                "button text='United States'",
+                "button text='Mexico'",
+                "button text='Greenland'"
+            ]
+        },
+        "56": {
+            "content": "Which country is the city of Osaka located in ?",
+            "answer": "Japan",
+            "reward": 15,
+            "widgets": [
+                "button text='China'",
+                "button text='Japan'",
+                "button text='South Korea'",
+                "button text='Thailand'"
+            ]
+        },
+        "57": {
+            "content": "Which country is the city of Istanbul located in ?",
+            "answer": "Turkey",
+            "reward": 15,
+            "widgets": [
+                "button text='Turkey'",
+                "button text='Greece'",
+                "button text='Bulgaria'",
+                "button text='Cyprus'"
+            ]
+        },
+        "58": {
+            "content": "Which country is the city of Sydney located in ?",
+            "answer": "Australia",
+            "reward": 15,
+            "widgets": [
+                "button text='New Zealand'",
+                "button text='Australia'",
+                "button text='Indonesia'",
+                "button text='Fiji'"
+            ]
+        },
+        "59": {
+            "content": "Which country is the city of Rio de Janeiro located in ?",
+            "answer": "Brazil",
+            "reward": 15,
+            "widgets": [
+                "button text='Brazil'",
+                "button text='Argentina'",
+                "button text='Chile'",
+                "button text='Peru'"
+            ]
+        },
+        "60": {
+            "content": "Which of these countries is NOT in Europe ?",
+            "answer": "Japan",
+            "reward": 15,
+            "widgets": [
+                "button text='France'",
+                "button text='Japan'",
+                "button text='Germany'",
+                "button text='Spain'"
+            ]
+        },
+        "61": {
+            "content": "Which of these countries is NOT in South America ?",
+            "answer": "Mexico",
+            "reward": 15,
+            "widgets": [
+                "button text='Brazil'",
+                "button text='Chile'",
+                "button text='Mexico'",
+                "button text='Argentina'"
+            ]
+        },
+        "62": {
+            "content": "Which of these countries is NOT in Africa ?",
+            "answer": "India",
+            "reward": 15,
+            "widgets": [
+                "button text='Kenya'",
+                "button text='Egypt'",
+                "button text='India'",
+                "button text='Morocco'"
+            ]
+        },
+        "63": {
+            "content": "Which of these countries is NOT in Asia ?",
+            "answer": "Canada",
+            "reward": 15,
+            "widgets": [
+                "button text='China'",
+                "button text='Japan'",
+                "button text='Canada'",
+                "button text='India'"
+            ]
+        },
+        "64": {
+            "content": "Which of these countries is NOT in North America ?",
+            "answer": "Brazil",
+            "reward": 15,
+            "widgets": [
+                "button text='Canada'",
+                "button text='Mexico'",
+                "button text='Brazil'",
+                "button text='United States'"
+            ]
+        },
+        "65": {
+            "content": "Which of these countries is part of the European Union ?",
+            "answer": "France",
+            "reward": 15,
+            "widgets": [
+                "button text='France'",
+                "button text='United Kingdom'",
+                "button text='Norway'",
+                "button text='Switzerland'"
+            ]
+        },
+        "66": {
+            "content": "Which of these countries is NOT part of the European Union ?",
+            "answer": "Norway",
+            "reward": 15,
+            "widgets": [
+                "button text='France'",
+                "button text='Spain'",
+                "button text='Norway'",
+                "button text='Italy'"
+            ]
+        },
+        "67": {
+            "content": "Which country has the largest land area ?",
+            "answer": "Russia",
+            "reward": 15,
+            "widgets": [
+                "button text='Canada'",
+                "button text='China'",
+                "button text='Russia'",
+                "button text='United States'"
+            ]
+        },
+        "68": {
+            "content": "Which country is famous for the city of Cairo ?",
+            "answer": "Egypt",
+            "reward": 15,
+            "widgets": [
+                "button text='Egypt'",
+                "button text='Jordan'",
+                "button text='Morocco'",
+                "button text='Tunisia'"
+            ]
+        },
+        "69": {
+            "content": "Which ocean is between Africa and Australia ?",
+            "answer": "Indian Ocean",
+            "reward": 15,
+            "widgets": [
+                "button text='Atlantic Ocean'",
+                "button text='Pacific Ocean'",
+                "button text='Indian Ocean'",
+                "button text='Arctic Ocean'"
+            ]
+        },
+        "70": {
+            "content": "Which ocean is between Europe and North America ?",
+            "answer": "Atlantic Ocean",
+            "reward": 15,
+            "widgets": [
+                "button text='Pacific Ocean'",
+                "button text='Atlantic Ocean'",
+                "button text='Indian Ocean'",
+                "button text='Arctic Ocean'"
+            ]
+        },
+        "71": {
+            "content": "Which ocean is between Asia and North America ?",
+            "answer": "Pacific Ocean",
+            "reward": 15,
+            "widgets": [
+                "button text='Atlantic Ocean'",
+                "button text='Pacific Ocean'",
+                "button text='Indian Ocean'",
+                "button text='Southern Ocean'"
+            ]
+        },
+        "72": {
+            "content": "Where is the Mediterranean Sea located ?",
+            "answer": "Between Europe, Africa and Asia",
+            "reward": 15,
+            "widgets": [
+                "button text='Between Europe, Africa and Asia'",
+                "button text='Between Asia and Australia'",
+                "button text='Between Africa and America'",
+                "button text='Between Europe and America'"
+            ]
+        },
+        "73": {
+            "content": "Which continent is the Sahara Desert located in ?",
+            "answer": "Africa",
+            "reward": 15,
+            "widgets": [
+                "button text='Asia'",
+                "button text='Africa'",
+                "button text='Australia'",
+                "button text='South America'"
+            ]
+        },
+        "74": {
+            "content": "Which continent is the Amazon rainforest mainly located in ?",
+            "answer": "South America",
+            "reward": 15,
+            "widgets": [
+                "button text='Africa'",
+                "button text='Asia'",
+                "button text='South America'",
+                "button text='Europe'"
+            ]
+        },
+        "75": {
+            "content": "Which continent is France mainly located in ?",
+            "answer": "Europe",
+            "reward": 15,
+            "widgets": [
+                "button text='Europe'",
+                "button text='Asia'",
+                "button text='Africa'",
+                "button text='North America'"
+            ]
+        },
+        "76": {
+            "content": "Which continent is Japan located in ?",
+            "answer": "Asia",
+            "reward": 15,
+            "widgets": [
+                "button text='Europe'",
+                "button text='Asia'",
+                "button text='Oceania'",
+                "button text='North America'"
+            ]
+        },
+        "77": {
+            "content": "Which continent is Egypt mainly located in ?",
+            "answer": "Africa",
+            "reward": 15,
+            "widgets": [
+                "button text='Africa'",
+                "button text='Asia'",
+                "button text='Europe'",
+                "button text='South America'"
+            ]
+        },
+        "78": {
+            "content": "Which country is located south of the United States ?",
+            "answer": "Mexico",
+            "reward": 15,
+            "widgets": [
+                "button text='Canada'",
+                "button text='Mexico'",
+                "button text='Cuba'",
+                "button text='Brazil'"
+            ]
+        },
+        "79": {
+            "content": "Which country is located west of France ?",
+            "answer": "Spain",
+            "reward": 15,
+            "widgets": [
+                "button text='Germany'",
+                "button text='Spain'",
+                "button text='Italy'",
+                "button text='Poland'"
+            ]
+        },
+        "80": {
+            "content": "Which country is located east of France ?",
+            "answer": "Germany",
+            "reward": 15,
+            "widgets": [
+                "button text='Portugal'",
+                "button text='Ireland'",
+                "button text='Germany'",
+                "button text='Spain'"
+            ]
+        },
+        "81": {
+            "content": "Which country shares a border with Portugal ?",
+            "answer": "Spain",
+            "reward": 15,
+            "widgets": [
+                "button text='France'",
+                "button text='Spain'",
+                "button text='Italy'",
+                "button text='Morocco'"
+            ]
+        },
+        "82": {
+            "content": "Which country shares a border with Germany ?",
+            "answer": "France",
+            "reward": 15,
+            "widgets": [
+                "button text='France'",
+                "button text='Spain'",
+                "button text='Portugal'",
+                "button text='Ireland'"
+            ]
+        },
+        "83": {
+            "content": "Which country shares a border with the United States ?",
+            "answer": "Canada",
+            "reward": 15,
+            "widgets": [
+                "button text='Canada'",
+                "button text='Brazil'",
+                "button text='Mexico'",
+                "button text='Cuba'"
+            ]
+        },
+        "84": {
+            "content": "Which country shares a border with Brazil ?",
+            "answer": "Argentina",
+            "reward": 15,
+            "widgets": [
+                "button text='Argentina'",
+                "button text='Mexico'",
+                "button text='Chile'",
+                "button text='Ecuador'"
+            ]
+        },
+        "85": {
+            "content": "Which country shares a border with China ?",
+            "answer": "India",
+            "reward": 15,
+            "widgets": [
+                "button text='India'",
+                "button text='Japan'",
+                "button text='Australia'",
+                "button text='Philippines'"
+            ]
+        },
+        "86": {
+            "content": "Which country shares a border with Spain ?",
+            "answer": "Portugal",
+            "reward": 15,
+            "widgets": [
+                "button text='Portugal'",
+                "button text='Italy'",
+                "button text='Germany'",
+                "button text='Greece'"
+            ]
+        },
+        "87": {
+            "content": "Which country is an island nation ?",
+            "answer": "Iceland",
+            "reward": 15,
+            "widgets": [
+                "button text='Switzerland'",
+                "button text='Iceland'",
+                "button text='Austria'",
+                "button text='Hungary'"
+            ]
+        },
+        "88": {
+            "content": "Which country is known for the Eiffel Tower ?",
+            "answer": "France",
+            "reward": 15,
+            "widgets": [
+                "button text='France'",
+                "button text='Belgium'",
+                "button text='Italy'",
+                "button text='Germany'"
+            ]
+        },
+        "89": {
+            "content": "Which country is known for the Colosseum in Rome ?",
+            "answer": "Italy",
+            "reward": 15,
+            "widgets": [
+                "button text='Greece'",
+                "button text='Italy'",
+                "button text='Spain'",
+                "button text='France'"
+            ]
+        },
+        "90": {
+            "content": "Which country is known for the Great Wall ?",
+            "answer": "China",
+            "reward": 15,
+            "widgets": [
+                "button text='Japan'",
+                "button text='China'",
+                "button text='India'",
+                "button text='Mongolia'"
+            ]
+        },
+        "91": {
+            "content": "Which country is known for the pyramids of Giza ?",
+            "answer": "Egypt",
+            "reward": 15,
+            "widgets": [
+                "button text='Egypt'",
+                "button text='Sudan'",
+                "button text='Morocco'",
+                "button text='Tunisia'"
+            ]
+        },
+        "92": {
+            "content": "Which country is known for the Taj Mahal ?",
+            "answer": "India",
+            "reward": 15,
+            "widgets": [
+                "button text='India'",
+                "button text='Nepal'",
+                "button text='Pakistan'",
+                "button text='Bangladesh'"
+            ]
+        },
+        "93": {
+            "content": "Which country is known for Machu Picchu ?",
+            "answer": "Peru",
+            "reward": 15,
+            "widgets": [
+                "button text='Chile'",
+                "button text='Peru'",
+                "button text='Bolivia'",
+                "button text='Ecuador'"
+            ]
+        },
+        "94": {
+            "content": "Paris is the capital of France.",
+            "answer": "Yes",
+            "reward": 15,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "95": {
+            "content": "Berlin is the capital of Austria.",
             "answer": "No",
             "reward": 15,
             "widgets": [
-                "button text='Yes'", 
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "96": {
+            "content": "Madrid is the capital of Spain.",
+            "answer": "Yes",
+            "reward": 15,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "97": {
+            "content": "Rome is the capital of Italy.",
+            "answer": "Yes",
+            "reward": 15,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "98": {
+            "content": "Lisbon is the capital of Brazil.",
+            "answer": "No",
+            "reward": 15,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "99": {
+            "content": "Tokyo is the capital of Japan.",
+            "answer": "Yes",
+            "reward": 15,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "100": {
+            "content": "Sydney is the capital of Australia.",
+            "answer": "No",
+            "reward": 15,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "101": {
+            "content": "Ottawa is the capital of Canada.",
+            "answer": "Yes",
+            "reward": 15,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "102": {
+            "content": "The Pacific Ocean is the largest ocean on Earth.",
+            "answer": "Yes",
+            "reward": 15,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "103": {
+            "content": "The Atlantic Ocean is located between Europe and North America.",
+            "answer": "Yes",
+            "reward": 15,
+            "widgets": [
+                "button text='Yes'",
                 "button text='No'"
             ]
         }
