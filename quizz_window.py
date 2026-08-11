@@ -20,18 +20,47 @@ class QuestionPage(QWidget):
         self.question_number = question_number
         self.json_content = json_content
 
-        print(json_content)
-        print(f"Key '{question_number}' in json_content :", question_number in json_content.keys())
-        self.question = json_content[question_number] # Get the question referenced by the number
+
+        self.question_data= json_content[question_number] # Get the question referenced by the number
+        self.question = JSONQuestion(
+            self.question_data["content"], 
+            self.question_data["answer"], 
+            self.question_data["reward"],
+            self.question_data["widgets"]
+
+        )
 
         title_font = QFont()
         title_font.setBold(True)
         title_font.setPointSize(16)
 
-        self.question_title = QLabel(self.question["content"])
+        self.question_title = QLabel(self.question_data["content"])
         self.question_title.setFont(title_font)
         self.question_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         parent_layout.addWidget(self.question_title)
+
+        self.widgets = self.widgets_list()
+        print("List of widgets for the question :", self.widgets)
+
+
+    def build_widgets(self) -> None:
+        """Builds the widgets tied to the question within the page based on JSON description."""
+        pass
+
+    def widgets_list(self) -> list:
+        """Returns a (type, widgets) list of tuples containing all widgets as described in JSON."""
+
+        widgets = [] # List containing widgets
+
+        for widget_desc in self.question_data["widgets"]:
+
+            # Widget type and attribute are separated by a space
+            widget_type, attribute = widget_desc.split(" ")
+            widgets.append((widget_type, attribute))
+
+        return widgets    
+
+            
         
 
 
