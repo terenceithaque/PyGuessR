@@ -1,5 +1,5 @@
 """quizz_window.py offers a QuizzWindow class which represents a full quizz window"""
-from PyQt6.QtWidgets import QMainWindow, QLabel, QStackedWidget, QGridLayout, QWidget
+from PyQt6.QtWidgets import QMainWindow, QLabel, QStackedWidget, QGridLayout, QWidget, QPushButton
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
 from json_quizz import *
@@ -14,8 +14,8 @@ class QuestionPage(QWidget):
         super().__init__()
 
 
-        parent_layout = QGridLayout()
-        self.setLayout(parent_layout)
+        self.parent_layout = QGridLayout()
+        self.setLayout(self.parent_layout)
 
         self.question_number = question_number
         self.json_content = json_content
@@ -37,15 +37,36 @@ class QuestionPage(QWidget):
         self.question_title = QLabel(self.question_data["content"])
         self.question_title.setFont(title_font)
         self.question_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        parent_layout.addWidget(self.question_title)
+        self.parent_layout.addWidget(self.question_title)
 
         self.widgets = self.widgets_list()
         print("List of widgets for the question :", self.widgets)
 
+        self.build_widgets()
+
 
     def build_widgets(self) -> None:
         """Builds the widgets tied to the question within the page based on JSON description."""
-        pass
+
+        x = 0 # x position of widget
+        y = 1 # y position of widget
+
+        for widget in self.widgets:
+            widget_type = widget[0]
+            widget_attribute = widget[1]
+
+            # Build buttons
+            if widget_type == "button":
+
+                button_text = widget_attribute[5:] # The text of the button is specified after index 5
+                button = QPushButton()
+                button.setText(button_text)
+                self.parent_layout.addWidget(button, x, y)
+                y += 1
+                if y == 6:
+                    x += 1
+                    y = 0
+
 
     def widgets_list(self) -> list:
         """Returns a (type, widgets) list of tuples containing all widgets as described in JSON."""
