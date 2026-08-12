@@ -1,5 +1,5 @@
 """quizz_window.py offers a QuizzWindow class which represents a full quizz window"""
-from PyQt6.QtWidgets import QMainWindow, QLabel, QStackedWidget, QGridLayout, QWidget, QPushButton
+from PyQt6.QtWidgets import QMainWindow, QLabel, QStackedWidget, QGridLayout, QWidget, QPushButton, QLineEdit
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
 from json_quizz import *
@@ -62,6 +62,18 @@ class QuestionPage(QWidget):
                 button = QPushButton()
                 button.setText(button_text)
                 self.parent_layout.addWidget(button, x, y)
+                y += 1
+                if y == 6:
+                    x += 1
+                    y = 0
+
+            # Build inputs
+            elif widget_type == "input":
+
+                input_length = int(widget_attribute[7:]) # The maximum input length is specified after index 7
+                user_input = QLineEdit()
+                user_input.setMaxLength(input_length)
+                self.parent_layout.addWidget(user_input, x, y)
                 y += 1
                 if y == 6:
                     x += 1
