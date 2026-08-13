@@ -1,27 +1,7 @@
 """player.py offers a Player class handling player-related data and methods."""
 from pathlib import Path
 import random
-
-
-def create_profiles_folder() -> None:
-    """Creates the player_profiles directory within the location of the player.py script"""
-
-    script_dir = Path(__file__).resolve().parent # Get the directory hosting the script
-    profiles_folder_path = script_dir / "player_profiles"
-    profiles_folder = Path(profiles_folder_path)
-
-    profiles_folder.mkdir(exist_ok=True)
-
-
-
-def get_profiles() -> list:
-    """Returns the whole list of file names contained inside the player_profiles directory."""
-
-    script_dir = Path(__file__).resolve().parent # Get the directory hosting the script
-    profiles_folder_path = script_dir / "player_profiles"
-    profiles_folder = Path(profiles_folder_path)
-
-    return [file.name for file in profiles_folder.iterdir()]
+from profiles import *
     
 
 class Player:
@@ -38,6 +18,9 @@ class Player:
         create_profiles_folder()
 
         print("Player profiles :", get_profiles())
+
+        self.profiles = load_profiles_file()
+        print("Player profiles :", self.profiles)
 
     def generate_id(self, id_length:int=7) -> int:
         """Generates an ID (integer) which is tied to the player.
