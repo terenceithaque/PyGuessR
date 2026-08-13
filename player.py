@@ -2,6 +2,28 @@
 from pathlib import Path
 import random
 
+
+def create_profiles_folder() -> None:
+    """Creates the player_profiles directory within the location of the player.py script"""
+
+    script_dir = Path(__file__).resolve().parent # Get the directory hosting the script
+    profiles_folder_path = script_dir / "player_profiles"
+    profiles_folder = Path(profiles_folder_path)
+
+    profiles_folder.mkdir(exist_ok=True)
+
+
+
+def get_profiles() -> list:
+    """Returns the whole list of absolute paths to files contained inside the player_profiles directory."""
+
+    script_dir = Path(__file__).resolve().parent # Get the directory hosting the script
+    profiles_folder_path = script_dir / "player_profiles"
+    profiles_folder = Path(profiles_folder_path)
+
+    return list(profiles_folder.iterdir())
+    
+
 class Player:
     def __init__(self, pseudo:str="New player") -> None:
         """The player class handles various things related to the player (pseudo, id, score, etc).
@@ -11,6 +33,11 @@ class Player:
         self.pseudo = pseudo
 
         self.id = self.generate_id()
+
+        # Create the "player_profiles" folder if it does not exist
+        create_profiles_folder()
+
+        print("Player profiles :", get_profiles())
 
     def generate_id(self, id_length:int=7) -> int:
         """Generates an ID (integer) which is tied to the player.
