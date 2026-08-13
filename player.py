@@ -15,13 +15,13 @@ def create_profiles_folder() -> None:
 
 
 def get_profiles() -> list:
-    """Returns the whole list of absolute paths to files contained inside the player_profiles directory."""
+    """Returns the whole list of file names contained inside the player_profiles directory."""
 
     script_dir = Path(__file__).resolve().parent # Get the directory hosting the script
     profiles_folder_path = script_dir / "player_profiles"
     profiles_folder = Path(profiles_folder_path)
 
-    return list(profiles_folder.iterdir())
+    return [file.name for file in profiles_folder.iterdir()]
     
 
 class Player:
