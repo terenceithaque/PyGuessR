@@ -17,10 +17,13 @@ class Player:
         # Create the "player_profiles" folder if it does not exist
         create_profiles_folder()
 
-        print("Player profiles :", get_profiles())
+        print("Player profile files :", get_profile_files())
 
-        self.profiles = load_profiles_file()
-        print("Player profiles :", self.profiles)
+        self.profile_files = load_profiles_file()
+        self.player_profiles = load_profiles_file()
+        print("Player profiles :", self.player_profiles)
+
+        save_profile(self, self.player_profiles)
 
     def generate_id(self, id_length:int=7) -> int:
         """Generates an ID (integer) which is tied to the player.

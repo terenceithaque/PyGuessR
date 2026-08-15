@@ -17,14 +17,14 @@ def create_profiles_folder() -> None:
     profiles_file_path = profiles_folder / "profiles.json"
     profiles_file = Path(profiles_file_path)
 
-    if not "profiles.json" in get_profiles():
+    if not "profiles.json" in get_profile_files():
         profiles_file.touch()
         profiles_file.write_text("{}", encoding="utf-8")
 
 
 
 
-def get_profiles() -> list:
+def get_profile_files() -> list:
     """Returns the whole list of file names contained inside the player_profiles directory."""
 
     script_dir = Path(__file__).resolve().parent # Get the directory hosting the script
@@ -32,6 +32,36 @@ def get_profiles() -> list:
     profiles_folder = Path(profiles_folder_path)
 
     return [file.name for file in profiles_folder.iterdir()]
+
+
+def save_profile(player, profiles:dict) -> None:
+    """Saves the informations of the given Player object under profiles.json
+    - player: an instance of the Player object
+    - profiles: a dictionnary containing all player profiles."""
+
+    player_id = str(player.id) # Get and convert the player's ID
+
+
+    script_dir = Path(__file__).resolve().parent # Get the directory hosting the script
+    profiles_folder_path = script_dir / "player_profiles"
+    profiles_folder = Path(profiles_folder_path)
+            
+           
+        
+    # Locate and open the "profiles.json" file
+    profiles_file_path = profiles_folder / "profiles.json"
+    profiles_file = Path(profiles_file_path)
+
+    with profiles_file.open("w", encoding="utf-8") as f:
+        profiles[player_id] = {
+            "pseudo": player.pseudo,
+            "score": player.score
+        }
+
+        json.dump(profiles, f, indent=4)
+
+    
+
 
 
 def load_profiles_file() -> dict:
