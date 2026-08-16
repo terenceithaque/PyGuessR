@@ -1,6 +1,6 @@
 """player.py offers a Player class handling player-related data and methods."""
 from pathlib import Path
-import random
+import hashlib
 from profiles import *
     
 
@@ -25,19 +25,13 @@ class Player:
 
         save_profile(self, self.player_profiles)
 
-    def generate_id(self, id_length:int=7) -> int:
-        """Generates an ID (integer) which is tied to the player.
-        - id_length : the length of the generated ID, 7 by default."""
+    def generate_id(self) -> str:
+        """Returns a hash of the player's pseudo which acts as a unique ID for that player."""
 
-        # Assertions
-        assert id_length > 0, f"The length of the ID must be a strictly positive number."
+        # Hash the player's pseudo using SHA256
+        hashed_pseudo = hashlib.sha256(self.pseudo.encode("utf-8")).hexdigest()
 
-        player_id = "" # Initialize the ID string as empty
-
-        for i in range(id_length):
-            player_id += str(random.randint(0, 9))
-
-        return int(player_id)
+        return hashed_pseudo
 
 
 # Runs only if the script is executed directly
