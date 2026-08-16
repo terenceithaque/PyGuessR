@@ -50,6 +50,7 @@ class Player:
 
         self.score = 0
         self.pseudo = pseudo
+        self.__hashed_pseudo = self.generate_id()
 
         self.id = self.generate_id()
 
@@ -58,9 +59,9 @@ class Player:
 
         print("Player profile files :", get_profile_files())
 
-        self.profile_files = load_profiles_file()
         self.player_profiles = load_profiles_file()
         print("Player profiles :", self.player_profiles)
+        print(f"{self.__hashed_pseudo} already existing in player profiles:", self.pseudo_exists())
 
         save_profile(self, self.player_profiles)
 
@@ -71,6 +72,11 @@ class Player:
         hashed_pseudo = hashlib.sha256(self.pseudo.encode("utf-8")).hexdigest()
 
         return hashed_pseudo
+
+    def pseudo_exists(self) -> bool:
+        """Returns True if the player's hashed pseudo is present within the player profiles or False otherwise."""
+
+        return self.__hashed_pseudo in self.player_profiles.keys()
 
 
 # Runs only if the script is executed directly
