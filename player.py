@@ -1,7 +1,46 @@
-"""player.py offers a Player class handling player-related data and methods."""
+"""player.py offers a Player class handling player-related data and methods.\n
+It also provides a NameInput class which represents a window inside of which the player can input its pseudo."""
 from pathlib import Path
+from PyQt6.QtWidgets import QDialog, QLineEdit, QPushButton, QVBoxLayout
 import hashlib
 from profiles import *
+
+
+class NameInput(QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+
+        self.setWindowTitle("Input your player name")
+        self.resize(300, 200)
+
+
+        # Set the layout and widgets
+        layout = QVBoxLayout()
+
+        self.name_input = QLineEdit()
+        self.name_input.setPlaceholderText("Type pseudo here...")
+
+        self.ok_button = QPushButton("OK")
+        self.ok_button.clicked.connect(self.accept)
+        self.ok_button.setDisabled(True)
+
+        self.name_input.textChanged.connect(self.enable_ok_button)
+
+        layout.addWidget(self.name_input)
+        layout.addWidget(self.ok_button)
+
+        self.setLayout(layout)
+
+
+    def enable_ok_button(self) -> None:
+        """Enables the 'OK' if the player filled the name input, and disables it if not."""
+
+        # Disable the button if the name input is empty
+        if len(self.name_input.text()) == 0:
+            self.ok_button.setDisabled(True)
+
+        else:
+            self.ok_button.setEnabled(True)    
     
 
 class Player:

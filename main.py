@@ -1,8 +1,9 @@
 # Main application script
-from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QLabel, QPushButton
+from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QLabel, QPushButton, QDialog
 from PyQt6.QtGui import QFont
 from PyQt6.QtCore import Qt
 from list_themes import *
+from player import *
 from quizz_window import *
 
 
@@ -19,6 +20,15 @@ class MainAppWindow(QMainWindow):
 
         # Current quizz window
         self.quizz_window = None
+
+
+        # Ask for the player's name
+        player_name_dialog = NameInput(self)
+        if player_name_dialog.exec() == QDialog.DialogCode.Accepted:
+            print("Entered player name :", player_name_dialog.name_input.text())
+
+        # Create a Player object with the given player name
+        self.player = Player(player_name_dialog.name_input.text())    
 
         
 
