@@ -54,7 +54,6 @@ def save_profile(player, profiles:dict) -> None:
 
     with profiles_file.open("w", encoding="utf-8") as f:
         profiles[player_id] = {
-            "pseudo": player.pseudo,
             "score": player.score
         }
 
