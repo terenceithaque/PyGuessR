@@ -106,13 +106,6 @@ class QuestionPage(QWidget):
 
 
         answer = answer.strip("'")
-        print("Player answer :", repr(answer))
-        print("Expected answer :", repr(self.question.answer))
-        print("Answer type:", type(answer))
-        print("Expected type: ", type(self.question.answer))
-
-        print("Correct?", self.question.is_answer_correct(answer))
-
         
 
         if self.question.is_answer_correct(answer):
