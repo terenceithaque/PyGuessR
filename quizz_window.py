@@ -1,6 +1,6 @@
 """quizz_window.py offers a QuizzWindow class which represents a full quizz window"""
 from PyQt6.QtWidgets import QMainWindow, QLabel, QStackedWidget, QGridLayout, QWidget, QPushButton, QLineEdit
-from PyQt6.QtCore import Qt
+from PyQt6.QtCore import Qt, QTimer
 from PyQt6.QtGui import QFont
 from json_quizz import *
 from player import *
@@ -106,20 +106,36 @@ class QuestionPage(QWidget):
 
 
         answer = answer.strip("'")
+
+        correct = self.question.is_answer_correct(answer)
         
 
-        if self.question.is_answer_correct(answer):
+        if correct:
             self.player.score += self.question.reward
             self.answered = True
-            return True
+            
 
         else:
             if self.player.score >= self.question.reward:
                 self.player.score -= self.question.reward
                 self.answered = True
-                return False
+                
 
-            
+        # Change the main window's background
+        window = self.window()
+
+        if correct:
+            window.setStyleSheet("background-color: green;")
+
+        else:
+            window.setStyleSheet("background-color: red;")
+
+
+
+        # Restore the window's default background color after 3 seconds
+        QTimer.singleShot(3000, window.restore_background)            
+
+        return correct
         
 
 
@@ -155,3 +171,8 @@ class QuizzWindow(QMainWindow):
         self.current_question = QuestionPage(self.current_question_number, self.quizz.quizz_content["questions"], self.player)
         self.central_widget.addWidget(self.current_question)
         self.central_widget.setCurrentIndex(0)
+
+
+    def restore_background(self) -> None:
+        """Restores the default background color of the window."""
+        self.setStyleSheet("")    
