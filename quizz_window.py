@@ -3,21 +3,26 @@ from PyQt6.QtWidgets import QMainWindow, QLabel, QStackedWidget, QGridLayout, QW
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
 from json_quizz import *
+from player import *
 import random
 
 
 class QuestionPage(QWidget):
-    def __init__(self, question_number:str, json_content:dict) -> None:
+    def __init__(self, question_number:str, json_content:dict, player:Player) -> None:
         """A page containing a question in the quizz referenced by a question number (string) with its content and widgets.
         - question_number: a string containing the number referencing the question.
-        - json_content: the JSON content of the quizz file."""
+        - json_content: the JSON content of the quizz file
+        - player: an instance of the Player object."""
+
         super().__init__()
 
+        self.player = player
 
         self.parent_layout = QGridLayout()
         self.setLayout(self.parent_layout)
 
         self.question_number = question_number
+        print("Question number :", self.question_number)
         self.json_content = json_content
 
 
@@ -30,6 +35,8 @@ class QuestionPage(QWidget):
 
         )
 
+        self.answered = False
+
         title_font = QFont()
         title_font.setBold(True)
         title_font.setPointSize(16)
@@ -40,7 +47,6 @@ class QuestionPage(QWidget):
         self.parent_layout.addWidget(self.question_title)
 
         self.widgets = self.widgets_list()
-        print("List of widgets for the question :", self.widgets)
 
         self.build_widgets()
 
@@ -61,6 +67,7 @@ class QuestionPage(QWidget):
                 button_text = widget_attribute[5:] # The text of the button is specified after index 5
                 button = QPushButton()
                 button.setText(button_text)
+                button.clicked.connect(lambda checked=False, text=button_text: self.check_answer(text))
                 self.parent_layout.addWidget(button, x, y)
                 y += 1
                 if y == 6:
@@ -91,7 +98,33 @@ class QuestionPage(QWidget):
             widget_type, attribute = widget_desc.split(" ")
             widgets.append((widget_type, attribute))
 
-        return widgets    
+        return widgets
+
+    def check_answer(self, answer:str) -> bool:
+        """Checks if the player's answer is correct and make him gain or loose points based on the answer's correctness.
+        Returns True if the question was answered correctly, False if not."""
+
+
+        answer = answer.strip("'")
+        print("Player answer :", repr(answer))
+        print("Expected answer :", repr(self.question.answer))
+        print("Answer type:", type(answer))
+        print("Expected type: ", type(self.question.answer))
+
+        print("Correct?", self.question.is_answer_correct(answer))
+
+        
+
+        if self.question.is_answer_correct(answer):
+            self.player.score += self.question.reward
+            self.answered = True
+            return True
+
+        else:
+            if self.player.score >= self.question.reward:
+                self.player.score -= self.question.reward
+                self.answered = True
+                return False
 
             
         
@@ -99,9 +132,11 @@ class QuestionPage(QWidget):
 
 
 class QuizzWindow(QMainWindow):
-    def __init__(self, quizz_file:str) -> None:
+    def __init__(self, quizz_file:str, player:Player) -> None:
         """A QuizzWindow object represents a game window inside of which random questions from the given JSON quizz file appear.
-        - quizz_file: the path to JSON file containing the quizz questions."""
+        - quizz_file: the path to JSON file containing the quizz questions
+        - player: an instance of the Player object playing the quizz."""
+
         super().__init__()
 
         self.setWindowTitle(f"{quizz_file} - PyGuessR")
@@ -109,6 +144,8 @@ class QuizzWindow(QMainWindow):
         # The QStackedWidget allows to handle several quizz pages all by displaying only one at a time
         self.central_widget = QStackedWidget()
         self.setCentralWidget(self.central_widget)
+
+        self.player = player
 
         # Set the grid layout
         parent_layout = QGridLayout()
@@ -122,6 +159,6 @@ class QuizzWindow(QMainWindow):
 
         self.current_question_index = 0 # Current question index in the serie
         self.current_question_number = str(self.quizz_questions[0])
-        self.current_question = QuestionPage(self.current_question_number, self.quizz.quizz_content["questions"])
+        self.current_question = QuestionPage(self.current_question_number, self.quizz.quizz_content["questions"], self.player)
         self.central_widget.addWidget(self.current_question)
         self.central_widget.setCurrentIndex(0)
