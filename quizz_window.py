@@ -133,7 +133,10 @@ class QuestionPage(QWidget):
 
 
         # Restore the window's default background color after 3 seconds
-        QTimer.singleShot(3000, window.restore_background)            
+        QTimer.singleShot(3000, window.restore_background)
+
+
+        window.next_question()
 
         return correct
         
@@ -163,8 +166,11 @@ class QuizzWindow(QMainWindow):
         # Load the quizz from the file
         self.quizz = JSONQuizzFormat(quizz_file)
 
+        print("Quizz length :", len(self.quizz.quizz_content["questions"]))
+
         # Choose the questions that will be presented to the player
-        self.quizz_questions = self.quizz.question_serie(random.randint(1, len(self.quizz.quizz_content)))
+        self.quizz_questions = self.quizz.question_serie(random.randint(2, len(self.quizz.quizz_content["questions"])))
+        print("Questions :", self.quizz_questions)
 
         self.current_question_index = 0 # Current question index in the serie
         self.current_question_number = str(self.quizz_questions[0])
@@ -175,4 +181,15 @@ class QuizzWindow(QMainWindow):
 
     def restore_background(self) -> None:
         """Restores the default background color of the window."""
-        self.setStyleSheet("")    
+        self.setStyleSheet("")
+
+
+    def next_question(self) -> None:
+        """Sets the window's QStackedWidget to the next question."""
+
+        self.current_question_index += 1
+        print("Current question index :", self.current_question_index)
+        self.current_question_number = str(self.quizz_questions[self.current_question_index])
+        self.current_question = QuestionPage(self.current_question_number, self.quizz.quizz_content["questions"], self.player)
+        self.central_widget.addWidget(self.current_question)
+        self.central_widget.setCurrentIndex(self.current_question_index)        
