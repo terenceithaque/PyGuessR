@@ -171,6 +171,7 @@ class QuizzWindow(QMainWindow):
         # Choose the questions that will be presented to the player
         self.quizz_questions = self.quizz.question_serie(random.randint(2, len(self.quizz.quizz_content["questions"])))
         print("Questions :", self.quizz_questions)
+        print(f"Total possible points: {self.quizz.get_points_sum(self.quizz_questions)}")
 
         self.current_question_index = 0 # Current question index in the serie
         self.current_question_number = str(self.quizz_questions[0])

@@ -46,6 +46,19 @@ class JSONQuizzFormat:
         self.questions = self.quizz_content["questions"]
 
 
+
+    def get_points_sum(self, question_numbers:list) -> int:
+        """Returns the points sum for all the selected questions of the quizz.
+        - question_numbers: a list of question numbers used for the sum."""
+
+        points_sum = 0 # Initialize the sum to 0
+
+        for number in question_numbers:
+            question = self.get_question(number)
+            points_sum += question.reward
+
+        return points_sum    
+
         
 
     def get_question_numbers(self) -> list:
