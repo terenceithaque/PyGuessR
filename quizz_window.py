@@ -41,10 +41,12 @@ class QuestionPage(QWidget):
         title_font.setBold(True)
         title_font.setPointSize(16)
 
+        # Question cenetered
         self.question_title = QLabel(self.question_data["content"])
         self.question_title.setFont(title_font)
         self.question_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.parent_layout.addWidget(self.question_title)
+        self.parent_layout.addWidget(self.question_title,
+                                     1, 0, 1, 2)
 
         self.widgets = self.widgets_list()
 
@@ -54,8 +56,7 @@ class QuestionPage(QWidget):
     def build_widgets(self) -> None:
         """Builds the widgets tied to the question within the page based on JSON description."""
 
-        x = 0 # x position of widget
-        y = 1 # y position of widget
+        y = 0 # x position of widget
 
         for widget in self.widgets:
             widget_type = widget[0]
@@ -68,11 +69,8 @@ class QuestionPage(QWidget):
                 button = QPushButton()
                 button.setText(button_text)
                 button.clicked.connect(lambda checked=False, text=button_text: self.check_answer(text))
-                self.parent_layout.addWidget(button, x, y)
+                self.parent_layout.addWidget(button, 2, y)
                 y += 1
-                if y == 6:
-                    x += 1
-                    y = 0
 
             # Build inputs
             elif widget_type == "input":
@@ -80,11 +78,9 @@ class QuestionPage(QWidget):
                 input_length = int(widget_attribute[7:]) # The maximum input length is specified after index 7
                 user_input = QLineEdit()
                 user_input.setMaxLength(input_length)
-                self.parent_layout.addWidget(user_input, x, y)
+                self.parent_layout.addWidget(user_input, 2, y)
                 y += 1
-                if y == 6:
-                    x += 1
-                    y = 0
+                
 
 
     def widgets_list(self) -> list:
@@ -153,31 +149,58 @@ class QuizzWindow(QMainWindow):
 
         self.setWindowTitle(f"{quizz_file} - PyGuessR")
 
-        # The QStackedWidget allows to handle several quizz pages all by displaying only one at a time
-        self.central_widget = QStackedWidget()
-        self.setCentralWidget(self.central_widget)
-
-        self.player = player
 
         # Set the grid layout
         parent_layout = QGridLayout()
-        self.setLayout(parent_layout)
+
+        # Central widget
+        self.central_widget = QWidget()
+        self.central_widget.setLayout(parent_layout)
+        self.setCentralWidget(self.central_widget)
+
+        # The QStackedWidget allows to handle several quizz pages all by displaying only one at a time
+        self.question_stack = QStackedWidget()
+        
+
+        self.player = player
+
+        
+        
+
+        
 
         # Load the quizz from the file
         self.quizz = JSONQuizzFormat(quizz_file)
 
         print("Quizz length :", len(self.quizz.quizz_content["questions"]))
 
+        
+
         # Choose the questions that will be presented to the player
         self.quizz_questions = self.quizz.question_serie(random.randint(2, len(self.quizz.quizz_content["questions"])))
         print("Questions :", self.quizz_questions)
-        print(f"Total possible points: {self.quizz.get_points_sum(self.quizz_questions)}")
+
+        self.points_sum = self.quizz.get_points_sum(self.quizz_questions)
+
+        # Score label in the top-right corner        
+        self.score_label = QLabel(f"{self.player.score} / {self.points_sum}")
+        parent_layout.addWidget(
+            self.score_label,
+            0, 1,
+            alignment=Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignRight
+        )
+
+        
 
         self.current_question_index = 0 # Current question index in the serie
         self.current_question_number = str(self.quizz_questions[0])
         self.current_question = QuestionPage(self.current_question_number, self.quizz.quizz_content["questions"], self.player)
-        self.central_widget.addWidget(self.current_question)
-        self.central_widget.setCurrentIndex(0)
+        self.question_stack.addWidget(self.current_question)
+        self.question_stack.setCurrentIndex(0)
+        parent_layout.addWidget(
+            self.question_stack,
+            1, 0, 1, 2
+        )
 
 
     def restore_background(self) -> None:
@@ -192,5 +215,5 @@ class QuizzWindow(QMainWindow):
         print("Current question index :", self.current_question_index)
         self.current_question_number = str(self.quizz_questions[self.current_question_index])
         self.current_question = QuestionPage(self.current_question_number, self.quizz.quizz_content["questions"], self.player)
-        self.central_widget.addWidget(self.current_question)
-        self.central_widget.setCurrentIndex(self.current_question_index)        
+        self.question_stack.addWidget(self.current_question)
+        self.question_stack.setCurrentIndex(self.current_question_index)        
