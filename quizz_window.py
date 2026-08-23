@@ -147,8 +147,6 @@ class QuizzWindow(QMainWindow):
 
         super().__init__()
 
-        self.setWindowTitle(f"{quizz_file} - PyGuessR")
-
 
         # Set the grid layout
         parent_layout = QGridLayout()
@@ -172,8 +170,7 @@ class QuizzWindow(QMainWindow):
         # Load the quizz from the file
         self.quizz = JSONQuizzFormat(quizz_file)
 
-        print("Quizz length :", len(self.quizz.quizz_content["questions"]))
-
+        self.setWindowTitle(f"{self.quizz.theme} level {self.quizz.level} - PyGuessR")
         
 
         # Choose the questions that will be presented to the player

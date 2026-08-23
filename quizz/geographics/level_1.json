@@ -1,4 +1,6 @@
 {
+    "theme": "geography",
+    "level": 1,
     "questions": {
         "1": {
             "content": "What is the capital of Germany ?",

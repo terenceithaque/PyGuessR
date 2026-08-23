@@ -41,6 +41,9 @@ class JSONQuizzFormat:
             self.quizz_content = json.load(f)
 
 
+        self.theme = self.quizz_content["theme"]
+        self.level = self.quizz_content["level"]
+
 
         # Get the questions of the quizz
         self.questions = self.quizz_content["questions"]
