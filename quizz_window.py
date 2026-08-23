@@ -95,7 +95,7 @@ class QuestionPage(QWidget):
         for widget_desc in self.question_data["widgets"]:
 
             # Widget type and attribute are separated by a space
-            widget_type, attribute = widget_desc.split(" ")
+            widget_type, attribute = widget_desc.split(" ", 1)
             widgets.append((widget_type, attribute))
 
         return widgets
