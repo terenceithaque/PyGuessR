@@ -107,18 +107,19 @@ class QuestionPage(QWidget):
         
 
         if correct:
-            self.player.score += self.question.reward
+            self.player.update_score(self.question.reward)
             self.answered = True
             
 
         else:
-            if self.player.score >= self.question.reward:
-                self.player.score -= self.question.reward
-                self.answered = True
+            self.player.update_score(-self.question.reward)
+            self.answered = True
                 
 
         # Change the main window's background
         window = self.window()
+
+        window.update_score_label()
 
         if correct:
             window.setStyleSheet("background-color: green;")
@@ -203,6 +204,11 @@ class QuizzWindow(QMainWindow):
     def restore_background(self) -> None:
         """Restores the default background color of the window."""
         self.setStyleSheet("")
+
+
+    def update_score_label(self) -> None:
+        """Updates the score label to display the player's current score."""
+        self.score_label.setText(f"{self.player.score} / {self.points_sum}")    
 
 
     def next_question(self) -> None:

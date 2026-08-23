@@ -73,6 +73,19 @@ class Player:
 
         return hashed_pseudo
 
+
+    def update_score(self, points:int) -> None:
+        """Updates the player's score by adding the given number of points. This amount can be either positive or negative,
+        but the player's score won't go under 0."""
+
+        if points < 0:
+            self.score += points
+            if self.score < 0:
+                self.score = 0
+
+        else:
+            self.score += points
+
     def pseudo_exists(self) -> bool:
         """Returns True if the player's hashed pseudo is present within the player profiles or False otherwise."""
 
