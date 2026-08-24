@@ -54,12 +54,14 @@ def save_profile(player, profiles:dict) -> None:
 
     with profiles_file.open("w", encoding="utf-8") as f:
         profiles[player_id] = {
-            "score": player.score
+            "score": player.score,
+            "xp": player.xp
         }
 
         json.dump(profiles, f, indent=4)
 
-    
+
+
 
 
 

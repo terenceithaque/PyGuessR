@@ -1,5 +1,5 @@
 """quizz_window.py offers a QuizzWindow class which represents a full quizz window"""
-from PyQt6.QtWidgets import QMainWindow, QLabel, QStackedWidget, QGridLayout, QWidget, QPushButton, QLineEdit
+from PyQt6.QtWidgets import QMainWindow, QLabel, QStackedWidget, QGridLayout, QWidget, QPushButton, QLineEdit, QMessageBox
 from PyQt6.QtCore import Qt, QTimer
 from PyQt6.QtGui import QFont
 from json_quizz import *
@@ -132,7 +132,7 @@ class QuestionPage(QWidget):
         # Restore the window's default background color after 3 seconds
         QTimer.singleShot(3000, window.restore_background)
 
-
+        print(f"Quizz completed : {window.quizz_ended()}")
         window.next_question()
 
         return correct
@@ -178,6 +178,9 @@ class QuizzWindow(QMainWindow):
         self.quizz_questions = self.quizz.question_serie(random.randint(2, len(self.quizz.quizz_content["questions"])))
         print("Questions :", self.quizz_questions)
 
+        # Completed questions
+        self.completed_questions = []
+
         self.points_sum = self.quizz.get_points_sum(self.quizz_questions)
 
         # Score label in the top-right corner        
@@ -212,11 +215,31 @@ class QuizzWindow(QMainWindow):
 
 
     def next_question(self) -> None:
-        """Sets the window's QStackedWidget to the next question."""
+        """Sets the window's QStackedWidget to the next question.
+        If the quizz is completed, ends the game."""
 
-        self.current_question_index += 1
-        print("Current question index :", self.current_question_index)
-        self.current_question_number = str(self.quizz_questions[self.current_question_index])
-        self.current_question = QuestionPage(self.current_question_number, self.quizz.quizz_content["questions"], self.player)
-        self.question_stack.addWidget(self.current_question)
-        self.question_stack.setCurrentIndex(self.current_question_index)        
+
+        self.completed_questions.append(int(self.current_question_number))
+
+
+        if self.quizz_ended():
+            QMessageBox.information(self, 
+                                    "Quizz completed", 
+                                    f"""Congratulations {self.player.pseudo} ! You have successfully completed the {self.quizz.theme} level {self.quizz.level} test with a total point number of  {self.player.score}.""")
+
+            self.hide()
+
+        else:    
+            print(f"Completed questions : {len(self.completed_questions)} / {len(self.quizz_questions)}")
+            self.current_question_index += 1
+            print("Current question index :", self.current_question_index)
+            self.current_question_number = str(self.quizz_questions[self.current_question_index])
+            self.current_question = QuestionPage(self.current_question_number, self.quizz.quizz_content["questions"], self.player)
+            self.question_stack.addWidget(self.current_question)
+            self.question_stack.setCurrentIndex(self.current_question_index)
+
+
+    def quizz_ended(self) -> bool:
+        """Returns True if all the questions of the quizz where answered, False if not."""
+
+        return self.completed_questions == self.quizz_questions       

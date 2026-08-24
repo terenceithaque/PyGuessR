@@ -48,7 +48,10 @@ class Player:
         """The player class handles various things related to the player (pseudo, id, score, etc).
         - pseudo: the pseudonym attributed to the player, 'New player' by default."""
 
-        self.score = 0
+        self.score = 0 # Score in the current quizz
+
+        self.xp = 0 # Total player XP
+
         self.pseudo = pseudo
         self.__hashed_pseudo = self.generate_id()
 
@@ -72,6 +75,14 @@ class Player:
         hashed_pseudo = hashlib.sha256(self.pseudo.encode("utf-8")).hexdigest()
 
         return hashed_pseudo
+
+    def setup_profile(self) -> None:
+        """Sets up the player's profile according to the data available in the profiles.json file."""
+
+        # Set up only if the player's pseudo is recorded in the profiles
+        if self.pseudo_exists():
+            profile = self.player_profiles[self.__hashed_pseudo]
+            self.xp = profile["xp"]
 
 
     def update_score(self, points:int) -> None:
