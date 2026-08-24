@@ -4,6 +4,7 @@ from PyQt6.QtCore import Qt, QTimer
 from PyQt6.QtGui import QFont
 from json_quizz import *
 from player import *
+from profiles import *
 import random
 
 
@@ -223,6 +224,11 @@ class QuizzWindow(QMainWindow):
 
 
         if self.quizz_ended():
+
+            self.player.update_xp()
+            self.player.update_themes(self.quizz.theme, self.quizz.level)
+            save_profile(self.player, self.player.player_profiles)
+
             QMessageBox.information(self, 
                                     "Quizz completed", 
                                     f"""Congratulations {self.player.pseudo} ! You have successfully completed the {self.quizz.theme} level {self.quizz.level} test with a total point number of  {self.player.score}.""")

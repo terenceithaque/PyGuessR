@@ -63,8 +63,12 @@ class Player:
         print("Player profile files :", get_profile_files())
 
         self.player_profiles = load_profiles_file()
+        self.profile = self.player_profiles[self.__hashed_pseudo]
         print("Player profiles :", self.player_profiles)
         print(f"{self.__hashed_pseudo} already existing in player profiles:", self.pseudo_exists())
+
+        self.setup_profile()
+        self.themes = self.get_themes()
 
         save_profile(self, self.player_profiles)
 
@@ -76,13 +80,39 @@ class Player:
 
         return hashed_pseudo
 
+    def get_themes(self) -> dict:
+        """Returns a dictionnary containing all themes and tests the player explored."""
+
+        # Check if the "themes" key exists in the player's profile
+        if "themes" in self.profile.keys():
+            return self.profile["themes"]
+
+        else:
+            return {}
+
+
+    def update_themes(self, theme:str, level:int) -> None:
+        """Updates the player's explored themes and tests as well as their relative scores.
+        - theme: the general theme of the quizz.
+        - level: the level of the quizz to be updated."""
+
+        if theme in self.themes.keys():
+            tests = self.themes[theme]
+
+        else:
+            tests = {}
+
+        tests[level] = self.score
+        self.themes[theme] = tests    
+
+
     def setup_profile(self) -> None:
         """Sets up the player's profile according to the data available in the profiles.json file."""
 
         # Set up only if the player's pseudo is recorded in the profiles
         if self.pseudo_exists():
-            profile = self.player_profiles[self.__hashed_pseudo]
-            self.xp = profile["xp"]
+            self.xp = self.profile["xp"]
+            self.themes = self.profile["themes"]
 
 
     def update_score(self, points:int) -> None:
@@ -96,6 +126,12 @@ class Player:
 
         else:
             self.score += points
+
+
+    def update_xp(self) -> None:
+        """Updates the player's total XP score."""
+
+        self.xp += self.score       
 
     def pseudo_exists(self) -> bool:
         """Returns True if the player's hashed pseudo is present within the player profiles or False otherwise."""
