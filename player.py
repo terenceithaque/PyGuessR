@@ -63,7 +63,13 @@ class Player:
         print("Player profile files :", get_profile_files())
 
         self.player_profiles = load_profiles_file()
-        self.profile = self.player_profiles[self.__hashed_pseudo]
+
+        if self.pseudo_exists():
+            self.profile = self.player_profiles[self.__hashed_pseudo]
+
+        else:
+            self.profile = {}
+               
         print("Player profiles :", self.player_profiles)
         print(f"{self.__hashed_pseudo} already existing in player profiles:", self.pseudo_exists())
 
