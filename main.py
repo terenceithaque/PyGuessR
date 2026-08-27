@@ -87,7 +87,7 @@ class MainAppWindow(QMainWindow):
 
         self.hide() # Hide the home window
 
-        self.quizz_window = QuizzWindow(quizz_path, self.player)
+        self.quizz_window = QuizzWindow(self, quizz_path, self.player)
         #self.quizz_window.setParent(self)
         self.quizz_window.show()
 

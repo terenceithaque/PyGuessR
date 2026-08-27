@@ -142,8 +142,9 @@ class QuestionPage(QWidget):
 
 
 class QuizzWindow(QMainWindow):
-    def __init__(self, quizz_file:str, player:Player) -> None:
+    def __init__(self, parent_window:QMainWindow, quizz_file:str, player:Player) -> None:
         """A QuizzWindow object represents a game window inside of which random questions from the given JSON quizz file appear.
+        - parent_window: the parent window (QMainWindow object) that initialized this quizz window
         - quizz_file: the path to JSON file containing the quizz questions
         - player: an instance of the Player object playing the quizz."""
 
@@ -152,6 +153,7 @@ class QuizzWindow(QMainWindow):
 
         # Set the grid layout
         parent_layout = QGridLayout()
+        self.parent_window = parent_window
 
         # Central widget
         self.central_widget = QWidget()
@@ -234,6 +236,7 @@ class QuizzWindow(QMainWindow):
                                     f"""Congratulations {self.player.pseudo} ! You have successfully completed the {self.quizz.theme} level {self.quizz.level} test with a total point number of  {self.player.score}.""")
 
             self.hide()
+            self.parent_window.show() # Display the home window again
 
         else:    
             print(f"Completed questions : {len(self.completed_questions)} / {len(self.quizz_questions)}")
