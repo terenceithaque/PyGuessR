@@ -1,10 +1,23 @@
 # Main application script
-from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QLabel, QPushButton, QDialog
+from PyQt6.QtWidgets import QApplication, QMainWindow, QStackedWidget, QWidget, QGridLayout, QLabel, QPushButton, QDialog
 from PyQt6.QtGui import QFont
 from PyQt6.QtCore import Qt
 from list_themes import *
 from player import *
 from quizz_window import *
+
+
+class SelectPage(QWidget):
+    def __init__(self, select_mode:str="theme") -> None:
+        """A page integrated to a QStackedWidget allowing the player to choose either a theme or difficulty level based on the selection mode.
+        - select_mode: the selection mode that determines which kind of buttons will be presented to the player. The default selection mode is 'theme'.\n
+        For example, to allow the player to choose a quizz theme, set the selection mode as 'theme'. If you want to display a difficulty level selection,
+        set the selection mode as 'difficulty'."""
+
+        # Initialize the QWidget
+        super().__init__()
+
+        self.select_mode = select_mode
 
 
 class MainAppWindow(QMainWindow):
@@ -13,6 +26,7 @@ class MainAppWindow(QMainWindow):
     def __init__(self):
         # Initialize the QMainWindow object
         super().__init__()
+
 
         # Set window title
         self.setWindowTitle("PyGuessR")
