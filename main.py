@@ -8,8 +8,9 @@ from quizz_window import *
 
 
 class SelectPage(QWidget):
-    def __init__(self, select_mode:str="theme") -> None:
+    def __init__(self, parent_window:QMainWindow, select_mode:str="theme") -> None:
         """A page integrated to a QStackedWidget allowing the player to choose either a theme or difficulty level based on the selection mode.
+        - parent_window: the parent window of that widget
         - select_mode: the selection mode that determines which kind of buttons will be presented to the player. The default selection mode is 'theme'.\n
         For example, to allow the player to choose a quizz theme, set the selection mode as 'theme'. If you want to display a difficulty level selection,
         set the selection mode as 'difficulty'."""
@@ -18,6 +19,61 @@ class SelectPage(QWidget):
         super().__init__()
 
         self.select_mode = select_mode
+        self.parent_window = parent_window
+        self.parent_layout = QGridLayout()
+        self.setLayout(self.parent_layout)
+
+        # Build the widgets
+        self.build_widgets()
+
+
+    def build_widgets(self) -> None:
+        """Builds the widgets into the page based on the selection mode."""
+
+        if self.select_mode == "theme":
+            available_themes = get_themes()
+            print(available_themes)
+            
+            # Dictionnary associating themes with their absolute file paths
+            theme_paths = {}
+                    
+            for theme in available_themes:
+                theme_paths[theme] = get_theme_abspath(theme)
+                    
+            print(theme_paths)
+                    
+            
+            
+            theme_label = QLabel("Which theme do you want to explore today ?")
+            theme_label_font = QFont()
+            theme_label_font.setBold(True)
+            theme_label.setFont(theme_label_font)
+            theme_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+            
+            self.parent_layout.addWidget(theme_label, 0, 0)
+            
+            
+            # Create buttons to choose a theme
+            
+            x = 0 # x is the row of the button
+            y = 1 # y is the column
+            
+            for theme in theme_paths.keys():
+                theme_button = QPushButton(text=theme, parent=self.parent_window.central_widget)
+                theme_button.clicked.connect(
+                    lambda checked=False, theme=theme: self.parent_window.start_quizz(theme)
+                )
+            
+                theme_button.setFixedWidth(80)
+                theme_button.setFixedHeight(30)
+                self.parent_layout.addWidget(theme_button, y, x)
+                x += 1
+                if x == 3:
+                    x = 0
+                    y += 1
+
+        elif self.select_mode == "difficulty":
+            pass    
 
 
 class MainAppWindow(QMainWindow):
@@ -46,52 +102,21 @@ class MainAppWindow(QMainWindow):
 
         
 
-        central_widget = QWidget()
-        self.setCentralWidget(central_widget)
+        self.central_widget = QWidget()
+        self.setCentralWidget(self.central_widget)
 
         # Layout for the widgets
-        parent_layout = QGridLayout(central_widget)
+        parent_layout = QGridLayout(self.central_widget)
 
-        available_themes = get_themes()
-        print(available_themes)
+        self.settings_stack = QStackedWidget()
+        self.current_setting_page = SelectPage(self, "theme")
+        self.current_setting_index = 0
+        self.settings_stack.addWidget(self.current_setting_page)
+        self.settings_stack.setCurrentIndex(self.current_setting_index)
 
-        # Dictionnary associating themes with their absolute file paths
-        theme_paths = {}
+        parent_layout.addWidget(self.settings_stack)
+
         
-        for theme in available_themes:
-            theme_paths[theme] = get_theme_abspath(theme)
-        
-        print(theme_paths)
-        
-
-
-        theme_label = QLabel("Which theme do you want to explore today ?")
-        theme_label_font = QFont()
-        theme_label_font.setBold(True)
-        theme_label.setFont(theme_label_font)
-        theme_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-        parent_layout.addWidget(theme_label, 0, 0)
-
-
-        # Create buttons to choose a theme
-
-        x = 0 # x is the row of the button
-        y = 1 # y is the column
-
-        for theme in theme_paths.keys():
-            theme_button = QPushButton(text=theme, parent=central_widget)
-            theme_button.clicked.connect(
-                lambda checked=False, theme=theme: self.start_quizz(theme)
-            )
-
-            theme_button.setFixedWidth(80)
-            theme_button.setFixedHeight(30)
-            parent_layout.addWidget(theme_button, y, x)
-            x += 1
-            if x == 3:
-                x = 0
-                y += 1
 
 
     def start_quizz(self, theme:str) -> None:
