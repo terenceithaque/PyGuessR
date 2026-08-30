@@ -121,6 +121,8 @@ class MainAppWindow(QMainWindow):
 
     def start_quizz(self, theme:str) -> None:
         """Hides the home window and start """
+
+        print("Available difficulty levels for the selected quizz theme:", get_difficulty_levels(theme))
         quizz_path = get_quizz_abspath(theme, level=1)
         print("Absolute file path to quizz level 1:", quizz_path)
 

@@ -84,8 +84,6 @@ class JSONQuizzFormat:
 
         while len(serie) < length:
             number = random.choice(question_numbers)
-            print(number)
-            print(serie)
             if number not in serie:
                 serie.append(number)
 
