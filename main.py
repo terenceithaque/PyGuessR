@@ -87,7 +87,21 @@ class SelectPage(QWidget):
 
 
             # Create buttons to pick difficulty
+            x = 0
+            y = 1
+            for level in available_difficulties:
+                level_button = QPushButton(text=str(level), parent=self.parent_window.central_widget)
+                level_button.clicked.connect(
+                    lambda checked=False, theme=self.theme: self.parent_window.start_quizz(theme, level)
+                )
 
+                level_button.setFixedWidth(80)
+                level_button.setFixedHeight(30)
+                self.parent_layout.addWidget(level_button, y, x)
+                x += 1
+                if x == 6:
+                    x = 0
+                    y += 1
 
 class MainAppWindow(QMainWindow):
     """Main application window."""
@@ -140,11 +154,11 @@ class MainAppWindow(QMainWindow):
         self.settings_stack.setCurrentIndex(self.current_setting_index)    
 
 
-    def start_quizz(self, theme:str) -> None:
+    def start_quizz(self, theme:str, level:int) -> None:
         """Hides the home window and start """
 
         print("Available difficulty levels for the selected quizz theme:", get_difficulty_levels(theme))
-        quizz_path = get_quizz_abspath(theme, level=1)
+        quizz_path = get_quizz_abspath(theme, level)
         print("Absolute file path to quizz level 1:", quizz_path)
 
         self.hide() # Hide the home window
