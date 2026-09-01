@@ -8,18 +8,20 @@ from quizz_window import *
 
 
 class SelectPage(QWidget):
-    def __init__(self, parent_window:QMainWindow, select_mode:str="theme") -> None:
+    def __init__(self, parent_window:QMainWindow, select_mode:str="theme", theme:str="geography") -> None:
         """A page integrated to a QStackedWidget allowing the player to choose either a theme or difficulty level based on the selection mode.
         - parent_window: the parent window of that widget
         - select_mode: the selection mode that determines which kind of buttons will be presented to the player. The default selection mode is 'theme'.\n
         For example, to allow the player to choose a quizz theme, set the selection mode as 'theme'. If you want to display a difficulty level selection,
-        set the selection mode as 'difficulty'."""
+        set the selection mode as 'difficulty'.
+        - theme: to be specified only if the selection mode is set on 'difficulty'. It takes the value 'geography' by default if nothing is provided."""
 
         # Initialize the QWidget
         super().__init__()
 
         self.select_mode = select_mode
         self.parent_window = parent_window
+        self.theme = theme
         self.parent_layout = QGridLayout()
         self.setLayout(self.parent_layout)
 
@@ -61,7 +63,7 @@ class SelectPage(QWidget):
             for theme in theme_paths.keys():
                 theme_button = QPushButton(text=theme, parent=self.parent_window.central_widget)
                 theme_button.clicked.connect(
-                    lambda checked=False, theme=theme: self.parent_window.start_quizz(theme)
+                    lambda checked=False, theme=theme: self.parent_window.show_difficulty_page(theme)
                 )
             
                 theme_button.setFixedWidth(80)
@@ -73,7 +75,18 @@ class SelectPage(QWidget):
                     y += 1
 
         elif self.select_mode == "difficulty":
-            pass    
+            available_difficulties = get_difficulty_levels(self.theme)
+
+            difficulty_label = QLabel("Pick a difficulty level")
+            difficulty_label_font = QFont()
+            difficulty_label_font.setBold(True)
+            difficulty_label.setFont(difficulty_label_font)
+            difficulty_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+            self.parent_layout.addWidget(difficulty_label, 0, 0)
+
+
+            # Create buttons to pick difficulty
 
 
 class MainAppWindow(QMainWindow):
@@ -116,7 +129,15 @@ class MainAppWindow(QMainWindow):
 
         parent_layout.addWidget(self.settings_stack)
 
-        
+
+
+    def show_difficulty_page(self, theme:str) -> None:
+        """Displays the difficulty choice page of the home window."""
+
+        self.current_setting_page = SelectPage(self, "difficulty", theme)
+        self.current_setting_index = 1
+        self.settings_stack.addWidget(self.current_setting_page)
+        self.settings_stack.setCurrentIndex(self.current_setting_index)    
 
 
     def start_quizz(self, theme:str) -> None:
