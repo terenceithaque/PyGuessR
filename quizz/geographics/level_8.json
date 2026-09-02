@@ -1,0 +1,1106 @@
+{
+    "theme": "geography",
+    "level": 8,
+    "questions": {
+        "1": {
+            "content": "Male is the capital of which country ?",
+            "answer": "Maldives",
+            "reward": 50,
+            "widgets": [
+                "button text='Belarus'",
+                "button text='Maldives'",
+                "button text='Kyrgyzstan'",
+                "button text='Democratic Republic of the Congo'"
+            ]
+        },
+        "2": {
+            "content": "Islamabad is the capital of which country ?",
+            "answer": "Pakistan",
+            "reward": 50,
+            "widgets": [
+                "button text='Georgia'",
+                "button text='Pakistan'",
+                "button text='Senegal'",
+                "button text='North Macedonia'"
+            ]
+        },
+        "3": {
+            "content": "Kabul is the capital of which country ?",
+            "answer": "Afghanistan",
+            "reward": 50,
+            "widgets": [
+                "button text='Afghanistan'",
+                "button text='Eswatini'",
+                "button text='Botswana'",
+                "button text='Democratic Republic of the Congo'"
+            ]
+        },
+        "4": {
+            "content": "Tehran is the capital of which country ?",
+            "answer": "Iran",
+            "reward": 50,
+            "widgets": [
+                "button text='Lesotho'",
+                "button text='Iran'",
+                "button text='Guyana'",
+                "button text='Belize'"
+            ]
+        },
+        "5": {
+            "content": "Baghdad is the capital of which country ?",
+            "answer": "Iraq",
+            "reward": 50,
+            "widgets": [
+                "button text='Cuba'",
+                "button text='Chad'",
+                "button text='Iraq'",
+                "button text='Suriname'"
+            ]
+        },
+        "6": {
+            "content": "Amman is the capital of which country ?",
+            "answer": "Jordan",
+            "reward": 50,
+            "widgets": [
+                "button text='Yemen'",
+                "button text='Papua New Guinea'",
+                "button text='Tuvalu'",
+                "button text='Jordan'"
+            ]
+        },
+        "7": {
+            "content": "Beirut is the capital of which country ?",
+            "answer": "Lebanon",
+            "reward": 50,
+            "widgets": [
+                "button text='Fiji'",
+                "button text='Trinidad and Tobago'",
+                "button text='Sri Lanka'",
+                "button text='Lebanon'"
+            ]
+        },
+        "8": {
+            "content": "Damascus is the capital of which country ?",
+            "answer": "Syria",
+            "reward": 50,
+            "widgets": [
+                "button text='Gambia'",
+                "button text='Trinidad and Tobago'",
+                "button text='Syria'",
+                "button text='Oman'"
+            ]
+        },
+        "9": {
+            "content": "Muscat is the capital of which country ?",
+            "answer": "Oman",
+            "reward": 50,
+            "widgets": [
+                "button text='Cyprus'",
+                "button text='Oman'",
+                "button text='Uzbekistan'",
+                "button text='Namibia'"
+            ]
+        },
+        "10": {
+            "content": "Doha is the capital of which country ?",
+            "answer": "Qatar",
+            "reward": 50,
+            "widgets": [
+                "button text='Qatar'",
+                "button text='Cote d'Ivoire'",
+                "button text='Cape Verde'",
+                "button text='Libya'"
+            ]
+        },
+        "11": {
+            "content": "Manama is the capital of which country ?",
+            "answer": "Bahrain",
+            "reward": 50,
+            "widgets": [
+                "button text='Kyrgyzstan'",
+                "button text='Kazakhstan'",
+                "button text='Bahrain'",
+                "button text='Central African Republic'"
+            ]
+        },
+        "12": {
+            "content": "Kuwait City is the capital of which country ?",
+            "answer": "Kuwait",
+            "reward": 50,
+            "widgets": [
+                "button text='Malta'",
+                "button text='Cameroon'",
+                "button text='Kuwait'",
+                "button text='Guyana'"
+            ]
+        },
+        "13": {
+            "content": "Abu Dhabi is the capital of which country ?",
+            "answer": "United Arab Emirates",
+            "reward": 50,
+            "widgets": [
+                "button text='Haiti'",
+                "button text='Kiribati'",
+                "button text='Saudi Arabia'",
+                "button text='United Arab Emirates'"
+            ]
+        },
+        "14": {
+            "content": "Riyadh is the capital of which country ?",
+            "answer": "Saudi Arabia",
+            "reward": 50,
+            "widgets": [
+                "button text='Saudi Arabia'",
+                "button text='Cote d'Ivoire'",
+                "button text='Bosnia and Herzegovina'",
+                "button text='Armenia'"
+            ]
+        },
+        "15": {
+            "content": "Sanaa is the capital of which country ?",
+            "answer": "Yemen",
+            "reward": 50,
+            "widgets": [
+                "button text='Yemen'",
+                "button text='Maldives'",
+                "button text='Cuba'",
+                "button text='Djibouti'"
+            ]
+        },
+        "16": {
+            "content": "Yerevan is the capital of which country ?",
+            "answer": "Armenia",
+            "reward": 50,
+            "widgets": [
+                "button text='Montenegro'",
+                "button text='Armenia'",
+                "button text='Bolivia'",
+                "button text='Benin'"
+            ]
+        },
+        "17": {
+            "content": "Tbilisi is the capital of which country ?",
+            "answer": "Georgia",
+            "reward": 50,
+            "widgets": [
+                "button text='Samoa'",
+                "button text='Eswatini'",
+                "button text='Honduras'",
+                "button text='Georgia'"
+            ]
+        },
+        "18": {
+            "content": "Baku is the capital of which country ?",
+            "answer": "Azerbaijan",
+            "reward": 50,
+            "widgets": [
+                "button text='Ethiopia'",
+                "button text='Madagascar'",
+                "button text='Democratic Republic of the Congo'",
+                "button text='Azerbaijan'"
+            ]
+        },
+        "19": {
+            "content": "Nicosia is the capital of which country ?",
+            "answer": "Cyprus",
+            "reward": 50,
+            "widgets": [
+                "button text='Cyprus'",
+                "button text='Kuwait'",
+                "button text='Bolivia'",
+                "button text='Maldives'"
+            ]
+        },
+        "20": {
+            "content": "Tirana is the capital of which country ?",
+            "answer": "Albania",
+            "reward": 50,
+            "widgets": [
+                "button text='Benin'",
+                "button text='Samoa'",
+                "button text='Afghanistan'",
+                "button text='Albania'"
+            ]
+        },
+        "21": {
+            "content": "Skopje is the capital of which country ?",
+            "answer": "North Macedonia",
+            "reward": 50,
+            "widgets": [
+                "button text='Vanuatu'",
+                "button text='North Macedonia'",
+                "button text='Marshall Islands'",
+                "button text='Ecuador'"
+            ]
+        },
+        "22": {
+            "content": "Sarajevo is the capital of which country ?",
+            "answer": "Bosnia and Herzegovina",
+            "reward": 50,
+            "widgets": [
+                "button text='Micronesia'",
+                "button text='Bosnia and Herzegovina'",
+                "button text='Venezuela'",
+                "button text='Sri Lanka'"
+            ]
+        },
+        "23": {
+            "content": "Podgorica is the capital of which country ?",
+            "answer": "Montenegro",
+            "reward": 50,
+            "widgets": [
+                "button text='United Arab Emirates'",
+                "button text='Fiji'",
+                "button text='Montenegro'",
+                "button text='Micronesia'"
+            ]
+        },
+        "24": {
+            "content": "Chisinau is the capital of which country ?",
+            "answer": "Moldova",
+            "reward": 50,
+            "widgets": [
+                "button text='Oman'",
+                "button text='Guinea'",
+                "button text='Moldova'",
+                "button text='El Salvador'"
+            ]
+        },
+        "25": {
+            "content": "Minsk is the capital of which country ?",
+            "answer": "Belarus",
+            "reward": 50,
+            "widgets": [
+                "button text='Belarus'",
+                "button text='Bahrain'",
+                "button text='Benin'",
+                "button text='North Macedonia'"
+            ]
+        },
+        "26": {
+            "content": "Luxembourg is the capital of which country ?",
+            "answer": "Luxembourg",
+            "reward": 50,
+            "widgets": [
+                "button text='Belize'",
+                "button text='Luxembourg'",
+                "button text='El Salvador'",
+                "button text='Eritrea'"
+            ]
+        },
+        "27": {
+            "content": "Valletta is the capital of which country ?",
+            "answer": "Malta",
+            "reward": 50,
+            "widgets": [
+                "button text='Guatemala'",
+                "button text='Namibia'",
+                "button text='Niger'",
+                "button text='Malta'"
+            ]
+        },
+        "28": {
+            "content": "Andorra la Vella is the capital of which country ?",
+            "answer": "Andorra",
+            "reward": 50,
+            "widgets": [
+                "button text='Andorra'",
+                "button text='Albania'",
+                "button text='Sri Lanka'",
+                "button text='Trinidad and Tobago'"
+            ]
+        },
+        "29": {
+            "content": "Vaduz is the capital of which country ?",
+            "answer": "Liechtenstein",
+            "reward": 50,
+            "widgets": [
+                "button text='Liechtenstein'",
+                "button text='Tajikistan'",
+                "button text='Costa Rica'",
+                "button text='Ghana'"
+            ]
+        },
+        "30": {
+            "content": "San Marino is the capital of which country ?",
+            "answer": "San Marino",
+            "reward": 50,
+            "widgets": [
+                "button text='Chad'",
+                "button text='San Marino'",
+                "button text='Albania'",
+                "button text='Democratic Republic of the Congo'"
+            ]
+        },
+        "31": {
+            "content": "Monaco is the capital of which country ?",
+            "answer": "Monaco",
+            "reward": 50,
+            "widgets": [
+                "button text='Burkina Faso'",
+                "button text='Venezuela'",
+                "button text='Monaco'",
+                "button text='Tunisia'"
+            ]
+        },
+        "32": {
+            "content": "Pristina is the capital of which country ?",
+            "answer": "Kosovo",
+            "reward": 50,
+            "widgets": [
+                "button text='Bosnia and Herzegovina'",
+                "button text='Jamaica'",
+                "button text='Uruguay'",
+                "button text='Kosovo'"
+            ]
+        },
+        "33": {
+            "content": "Accra is the capital of which country ?",
+            "answer": "Ghana",
+            "reward": 50,
+            "widgets": [
+                "button text='Ghana'",
+                "button text='Uruguay'",
+                "button text='Ethiopia'",
+                "button text='Qatar'"
+            ]
+        },
+        "34": {
+            "content": "Dakar is the capital of which country ?",
+            "answer": "Senegal",
+            "reward": 50,
+            "widgets": [
+                "button text='Sudan'",
+                "button text='Monaco'",
+                "button text='Iran'",
+                "button text='Senegal'"
+            ]
+        },
+        "35": {
+            "content": "Bamako is the capital of which country ?",
+            "answer": "Mali",
+            "reward": 50,
+            "widgets": [
+                "button text='Zambia'",
+                "button text='Honduras'",
+                "button text='Mali'",
+                "button text='Sudan'"
+            ]
+        },
+        "36": {
+            "content": "Niamey is the capital of which country ?",
+            "answer": "Niger",
+            "reward": 50,
+            "widgets": [
+                "button text='Niger'",
+                "button text='Pakistan'",
+                "button text='Saudi Arabia'",
+                "button text='Tanzania'"
+            ]
+        },
+        "37": {
+            "content": "N'Djamena is the capital of which country ?",
+            "answer": "Chad",
+            "reward": 50,
+            "widgets": [
+                "button text='Iran'",
+                "button text='Chad'",
+                "button text='Pakistan'",
+                "button text='Tajikistan'"
+            ]
+        },
+        "38": {
+            "content": "Khartoum is the capital of which country ?",
+            "answer": "Sudan",
+            "reward": 50,
+            "widgets": [
+                "button text='Panama'",
+                "button text='Guinea-Bissau'",
+                "button text='Sudan'",
+                "button text='Kosovo'"
+            ]
+        },
+        "39": {
+            "content": "Juba is the capital of which country ?",
+            "answer": "South Sudan",
+            "reward": 50,
+            "widgets": [
+                "button text='Uganda'",
+                "button text='Costa Rica'",
+                "button text='Eritrea'",
+                "button text='South Sudan'"
+            ]
+        },
+        "40": {
+            "content": "Addis Ababa is the capital of which country ?",
+            "answer": "Ethiopia",
+            "reward": 50,
+            "widgets": [
+                "button text='Togo'",
+                "button text='Gabon'",
+                "button text='Ethiopia'",
+                "button text='Kuwait'"
+            ]
+        },
+        "41": {
+            "content": "Asmara is the capital of which country ?",
+            "answer": "Eritrea",
+            "reward": 50,
+            "widgets": [
+                "button text='Botswana'",
+                "button text='Liechtenstein'",
+                "button text='Eritrea'",
+                "button text='Belarus'"
+            ]
+        },
+        "42": {
+            "content": "Djibouti is the capital of which country ?",
+            "answer": "Djibouti",
+            "reward": 50,
+            "widgets": [
+                "button text='Rwanda'",
+                "button text='Djibouti'",
+                "button text='Tanzania'",
+                "button text='Luxembourg'"
+            ]
+        },
+        "43": {
+            "content": "Mogadishu is the capital of which country ?",
+            "answer": "Somalia",
+            "reward": 50,
+            "widgets": [
+                "button text='Chad'",
+                "button text='Somalia'",
+                "button text='Montenegro'",
+                "button text='Bosnia and Herzegovina'"
+            ]
+        },
+        "44": {
+            "content": "Kampala is the capital of which country ?",
+            "answer": "Uganda",
+            "reward": 50,
+            "widgets": [
+                "button text='Syria'",
+                "button text='Malawi'",
+                "button text='Uganda'",
+                "button text='Iran'"
+            ]
+        },
+        "45": {
+            "content": "Kigali is the capital of which country ?",
+            "answer": "Rwanda",
+            "reward": 50,
+            "widgets": [
+                "button text='Rwanda'",
+                "button text='Trinidad and Tobago'",
+                "button text='Ghana'",
+                "button text='Cote d'Ivoire'"
+            ]
+        },
+        "46": {
+            "content": "Gitega is the capital of which country ?",
+            "answer": "Burundi",
+            "reward": 50,
+            "widgets": [
+                "button text='Burundi'",
+                "button text='Tanzania'",
+                "button text='Dominican Republic'",
+                "button text='Ghana'"
+            ]
+        },
+        "47": {
+            "content": "Dodoma is the capital of which country ?",
+            "answer": "Tanzania",
+            "reward": 50,
+            "widgets": [
+                "button text='Ecuador'",
+                "button text='Tanzania'",
+                "button text='Sierra Leone'",
+                "button text='Armenia'"
+            ]
+        },
+        "48": {
+            "content": "Lusaka is the capital of which country ?",
+            "answer": "Zambia",
+            "reward": 50,
+            "widgets": [
+                "button text='Eritrea'",
+                "button text='Zambia'",
+                "button text='Monaco'",
+                "button text='Andorra'"
+            ]
+        },
+        "49": {
+            "content": "Harare is the capital of which country ?",
+            "answer": "Zimbabwe",
+            "reward": 50,
+            "widgets": [
+                "button text='South Sudan'",
+                "button text='Zimbabwe'",
+                "button text='Kosovo'",
+                "button text='Luxembourg'"
+            ]
+        },
+        "50": {
+            "content": "Lilongwe is the capital of which country ?",
+            "answer": "Malawi",
+            "reward": 50,
+            "widgets": [
+                "button text='Guinea'",
+                "button text='Malawi'",
+                "button text='Armenia'",
+                "button text='Benin'"
+            ]
+        },
+        "51": {
+            "content": "Maputo is the capital of which country ?",
+            "answer": "Mozambique",
+            "reward": 50,
+            "widgets": [
+                "button text='Mozambique'",
+                "button text='Malawi'",
+                "button text='Paraguay'",
+                "button text='Suriname'"
+            ]
+        },
+        "52": {
+            "content": "Antananarivo is the capital of which country ?",
+            "answer": "Madagascar",
+            "reward": 50,
+            "widgets": [
+                "button text='Madagascar'",
+                "button text='Barbados'",
+                "button text='Ecuador'",
+                "button text='Bangladesh'"
+            ]
+        },
+        "53": {
+            "content": "Port Louis is the capital of which country ?",
+            "answer": "Mauritius",
+            "reward": 50,
+            "widgets": [
+                "button text='Cape Verde'",
+                "button text='Mauritius'",
+                "button text='Liechtenstein'",
+                "button text='Syria'"
+            ]
+        },
+        "54": {
+            "content": "Victoria is the capital of which country ?",
+            "answer": "Seychelles",
+            "reward": 50,
+            "widgets": [
+                "button text='Rwanda'",
+                "button text='Uruguay'",
+                "button text='Seychelles'",
+                "button text='Cuba'"
+            ]
+        },
+        "55": {
+            "content": "Gaborone is the capital of which country ?",
+            "answer": "Botswana",
+            "reward": 50,
+            "widgets": [
+                "button text='Botswana'",
+                "button text='Guinea-Bissau'",
+                "button text='Madagascar'",
+                "button text='Burkina Faso'"
+            ]
+        },
+        "56": {
+            "content": "Windhoek is the capital of which country ?",
+            "answer": "Namibia",
+            "reward": 50,
+            "widgets": [
+                "button text='Republic of the Congo'",
+                "button text='Namibia'",
+                "button text='Cuba'",
+                "button text='Turkmenistan'"
+            ]
+        },
+        "57": {
+            "content": "Luanda is the capital of which country ?",
+            "answer": "Angola",
+            "reward": 50,
+            "widgets": [
+                "button text='Iran'",
+                "button text='Bosnia and Herzegovina'",
+                "button text='Angola'",
+                "button text='Nicaragua'"
+            ]
+        },
+        "58": {
+            "content": "Libreville is the capital of which country ?",
+            "answer": "Gabon",
+            "reward": 50,
+            "widgets": [
+                "button text='Gabon'",
+                "button text='Lesotho'",
+                "button text='Benin'",
+                "button text='Mauritania'"
+            ]
+        },
+        "59": {
+            "content": "Yaounde is the capital of which country ?",
+            "answer": "Cameroon",
+            "reward": 50,
+            "widgets": [
+                "button text='Iran'",
+                "button text='Afghanistan'",
+                "button text='Cameroon'",
+                "button text='Uzbekistan'"
+            ]
+        },
+        "60": {
+            "content": "Bangui is the capital of which country ?",
+            "answer": "Central African Republic",
+            "reward": 50,
+            "widgets": [
+                "button text='Zambia'",
+                "button text='Central African Republic'",
+                "button text='Sudan'",
+                "button text='Eritrea'"
+            ]
+        },
+        "61": {
+            "content": "Brazzaville is the capital of which country ?",
+            "answer": "Republic of the Congo",
+            "reward": 50,
+            "widgets": [
+                "button text='Madagascar'",
+                "button text='Tajikistan'",
+                "button text='Mali'",
+                "button text='Republic of the Congo'"
+            ]
+        },
+        "62": {
+            "content": "Kinshasa is the capital of which country ?",
+            "answer": "Democratic Republic of the Congo",
+            "reward": 50,
+            "widgets": [
+                "button text='Democratic Republic of the Congo'",
+                "button text='Maldives'",
+                "button text='Iraq'",
+                "button text='Tuvalu'"
+            ]
+        },
+        "63": {
+            "content": "Malabo is the capital of which country ?",
+            "answer": "Equatorial Guinea",
+            "reward": 50,
+            "widgets": [
+                "button text='Equatorial Guinea'",
+                "button text='Panama'",
+                "button text='Zimbabwe'",
+                "button text='Senegal'"
+            ]
+        },
+        "64": {
+            "content": "Porto-Novo is the capital of which country ?",
+            "answer": "Benin",
+            "reward": 50,
+            "widgets": [
+                "button text='Benin'",
+                "button text='Mali'",
+                "button text='Mozambique'",
+                "button text='Afghanistan'"
+            ]
+        },
+        "65": {
+            "content": "Lome is the capital of which country ?",
+            "answer": "Togo",
+            "reward": 50,
+            "widgets": [
+                "button text='Monaco'",
+                "button text='Liechtenstein'",
+                "button text='Bangladesh'",
+                "button text='Togo'"
+            ]
+        },
+        "66": {
+            "content": "Ouagadougou is the capital of which country ?",
+            "answer": "Burkina Faso",
+            "reward": 50,
+            "widgets": [
+                "button text='Kyrgyzstan'",
+                "button text='Senegal'",
+                "button text='Fiji'",
+                "button text='Burkina Faso'"
+            ]
+        },
+        "67": {
+            "content": "Conakry is the capital of which country ?",
+            "answer": "Guinea",
+            "reward": 50,
+            "widgets": [
+                "button text='Angola'",
+                "button text='Guinea'",
+                "button text='Bosnia and Herzegovina'",
+                "button text='Belize'"
+            ]
+        },
+        "68": {
+            "content": "Bissau is the capital of which country ?",
+            "answer": "Guinea-Bissau",
+            "reward": 50,
+            "widgets": [
+                "button text='Democratic Republic of the Congo'",
+                "button text='Ghana'",
+                "button text='Guinea-Bissau'",
+                "button text='Rwanda'"
+            ]
+        },
+        "69": {
+            "content": "Freetown is the capital of which country ?",
+            "answer": "Sierra Leone",
+            "reward": 50,
+            "widgets": [
+                "button text='Saudi Arabia'",
+                "button text='Sierra Leone'",
+                "button text='Gambia'",
+                "button text='Cape Verde'"
+            ]
+        },
+        "70": {
+            "content": "Monrovia is the capital of which country ?",
+            "answer": "Liberia",
+            "reward": 50,
+            "widgets": [
+                "button text='Liberia'",
+                "button text='Sierra Leone'",
+                "button text='Papua New Guinea'",
+                "button text='Belize'"
+            ]
+        },
+        "71": {
+            "content": "Yamoussoukro is the capital of which country ?",
+            "answer": "Cote d'Ivoire",
+            "reward": 50,
+            "widgets": [
+                "button text='Kazakhstan'",
+                "button text='Paraguay'",
+                "button text='Cote d'Ivoire'",
+                "button text='Ethiopia'"
+            ]
+        },
+        "72": {
+            "content": "Banjul is the capital of which country ?",
+            "answer": "Gambia",
+            "reward": 50,
+            "widgets": [
+                "button text='El Salvador'",
+                "button text='Haiti'",
+                "button text='Paraguay'",
+                "button text='Gambia'"
+            ]
+        },
+        "73": {
+            "content": "Praia is the capital of which country ?",
+            "answer": "Cape Verde",
+            "reward": 50,
+            "widgets": [
+                "button text='Cape Verde'",
+                "button text='Vanuatu'",
+                "button text='Cameroon'",
+                "button text='Jamaica'"
+            ]
+        },
+        "74": {
+            "content": "Maseru is the capital of which country ?",
+            "answer": "Lesotho",
+            "reward": 50,
+            "widgets": [
+                "button text='Lesotho'",
+                "button text='Armenia'",
+                "button text='Iraq'",
+                "button text='Zimbabwe'"
+            ]
+        },
+        "75": {
+            "content": "Mbabane is the capital of which country ?",
+            "answer": "Eswatini",
+            "reward": 50,
+            "widgets": [
+                "button text='Eswatini'",
+                "button text='Gabon'",
+                "button text='Gambia'",
+                "button text='Monaco'"
+            ]
+        },
+        "76": {
+            "content": "Tunis is the capital of which country ?",
+            "answer": "Tunisia",
+            "reward": 50,
+            "widgets": [
+                "button text='Mali'",
+                "button text='Tunisia'",
+                "button text='Burkina Faso'",
+                "button text='Iraq'"
+            ]
+        },
+        "77": {
+            "content": "Tripoli is the capital of which country ?",
+            "answer": "Libya",
+            "reward": 50,
+            "widgets": [
+                "button text='Dominican Republic'",
+                "button text='Libya'",
+                "button text='Paraguay'",
+                "button text='Mauritania'"
+            ]
+        },
+        "78": {
+            "content": "Nouakchott is the capital of which country ?",
+            "answer": "Mauritania",
+            "reward": 50,
+            "widgets": [
+                "button text='Syria'",
+                "button text='Libya'",
+                "button text='Monaco'",
+                "button text='Mauritania'"
+            ]
+        },
+        "79": {
+            "content": "Caracas is the capital of which country ?",
+            "answer": "Venezuela",
+            "reward": 50,
+            "widgets": [
+                "button text='Venezuela'",
+                "button text='Sudan'",
+                "button text='Saudi Arabia'",
+                "button text='Iraq'"
+            ]
+        },
+        "80": {
+            "content": "Quito is the capital of which country ?",
+            "answer": "Ecuador",
+            "reward": 50,
+            "widgets": [
+                "button text='Guinea'",
+                "button text='Ecuador'",
+                "button text='Uganda'",
+                "button text='Syria'"
+            ]
+        },
+        "81": {
+            "content": "Which country is most closely associated with Petra ?",
+            "answer": "Jordan",
+            "reward": 50,
+            "widgets": [
+                "button text='France'",
+                "button text='Jordan'",
+                "button text='United States'",
+                "button text='Egypt'"
+            ]
+        },
+        "82": {
+            "content": "Which country is most closely associated with Angkor Wat ?",
+            "answer": "Cambodia",
+            "reward": 50,
+            "widgets": [
+                "button text='Philippines'",
+                "button text='Turkey'",
+                "button text='Germany'",
+                "button text='Cambodia'"
+            ]
+        },
+        "83": {
+            "content": "Which country is most closely associated with Christ the Redeemer ?",
+            "answer": "Brazil",
+            "reward": 50,
+            "widgets": [
+                "button text='Brazil'",
+                "button text='United States'",
+                "button text='Ecuador'",
+                "button text='Greece'"
+            ]
+        },
+        "84": {
+            "content": "Which country is most closely associated with Chichen Itza ?",
+            "answer": "Mexico",
+            "reward": 50,
+            "widgets": [
+                "button text='Spain'",
+                "button text='United States'",
+                "button text='Mexico'",
+                "button text='Turkey'"
+            ]
+        },
+        "85": {
+            "content": "Which country is most closely associated with Alhambra ?",
+            "answer": "Spain",
+            "reward": 50,
+            "widgets": [
+                "button text='Iceland'",
+                "button text='Mexico'",
+                "button text='Belgium'",
+                "button text='Spain'"
+            ]
+        },
+        "86": {
+            "content": "Which country is most closely associated with Acropolis of Athens ?",
+            "answer": "Greece",
+            "reward": 50,
+            "widgets": [
+                "button text='Morocco'",
+                "button text='Greece'",
+                "button text='Egypt'",
+                "button text='United Arab Emirates'"
+            ]
+        },
+        "87": {
+            "content": "Which country is most closely associated with Brandenburg Gate ?",
+            "answer": "Germany",
+            "reward": 50,
+            "widgets": [
+                "button text='Singapore'",
+                "button text='China'",
+                "button text='Mexico'",
+                "button text='Germany'"
+            ]
+        },
+        "88": {
+            "content": "Which country is most closely associated with Sagrada Familia ?",
+            "answer": "Spain",
+            "reward": 50,
+            "widgets": [
+                "button text='Tanzania'",
+                "button text='Spain'",
+                "button text='Chile'",
+                "button text='Greece'"
+            ]
+        },
+        "89": {
+            "content": "Which country is most closely associated with Burj Khalifa ?",
+            "answer": "United Arab Emirates",
+            "reward": 50,
+            "widgets": [
+                "button text='Japan'",
+                "button text='Romania'",
+                "button text='Tanzania'",
+                "button text='United Arab Emirates'"
+            ]
+        },
+        "90": {
+            "content": "Which country is most closely associated with Mount Fuji ?",
+            "answer": "Japan",
+            "reward": 50,
+            "widgets": [
+                "button text='Indonesia'",
+                "button text='Greece'",
+                "button text='Japan'",
+                "button text='Russia'"
+            ]
+        },
+        "91": {
+            "content": "Which country is most closely associated with Moai statues of Easter Island ?",
+            "answer": "Chile",
+            "reward": 50,
+            "widgets": [
+                "button text='Iceland'",
+                "button text='Chile'",
+                "button text='Russia'",
+                "button text='Brazil'"
+            ]
+        },
+        "92": {
+            "content": "Which country is most closely associated with Serengeti National Park ?",
+            "answer": "Tanzania",
+            "reward": 50,
+            "widgets": [
+                "button text='Mexico'",
+                "button text='Myanmar'",
+                "button text='Jordan'",
+                "button text='Tanzania'"
+            ]
+        },
+        "93": {
+            "content": "Which country is most closely associated with Table Mountain ?",
+            "answer": "South Africa",
+            "reward": 50,
+            "widgets": [
+                "button text='Czech Republic'",
+                "button text='Jordan'",
+                "button text='South Africa'",
+                "button text='Brazil'"
+            ]
+        },
+        "94": {
+            "content": "Which country is most closely associated with Golden Gate Bridge ?",
+            "answer": "United States",
+            "reward": 50,
+            "widgets": [
+                "button text='Indonesia'",
+                "button text='Myanmar'",
+                "button text='United States'",
+                "button text='Slovenia'"
+            ]
+        },
+        "95": {
+            "content": "Which country is most closely associated with CN Tower ?",
+            "answer": "Canada",
+            "reward": 50,
+            "widgets": [
+                "button text='Spain'",
+                "button text='Turkey'",
+                "button text='Slovenia'",
+                "button text='Canada'"
+            ]
+        },
+        "96": {
+            "content": "Which country is most closely associated with Sydney Opera House ?",
+            "answer": "Australia",
+            "reward": 50,
+            "widgets": [
+                "button text='Australia'",
+                "button text='Mexico'",
+                "button text='South Africa'",
+                "button text='Venezuela'"
+            ]
+        },
+        "97": {
+            "content": "Which country is most closely associated with Hagia Sophia ?",
+            "answer": "Turkey",
+            "reward": 50,
+            "widgets": [
+                "button text='Turkey'",
+                "button text='Myanmar'",
+                "button text='Australia'",
+                "button text='Canada'"
+            ]
+        },
+        "98": {
+            "content": "Which country is most closely associated with Neuschwanstein Castle ?",
+            "answer": "Germany",
+            "reward": 50,
+            "widgets": [
+                "button text='South Africa'",
+                "button text='Cambodia'",
+                "button text='Germany'",
+                "button text='Iceland'"
+            ]
+        },
+        "99": {
+            "content": "Which country is most closely associated with Mont-Saint-Michel ?",
+            "answer": "France",
+            "reward": 50,
+            "widgets": [
+                "button text='Mexico'",
+                "button text='France'",
+                "button text='Morocco'",
+                "button text='Philippines'"
+            ]
+        },
+        "100": {
+            "content": "Which country is most closely associated with Stonehenge ?",
+            "answer": "United Kingdom",
+            "reward": 50,
+            "widgets": [
+                "button text='Philippines'",
+                "button text='United States'",
+                "button text='Brazil'",
+                "button text='United Kingdom'"
+            ]
+        }
+    }
+}

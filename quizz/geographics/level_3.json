@@ -1,0 +1,1106 @@
+{
+    "theme": "geography",
+    "level": 3,
+    "questions": {
+        "1": {
+            "content": "What is the capital of Namibia ?",
+            "answer": "Windhoek",
+            "reward": 25,
+            "widgets": [
+                "button text='Walvis Bay'",
+                "button text='Lusaka'",
+                "button text='Gaborone'",
+                "button text='Windhoek'"
+            ]
+        },
+        "2": {
+            "content": "What is the capital of Angola ?",
+            "answer": "Luanda",
+            "reward": 25,
+            "widgets": [
+                "button text='Luanda'",
+                "button text='Windhoek'",
+                "button text='Benguela'",
+                "button text='Lusaka'"
+            ]
+        },
+        "3": {
+            "content": "What is the capital of Gabon ?",
+            "answer": "Libreville",
+            "reward": 25,
+            "widgets": [
+                "button text='Brazzaville'",
+                "button text='Malabo'",
+                "button text='Port-Gentil'",
+                "button text='Libreville'"
+            ]
+        },
+        "4": {
+            "content": "What is the capital of Cameroon ?",
+            "answer": "Yaounde",
+            "reward": 25,
+            "widgets": [
+                "button text='Yaounde'",
+                "button text='Douala'",
+                "button text='Abuja'",
+                "button text='Libreville'"
+            ]
+        },
+        "5": {
+            "content": "What is the capital of Central African Republic ?",
+            "answer": "Bangui",
+            "reward": 25,
+            "widgets": [
+                "button text='N'Djamena'",
+                "button text='Bambari'",
+                "button text='Yaounde'",
+                "button text='Bangui'"
+            ]
+        },
+        "6": {
+            "content": "What is the capital of Republic of the Congo ?",
+            "answer": "Brazzaville",
+            "reward": 25,
+            "widgets": [
+                "button text='Brazzaville'",
+                "button text='Libreville'",
+                "button text='Kinshasa'",
+                "button text='Pointe-Noire'"
+            ]
+        },
+        "7": {
+            "content": "What is the capital of Democratic Republic of the Congo ?",
+            "answer": "Kinshasa",
+            "reward": 25,
+            "widgets": [
+                "button text='Brazzaville'",
+                "button text='Lubumbashi'",
+                "button text='Kigali'",
+                "button text='Kinshasa'"
+            ]
+        },
+        "8": {
+            "content": "What is the capital of Equatorial Guinea ?",
+            "answer": "Malabo",
+            "reward": 25,
+            "widgets": [
+                "button text='Malabo'",
+                "button text='Bata'",
+                "button text='Yaounde'",
+                "button text='Libreville'"
+            ]
+        },
+        "9": {
+            "content": "What is the capital of Benin ?",
+            "answer": "Porto-Novo",
+            "reward": 25,
+            "widgets": [
+                "button text='Cotonou'",
+                "button text='Porto-Novo'",
+                "button text='Lome'",
+                "button text='Accra'"
+            ]
+        },
+        "10": {
+            "content": "What is the capital of Togo ?",
+            "answer": "Lome",
+            "reward": 25,
+            "widgets": [
+                "button text='Kara'",
+                "button text='Lome'",
+                "button text='Accra'",
+                "button text='Porto-Novo'"
+            ]
+        },
+        "11": {
+            "content": "What is the capital of Burkina Faso ?",
+            "answer": "Ouagadougou",
+            "reward": 25,
+            "widgets": [
+                "button text='Accra'",
+                "button text='Bobo-Dioulasso'",
+                "button text='Ouagadougou'",
+                "button text='Bamako'"
+            ]
+        },
+        "12": {
+            "content": "What is the capital of Guinea ?",
+            "answer": "Conakry",
+            "reward": 25,
+            "widgets": [
+                "button text='Kankan'",
+                "button text='Bissau'",
+                "button text='Freetown'",
+                "button text='Conakry'"
+            ]
+        },
+        "13": {
+            "content": "What is the capital of Guinea-Bissau ?",
+            "answer": "Bissau",
+            "reward": 25,
+            "widgets": [
+                "button text='Dakar'",
+                "button text='Bissau'",
+                "button text='Bafata'",
+                "button text='Conakry'"
+            ]
+        },
+        "14": {
+            "content": "What is the capital of Sierra Leone ?",
+            "answer": "Freetown",
+            "reward": 25,
+            "widgets": [
+                "button text='Freetown'",
+                "button text='Bo'",
+                "button text='Conakry'",
+                "button text='Monrovia'"
+            ]
+        },
+        "15": {
+            "content": "What is the capital of Liberia ?",
+            "answer": "Monrovia",
+            "reward": 25,
+            "widgets": [
+                "button text='Accra'",
+                "button text='Gbarnga'",
+                "button text='Freetown'",
+                "button text='Monrovia'"
+            ]
+        },
+        "16": {
+            "content": "What is the capital of Cote d'Ivoire ?",
+            "answer": "Yamoussoukro",
+            "reward": 25,
+            "widgets": [
+                "button text='Yamoussoukro'",
+                "button text='Abidjan'",
+                "button text='Monrovia'",
+                "button text='Accra'"
+            ]
+        },
+        "17": {
+            "content": "What is the capital of Gambia ?",
+            "answer": "Banjul",
+            "reward": 25,
+            "widgets": [
+                "button text='Banjul'",
+                "button text='Bissau'",
+                "button text='Serekunda'",
+                "button text='Dakar'"
+            ]
+        },
+        "18": {
+            "content": "What is the capital of Cape Verde ?",
+            "answer": "Praia",
+            "reward": 25,
+            "widgets": [
+                "button text='Dakar'",
+                "button text='Banjul'",
+                "button text='Praia'",
+                "button text='Mindelo'"
+            ]
+        },
+        "19": {
+            "content": "What is the capital of Lesotho ?",
+            "answer": "Maseru",
+            "reward": 25,
+            "widgets": [
+                "button text='Teyateyaneng'",
+                "button text='Maseru'",
+                "button text='Mbabane'",
+                "button text='Pretoria'"
+            ]
+        },
+        "20": {
+            "content": "What is the capital of Eswatini ?",
+            "answer": "Mbabane",
+            "reward": 25,
+            "widgets": [
+                "button text='Maputo'",
+                "button text='Mbabane'",
+                "button text='Manzini'",
+                "button text='Maseru'"
+            ]
+        },
+        "21": {
+            "content": "What is the capital of Tunisia ?",
+            "answer": "Tunis",
+            "reward": 25,
+            "widgets": [
+                "button text='Tripoli'",
+                "button text='Tunis'",
+                "button text='Sfax'",
+                "button text='Algiers'"
+            ]
+        },
+        "22": {
+            "content": "What is the capital of Libya ?",
+            "answer": "Tripoli",
+            "reward": 25,
+            "widgets": [
+                "button text='Tripoli'",
+                "button text='Benghazi'",
+                "button text='Tunis'",
+                "button text='Cairo'"
+            ]
+        },
+        "23": {
+            "content": "What is the capital of Mauritania ?",
+            "answer": "Nouakchott",
+            "reward": 25,
+            "widgets": [
+                "button text='Nouakchott'",
+                "button text='Dakar'",
+                "button text='Nouadhibou'",
+                "button text='Bamako'"
+            ]
+        },
+        "24": {
+            "content": "What is the capital of Venezuela ?",
+            "answer": "Caracas",
+            "reward": 25,
+            "widgets": [
+                "button text='Caracas'",
+                "button text='Quito'",
+                "button text='Bogota'",
+                "button text='Maracaibo'"
+            ]
+        },
+        "25": {
+            "content": "What is the capital of Ecuador ?",
+            "answer": "Quito",
+            "reward": 25,
+            "widgets": [
+                "button text='Bogota'",
+                "button text='Quito'",
+                "button text='Lima'",
+                "button text='Guayaquil'"
+            ]
+        },
+        "26": {
+            "content": "What is the capital of Bolivia ?",
+            "answer": "Sucre",
+            "reward": 25,
+            "widgets": [
+                "button text='Sucre'",
+                "button text='La Paz'",
+                "button text='Lima'",
+                "button text='Santa Cruz'"
+            ]
+        },
+        "27": {
+            "content": "What is the capital of Paraguay ?",
+            "answer": "Asuncion",
+            "reward": 25,
+            "widgets": [
+                "button text='Montevideo'",
+                "button text='Ciudad del Este'",
+                "button text='La Paz'",
+                "button text='Asuncion'"
+            ]
+        },
+        "28": {
+            "content": "What is the capital of Uruguay ?",
+            "answer": "Montevideo",
+            "reward": 25,
+            "widgets": [
+                "button text='Asuncion'",
+                "button text='Buenos Aires'",
+                "button text='Montevideo'",
+                "button text='Salto'"
+            ]
+        },
+        "29": {
+            "content": "What is the capital of Guyana ?",
+            "answer": "Georgetown",
+            "reward": 25,
+            "widgets": [
+                "button text='Linden'",
+                "button text='Paramaribo'",
+                "button text='Caracas'",
+                "button text='Georgetown'"
+            ]
+        },
+        "30": {
+            "content": "What is the capital of Suriname ?",
+            "answer": "Paramaribo",
+            "reward": 25,
+            "widgets": [
+                "button text='Nieuw Nickerie'",
+                "button text='Paramaribo'",
+                "button text='Georgetown'",
+                "button text='Cayenne'"
+            ]
+        },
+        "31": {
+            "content": "What is the capital of Belize ?",
+            "answer": "Belmopan",
+            "reward": 25,
+            "widgets": [
+                "button text='Guatemala City'",
+                "button text='Belmopan'",
+                "button text='Belize City'",
+                "button text='San Salvador'"
+            ]
+        },
+        "32": {
+            "content": "What is the capital of Guatemala ?",
+            "answer": "Guatemala City",
+            "reward": 25,
+            "widgets": [
+                "button text='Guatemala City'",
+                "button text='Belmopan'",
+                "button text='Antigua Guatemala'",
+                "button text='San Salvador'"
+            ]
+        },
+        "33": {
+            "content": "What is the capital of El Salvador ?",
+            "answer": "San Salvador",
+            "reward": 25,
+            "widgets": [
+                "button text='Tegucigalpa'",
+                "button text='Guatemala City'",
+                "button text='San Salvador'",
+                "button text='Santa Ana'"
+            ]
+        },
+        "34": {
+            "content": "What is the capital of Honduras ?",
+            "answer": "Tegucigalpa",
+            "reward": 25,
+            "widgets": [
+                "button text='Managua'",
+                "button text='San Salvador'",
+                "button text='San Pedro Sula'",
+                "button text='Tegucigalpa'"
+            ]
+        },
+        "35": {
+            "content": "What is the capital of Nicaragua ?",
+            "answer": "Managua",
+            "reward": 25,
+            "widgets": [
+                "button text='Managua'",
+                "button text='San Jose'",
+                "button text='Tegucigalpa'",
+                "button text='Leon'"
+            ]
+        },
+        "36": {
+            "content": "What is the capital of Costa Rica ?",
+            "answer": "San Jose",
+            "reward": 25,
+            "widgets": [
+                "button text='Liberia'",
+                "button text='Managua'",
+                "button text='Panama City'",
+                "button text='San Jose'"
+            ]
+        },
+        "37": {
+            "content": "What is the capital of Panama ?",
+            "answer": "Panama City",
+            "reward": 25,
+            "widgets": [
+                "button text='San Jose'",
+                "button text='Bogota'",
+                "button text='Colon'",
+                "button text='Panama City'"
+            ]
+        },
+        "38": {
+            "content": "What is the capital of Cuba ?",
+            "answer": "Havana",
+            "reward": 25,
+            "widgets": [
+                "button text='Havana'",
+                "button text='Santiago de Cuba'",
+                "button text='Nassau'",
+                "button text='Kingston'"
+            ]
+        },
+        "39": {
+            "content": "What is the capital of Jamaica ?",
+            "answer": "Kingston",
+            "reward": 25,
+            "widgets": [
+                "button text='Kingston'",
+                "button text='Montego Bay'",
+                "button text='Havana'",
+                "button text='Nassau'"
+            ]
+        },
+        "40": {
+            "content": "What is the capital of Haiti ?",
+            "answer": "Port-au-Prince",
+            "reward": 25,
+            "widgets": [
+                "button text='Santo Domingo'",
+                "button text='Cap-Haitien'",
+                "button text='Port-au-Prince'",
+                "button text='Kingston'"
+            ]
+        },
+        "41": {
+            "content": "What is the capital of Dominican Republic ?",
+            "answer": "Santo Domingo",
+            "reward": 25,
+            "widgets": [
+                "button text='Port-au-Prince'",
+                "button text='Santo Domingo'",
+                "button text='Santiago de los Caballeros'",
+                "button text='Havana'"
+            ]
+        },
+        "42": {
+            "content": "What is the capital of Bahamas ?",
+            "answer": "Nassau",
+            "reward": 25,
+            "widgets": [
+                "button text='Nassau'",
+                "button text='Freeport'",
+                "button text='Kingston'",
+                "button text='Havana'"
+            ]
+        },
+        "43": {
+            "content": "What is the capital of Barbados ?",
+            "answer": "Bridgetown",
+            "reward": 25,
+            "widgets": [
+                "button text='Bridgetown'",
+                "button text='Castries'",
+                "button text='Kingstown'",
+                "button text='Speightstown'"
+            ]
+        },
+        "44": {
+            "content": "What is the capital of Trinidad and Tobago ?",
+            "answer": "Port of Spain",
+            "reward": 25,
+            "widgets": [
+                "button text='Bridgetown'",
+                "button text='San Fernando'",
+                "button text='Georgetown'",
+                "button text='Port of Spain'"
+            ]
+        },
+        "45": {
+            "content": "What is the capital of Fiji ?",
+            "answer": "Suva",
+            "reward": 25,
+            "widgets": [
+                "button text='Suva'",
+                "button text='Apia'",
+                "button text='Nuku'alofa'",
+                "button text='Nadi'"
+            ]
+        },
+        "46": {
+            "content": "What is the capital of Samoa ?",
+            "answer": "Apia",
+            "reward": 25,
+            "widgets": [
+                "button text='Salelologa'",
+                "button text='Apia'",
+                "button text='Nuku'alofa'",
+                "button text='Suva'"
+            ]
+        },
+        "47": {
+            "content": "What is the capital of Tonga ?",
+            "answer": "Nuku'alofa",
+            "reward": 25,
+            "widgets": [
+                "button text='Suva'",
+                "button text='Apia'",
+                "button text='Nuku'alofa'",
+                "button text='Neiafu'"
+            ]
+        },
+        "48": {
+            "content": "What is the capital of Vanuatu ?",
+            "answer": "Port Vila",
+            "reward": 25,
+            "widgets": [
+                "button text='Luganville'",
+                "button text='Port Vila'",
+                "button text='Suva'",
+                "button text='Honiara'"
+            ]
+        },
+        "49": {
+            "content": "What is the capital of Solomon Islands ?",
+            "answer": "Honiara",
+            "reward": 25,
+            "widgets": [
+                "button text='Port Vila'",
+                "button text='Suva'",
+                "button text='Honiara'",
+                "button text='Gizo'"
+            ]
+        },
+        "50": {
+            "content": "What is the capital of Papua New Guinea ?",
+            "answer": "Port Moresby",
+            "reward": 25,
+            "widgets": [
+                "button text='Port Moresby'",
+                "button text='Honiara'",
+                "button text='Lae'",
+                "button text='Canberra'"
+            ]
+        },
+        "51": {
+            "content": "Which continent is France mainly located in ?",
+            "answer": "Europe",
+            "reward": 25,
+            "widgets": [
+                "button text='Asia'",
+                "button text='Europe'",
+                "button text='South America'",
+                "button text='Oceania'"
+            ]
+        },
+        "52": {
+            "content": "Which continent is Germany mainly located in ?",
+            "answer": "Europe",
+            "reward": 25,
+            "widgets": [
+                "button text='Africa'",
+                "button text='South America'",
+                "button text='Oceania'",
+                "button text='Europe'"
+            ]
+        },
+        "53": {
+            "content": "Which continent is Spain mainly located in ?",
+            "answer": "Europe",
+            "reward": 25,
+            "widgets": [
+                "button text='Oceania'",
+                "button text='Europe'",
+                "button text='North America'",
+                "button text='South America'"
+            ]
+        },
+        "54": {
+            "content": "Which continent is Italy mainly located in ?",
+            "answer": "Europe",
+            "reward": 25,
+            "widgets": [
+                "button text='Africa'",
+                "button text='South America'",
+                "button text='North America'",
+                "button text='Europe'"
+            ]
+        },
+        "55": {
+            "content": "Which continent is Portugal mainly located in ?",
+            "answer": "Europe",
+            "reward": 25,
+            "widgets": [
+                "button text='Oceania'",
+                "button text='Europe'",
+                "button text='Africa'",
+                "button text='South America'"
+            ]
+        },
+        "56": {
+            "content": "Which continent is Poland mainly located in ?",
+            "answer": "Europe",
+            "reward": 25,
+            "widgets": [
+                "button text='Asia'",
+                "button text='South America'",
+                "button text='Europe'",
+                "button text='Oceania'"
+            ]
+        },
+        "57": {
+            "content": "Which continent is Norway mainly located in ?",
+            "answer": "Europe",
+            "reward": 25,
+            "widgets": [
+                "button text='Asia'",
+                "button text='Europe'",
+                "button text='Africa'",
+                "button text='Oceania'"
+            ]
+        },
+        "58": {
+            "content": "Which continent is Sweden mainly located in ?",
+            "answer": "Europe",
+            "reward": 25,
+            "widgets": [
+                "button text='Europe'",
+                "button text='North America'",
+                "button text='South America'",
+                "button text='Africa'"
+            ]
+        },
+        "59": {
+            "content": "Which continent is Japan mainly located in ?",
+            "answer": "Asia",
+            "reward": 25,
+            "widgets": [
+                "button text='North America'",
+                "button text='Africa'",
+                "button text='Europe'",
+                "button text='Asia'"
+            ]
+        },
+        "60": {
+            "content": "Which continent is China mainly located in ?",
+            "answer": "Asia",
+            "reward": 25,
+            "widgets": [
+                "button text='North America'",
+                "button text='Oceania'",
+                "button text='Africa'",
+                "button text='Asia'"
+            ]
+        },
+        "61": {
+            "content": "Which continent is India mainly located in ?",
+            "answer": "Asia",
+            "reward": 25,
+            "widgets": [
+                "button text='Europe'",
+                "button text='Oceania'",
+                "button text='Africa'",
+                "button text='Asia'"
+            ]
+        },
+        "62": {
+            "content": "Which continent is Thailand mainly located in ?",
+            "answer": "Asia",
+            "reward": 25,
+            "widgets": [
+                "button text='Africa'",
+                "button text='South America'",
+                "button text='Oceania'",
+                "button text='Asia'"
+            ]
+        },
+        "63": {
+            "content": "Which continent is Vietnam mainly located in ?",
+            "answer": "Asia",
+            "reward": 25,
+            "widgets": [
+                "button text='Africa'",
+                "button text='Asia'",
+                "button text='North America'",
+                "button text='South America'"
+            ]
+        },
+        "64": {
+            "content": "Which continent is Kazakhstan mainly located in ?",
+            "answer": "Asia",
+            "reward": 25,
+            "widgets": [
+                "button text='Europe'",
+                "button text='North America'",
+                "button text='Africa'",
+                "button text='Asia'"
+            ]
+        },
+        "65": {
+            "content": "Which continent is Nepal mainly located in ?",
+            "answer": "Asia",
+            "reward": 25,
+            "widgets": [
+                "button text='Africa'",
+                "button text='Europe'",
+                "button text='Asia'",
+                "button text='South America'"
+            ]
+        },
+        "66": {
+            "content": "Which continent is Bhutan mainly located in ?",
+            "answer": "Asia",
+            "reward": 25,
+            "widgets": [
+                "button text='North America'",
+                "button text='Europe'",
+                "button text='Oceania'",
+                "button text='Asia'"
+            ]
+        },
+        "67": {
+            "content": "Which continent is Pakistan mainly located in ?",
+            "answer": "Asia",
+            "reward": 25,
+            "widgets": [
+                "button text='Oceania'",
+                "button text='North America'",
+                "button text='Asia'",
+                "button text='Europe'"
+            ]
+        },
+        "68": {
+            "content": "Which continent is Iran mainly located in ?",
+            "answer": "Asia",
+            "reward": 25,
+            "widgets": [
+                "button text='Asia'",
+                "button text='South America'",
+                "button text='Africa'",
+                "button text='Europe'"
+            ]
+        },
+        "69": {
+            "content": "Which continent is Canada mainly located in ?",
+            "answer": "North America",
+            "reward": 25,
+            "widgets": [
+                "button text='North America'",
+                "button text='Asia'",
+                "button text='Europe'",
+                "button text='South America'"
+            ]
+        },
+        "70": {
+            "content": "Which continent is Mexico mainly located in ?",
+            "answer": "North America",
+            "reward": 25,
+            "widgets": [
+                "button text='Africa'",
+                "button text='North America'",
+                "button text='South America'",
+                "button text='Oceania'"
+            ]
+        },
+        "71": {
+            "content": "Which continent is Cuba mainly located in ?",
+            "answer": "North America",
+            "reward": 25,
+            "widgets": [
+                "button text='North America'",
+                "button text='Africa'",
+                "button text='Asia'",
+                "button text='Europe'"
+            ]
+        },
+        "72": {
+            "content": "Which continent is Jamaica mainly located in ?",
+            "answer": "North America",
+            "reward": 25,
+            "widgets": [
+                "button text='Asia'",
+                "button text='Africa'",
+                "button text='North America'",
+                "button text='Europe'"
+            ]
+        },
+        "73": {
+            "content": "Which continent is Panama mainly located in ?",
+            "answer": "North America",
+            "reward": 25,
+            "widgets": [
+                "button text='North America'",
+                "button text='Oceania'",
+                "button text='Asia'",
+                "button text='Africa'"
+            ]
+        },
+        "74": {
+            "content": "Which continent is Costa Rica mainly located in ?",
+            "answer": "North America",
+            "reward": 25,
+            "widgets": [
+                "button text='Africa'",
+                "button text='Europe'",
+                "button text='North America'",
+                "button text='Oceania'"
+            ]
+        },
+        "75": {
+            "content": "Which continent is Brazil mainly located in ?",
+            "answer": "South America",
+            "reward": 25,
+            "widgets": [
+                "button text='South America'",
+                "button text='Africa'",
+                "button text='Oceania'",
+                "button text='North America'"
+            ]
+        },
+        "76": {
+            "content": "Which continent is Argentina mainly located in ?",
+            "answer": "South America",
+            "reward": 25,
+            "widgets": [
+                "button text='Oceania'",
+                "button text='Europe'",
+                "button text='North America'",
+                "button text='South America'"
+            ]
+        },
+        "77": {
+            "content": "Which continent is Chile mainly located in ?",
+            "answer": "South America",
+            "reward": 25,
+            "widgets": [
+                "button text='South America'",
+                "button text='Oceania'",
+                "button text='North America'",
+                "button text='Asia'"
+            ]
+        },
+        "78": {
+            "content": "Which continent is Peru mainly located in ?",
+            "answer": "South America",
+            "reward": 25,
+            "widgets": [
+                "button text='South America'",
+                "button text='Africa'",
+                "button text='North America'",
+                "button text='Asia'"
+            ]
+        },
+        "79": {
+            "content": "Which continent is Colombia mainly located in ?",
+            "answer": "South America",
+            "reward": 25,
+            "widgets": [
+                "button text='Asia'",
+                "button text='South America'",
+                "button text='Europe'",
+                "button text='Africa'"
+            ]
+        },
+        "80": {
+            "content": "Which continent is Ecuador mainly located in ?",
+            "answer": "South America",
+            "reward": 25,
+            "widgets": [
+                "button text='South America'",
+                "button text='Europe'",
+                "button text='Asia'",
+                "button text='Oceania'"
+            ]
+        },
+        "81": {
+            "content": "Which continent is Bolivia mainly located in ?",
+            "answer": "South America",
+            "reward": 25,
+            "widgets": [
+                "button text='Oceania'",
+                "button text='South America'",
+                "button text='Europe'",
+                "button text='Africa'"
+            ]
+        },
+        "82": {
+            "content": "Which continent is Egypt mainly located in ?",
+            "answer": "Africa",
+            "reward": 25,
+            "widgets": [
+                "button text='North America'",
+                "button text='South America'",
+                "button text='Asia'",
+                "button text='Africa'"
+            ]
+        },
+        "83": {
+            "content": "Which continent is Morocco mainly located in ?",
+            "answer": "Africa",
+            "reward": 25,
+            "widgets": [
+                "button text='North America'",
+                "button text='Africa'",
+                "button text='South America'",
+                "button text='Europe'"
+            ]
+        },
+        "84": {
+            "content": "Which continent is Algeria mainly located in ?",
+            "answer": "Africa",
+            "reward": 25,
+            "widgets": [
+                "button text='Africa'",
+                "button text='Oceania'",
+                "button text='South America'",
+                "button text='Europe'"
+            ]
+        },
+        "85": {
+            "content": "Which continent is Kenya mainly located in ?",
+            "answer": "Africa",
+            "reward": 25,
+            "widgets": [
+                "button text='Europe'",
+                "button text='North America'",
+                "button text='South America'",
+                "button text='Africa'"
+            ]
+        },
+        "86": {
+            "content": "Which of these countries is in European Union ?",
+            "answer": "France",
+            "reward": 25,
+            "widgets": [
+                "button text='Solomon Islands'",
+                "button text='France'",
+                "button text='Paraguay'",
+                "button text='Colombia'"
+            ]
+        },
+        "87": {
+            "content": "Which of these countries is in European Union ?",
+            "answer": "Germany",
+            "reward": 25,
+            "widgets": [
+                "button text='Nepal'",
+                "button text='Iraq'",
+                "button text='Qatar'",
+                "button text='Germany'"
+            ]
+        },
+        "88": {
+            "content": "Which of these countries is in European Union ?",
+            "answer": "Spain",
+            "reward": 25,
+            "widgets": [
+                "button text='Tonga'",
+                "button text='Nepal'",
+                "button text='Tanzania'",
+                "button text='Spain'"
+            ]
+        },
+        "89": {
+            "content": "Which of these countries is in South America ?",
+            "answer": "Brazil",
+            "reward": 25,
+            "widgets": [
+                "button text='Brazil'",
+                "button text='Morocco'",
+                "button text='Pakistan'",
+                "button text='Tonga'"
+            ]
+        },
+        "90": {
+            "content": "Which of these countries is in South America ?",
+            "answer": "Argentina",
+            "reward": 25,
+            "widgets": [
+                "button text='Mali'",
+                "button text='Niger'",
+                "button text='Iran'",
+                "button text='Argentina'"
+            ]
+        },
+        "91": {
+            "content": "Which of these countries is in South America ?",
+            "answer": "Chile",
+            "reward": 25,
+            "widgets": [
+                "button text='Netherlands'",
+                "button text='Egypt'",
+                "button text='Ethiopia'",
+                "button text='Chile'"
+            ]
+        },
+        "92": {
+            "content": "Which of these countries is in Africa ?",
+            "answer": "Egypt",
+            "reward": 25,
+            "widgets": [
+                "button text='Uruguay'",
+                "button text='Portugal'",
+                "button text='Egypt'",
+                "button text='Greece'"
+            ]
+        },
+        "93": {
+            "content": "Which of these countries is in Africa ?",
+            "answer": "Morocco",
+            "reward": 25,
+            "widgets": [
+                "button text='Kazakhstan'",
+                "button text='Morocco'",
+                "button text='Argentina'",
+                "button text='Suriname'"
+            ]
+        },
+        "94": {
+            "content": "Which of these countries is in Africa ?",
+            "answer": "Algeria",
+            "reward": 25,
+            "widgets": [
+                "button text='Algeria'",
+                "button text='Croatia'",
+                "button text='Nepal'",
+                "button text='Latvia'"
+            ]
+        },
+        "95": {
+            "content": "Which of these countries is in Asia ?",
+            "answer": "Japan",
+            "reward": 25,
+            "widgets": [
+                "button text='Chile'",
+                "button text='Japan'",
+                "button text='Bolivia'",
+                "button text='Austria'"
+            ]
+        },
+        "96": {
+            "content": "Which of these countries is in Asia ?",
+            "answer": "China",
+            "reward": 25,
+            "widgets": [
+                "button text='Paraguay'",
+                "button text='Lithuania'",
+                "button text='China'",
+                "button text='Argentina'"
+            ]
+        },
+        "97": {
+            "content": "Which of these countries is in Asia ?",
+            "answer": "India",
+            "reward": 25,
+            "widgets": [
+                "button text='Egypt'",
+                "button text='Malta'",
+                "button text='India'",
+                "button text='Venezuela'"
+            ]
+        },
+        "98": {
+            "content": "Which of these countries is in Oceania ?",
+            "answer": "Australia",
+            "reward": 25,
+            "widgets": [
+                "button text='Niger'",
+                "button text='Australia'",
+                "button text='Suriname'",
+                "button text='Paraguay'"
+            ]
+        },
+        "99": {
+            "content": "Which of these countries is in Oceania ?",
+            "answer": "New Zealand",
+            "reward": 25,
+            "widgets": [
+                "button text='Poland'",
+                "button text='Algeria'",
+                "button text='New Zealand'",
+                "button text='Angola'"
+            ]
+        },
+        "100": {
+            "content": "Which of these countries is in Oceania ?",
+            "answer": "Fiji",
+            "reward": 25,
+            "widgets": [
+                "button text='Spain'",
+                "button text='Chile'",
+                "button text='Paraguay'",
+                "button text='Fiji'"
+            ]
+        }
+    }
+}

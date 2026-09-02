@@ -1,0 +1,1046 @@
+{
+    "theme": "geography",
+    "level": 9,
+    "questions": {
+        "1": {
+            "content": "Which national capital lies on the Danube River ?",
+            "answer": "Budapest",
+            "reward": 60,
+            "widgets": [
+                "button text='Madrid'",
+                "button text='Lisbon'",
+                "button text='Oslo'",
+                "button text='Budapest'"
+            ]
+        },
+        "2": {
+            "content": "Which national capital lies on the River Thames ?",
+            "answer": "London",
+            "reward": 60,
+            "widgets": [
+                "button text='Brussels'",
+                "button text='London'",
+                "button text='Dublin'",
+                "button text='Amsterdam'"
+            ]
+        },
+        "3": {
+            "content": "Which national capital lies on the Seine ?",
+            "answer": "Paris",
+            "reward": 60,
+            "widgets": [
+                "button text='Rome'",
+                "button text='Vienna'",
+                "button text='Paris'",
+                "button text='Prague'"
+            ]
+        },
+        "4": {
+            "content": "Which national capital lies on the Tiber ?",
+            "answer": "Rome",
+            "reward": 60,
+            "widgets": [
+                "button text='Bern'",
+                "button text='Athens'",
+                "button text='Rome'",
+                "button text='Madrid'"
+            ]
+        },
+        "5": {
+            "content": "Which national capital lies on the Vltava River ?",
+            "answer": "Prague",
+            "reward": 60,
+            "widgets": [
+                "button text='Zagreb'",
+                "button text='Warsaw'",
+                "button text='Budapest'",
+                "button text='Prague'"
+            ]
+        },
+        "6": {
+            "content": "Which national capital lies on the Tagus estuary ?",
+            "answer": "Lisbon",
+            "reward": 60,
+            "widgets": [
+                "button text='Dublin'",
+                "button text='Madrid'",
+                "button text='Lisbon'",
+                "button text='Paris'"
+            ]
+        },
+        "7": {
+            "content": "Which capital city is closest to the Equator ?",
+            "answer": "Quito",
+            "reward": 60,
+            "widgets": [
+                "button text='Santiago'",
+                "button text='Buenos Aires'",
+                "button text='Quito'",
+                "button text='Lima'"
+            ]
+        },
+        "8": {
+            "content": "Which capital city is located at high altitude in the Andes ?",
+            "answer": "Quito",
+            "reward": 60,
+            "widgets": [
+                "button text='Montevideo'",
+                "button text='Quito'",
+                "button text='Georgetown'",
+                "button text='Paramaribo'"
+            ]
+        },
+        "9": {
+            "content": "Which country contains both the cities of Casablanca and Rabat ?",
+            "answer": "Morocco",
+            "reward": 60,
+            "widgets": [
+                "button text='Algeria'",
+                "button text='Morocco'",
+                "button text='Tunisia'",
+                "button text='Egypt'"
+            ]
+        },
+        "10": {
+            "content": "Which country contains both the cities of Lagos and Abuja ?",
+            "answer": "Nigeria",
+            "reward": 60,
+            "widgets": [
+                "button text='Ghana'",
+                "button text='Kenya'",
+                "button text='Cameroon'",
+                "button text='Nigeria'"
+            ]
+        },
+        "11": {
+            "content": "Which country contains both the cities of Sydney and Canberra ?",
+            "answer": "Australia",
+            "reward": 60,
+            "widgets": [
+                "button text='New Zealand'",
+                "button text='Canada'",
+                "button text='Australia'",
+                "button text='South Africa'"
+            ]
+        },
+        "12": {
+            "content": "Which country contains both the cities of Istanbul and Ankara ?",
+            "answer": "Turkey",
+            "reward": 60,
+            "widgets": [
+                "button text='Turkey'",
+                "button text='Georgia'",
+                "button text='Bulgaria'",
+                "button text='Greece'"
+            ]
+        },
+        "13": {
+            "content": "Which country contains both the cities of Mumbai and New Delhi ?",
+            "answer": "India",
+            "reward": 60,
+            "widgets": [
+                "button text='Bangladesh'",
+                "button text='Pakistan'",
+                "button text='Nepal'",
+                "button text='India'"
+            ]
+        },
+        "14": {
+            "content": "Which country contains both the cities of Shanghai and Beijing ?",
+            "answer": "China",
+            "reward": 60,
+            "widgets": [
+                "button text='South Korea'",
+                "button text='Mongolia'",
+                "button text='Japan'",
+                "button text='China'"
+            ]
+        },
+        "15": {
+            "content": "Which country contains both the cities of Rio de Janeiro and Brasilia ?",
+            "answer": "Brazil",
+            "reward": 60,
+            "widgets": [
+                "button text='Argentina'",
+                "button text='Peru'",
+                "button text='Brazil'",
+                "button text='Colombia'"
+            ]
+        },
+        "16": {
+            "content": "Which country contains both the cities of Toronto and Ottawa ?",
+            "answer": "Canada",
+            "reward": 60,
+            "widgets": [
+                "button text='United States'",
+                "button text='Australia'",
+                "button text='Canada'",
+                "button text='United Kingdom'"
+            ]
+        },
+        "17": {
+            "content": "Which continent is crossed by the Equator and both tropics ?",
+            "answer": "Africa",
+            "reward": 60,
+            "widgets": [
+                "button text='Antarctica'",
+                "button text='North America'",
+                "button text='Europe'",
+                "button text='Africa'"
+            ]
+        },
+        "18": {
+            "content": "Which continent is crossed by the Equator but not by either polar circle ?",
+            "answer": "South America",
+            "reward": 60,
+            "widgets": [
+                "button text='North America'",
+                "button text='Antarctica'",
+                "button text='South America'",
+                "button text='Europe'"
+            ]
+        },
+        "19": {
+            "content": "Which ocean touches the west coasts of both North and South America ?",
+            "answer": "Pacific Ocean",
+            "reward": 60,
+            "widgets": [
+                "button text='Arctic Ocean'",
+                "button text='Pacific Ocean'",
+                "button text='Indian Ocean'",
+                "button text='Atlantic Ocean'"
+            ]
+        },
+        "20": {
+            "content": "Which ocean touches the east coasts of both North and South America ?",
+            "answer": "Atlantic Ocean",
+            "reward": 60,
+            "widgets": [
+                "button text='Pacific Ocean'",
+                "button text='Southern Ocean'",
+                "button text='Indian Ocean'",
+                "button text='Atlantic Ocean'"
+            ]
+        },
+        "21": {
+            "content": "Which country controls Greenland as an autonomous territory ?",
+            "answer": "Denmark",
+            "reward": 60,
+            "widgets": [
+                "button text='Denmark'",
+                "button text='Iceland'",
+                "button text='Canada'",
+                "button text='Norway'"
+            ]
+        },
+        "22": {
+            "content": "Which country includes the exclave of Alaska ?",
+            "answer": "United States",
+            "reward": 60,
+            "widgets": [
+                "button text='Denmark'",
+                "button text='United States'",
+                "button text='Russia'",
+                "button text='Canada'"
+            ]
+        },
+        "23": {
+            "content": "Which country surrounds the independent state of San Marino ?",
+            "answer": "Italy",
+            "reward": 60,
+            "widgets": [
+                "button text='Italy'",
+                "button text='France'",
+                "button text='Spain'",
+                "button text='Austria'"
+            ]
+        },
+        "24": {
+            "content": "Which country surrounds Vatican City ?",
+            "answer": "Italy",
+            "reward": 60,
+            "widgets": [
+                "button text='Greece'",
+                "button text='Switzerland'",
+                "button text='Italy'",
+                "button text='France'"
+            ]
+        },
+        "25": {
+            "content": "Which country lies immediately west of Portugal ?",
+            "answer": "Atlantic Ocean",
+            "reward": 60,
+            "widgets": [
+                "button text='France'",
+                "button text='Morocco'",
+                "button text='Atlantic Ocean'",
+                "button text='Spain'"
+            ]
+        },
+        "26": {
+            "content": "What body of water lies north of Turkey ?",
+            "answer": "Black Sea",
+            "reward": 60,
+            "widgets": [
+                "button text='Black Sea'",
+                "button text='Baltic Sea'",
+                "button text='Red Sea'",
+                "button text='Arabian Sea'"
+            ]
+        },
+        "27": {
+            "content": "What body of water lies east of Italy ?",
+            "answer": "Adriatic Sea",
+            "reward": 60,
+            "widgets": [
+                "button text='Baltic Sea'",
+                "button text='Arabian Sea'",
+                "button text='Adriatic Sea'",
+                "button text='North Sea'"
+            ]
+        },
+        "28": {
+            "content": "What body of water lies between Italy and the Balkans ?",
+            "answer": "Adriatic Sea",
+            "reward": 60,
+            "widgets": [
+                "button text='Red Sea'",
+                "button text='Black Sea'",
+                "button text='Baltic Sea'",
+                "button text='Adriatic Sea'"
+            ]
+        },
+        "29": {
+            "content": "What body of water separates the Arabian Peninsula from northeast Africa ?",
+            "answer": "Red Sea",
+            "reward": 60,
+            "widgets": [
+                "button text='Caribbean Sea'",
+                "button text='Black Sea'",
+                "button text='Caspian Sea'",
+                "button text='Red Sea'"
+            ]
+        },
+        "30": {
+            "content": "Which strait separates Asia from North America ?",
+            "answer": "Bering Strait",
+            "reward": 60,
+            "widgets": [
+                "button text='Strait of Malacca'",
+                "button text='Bering Strait'",
+                "button text='Bosporus'",
+                "button text='Strait of Gibraltar'"
+            ]
+        },
+        "31": {
+            "content": "Which strait links the Black Sea to the Sea of Marmara ?",
+            "answer": "Bosporus",
+            "reward": 60,
+            "widgets": [
+                "button text='Dover Strait'",
+                "button text='Bosporus'",
+                "button text='Bering Strait'",
+                "button text='Strait of Gibraltar'"
+            ]
+        },
+        "32": {
+            "content": "Which strait separates southern Spain from northern Morocco ?",
+            "answer": "Strait of Gibraltar",
+            "reward": 60,
+            "widgets": [
+                "button text='Strait of Gibraltar'",
+                "button text='Bering Strait'",
+                "button text='Dover Strait'",
+                "button text='Bosporus'"
+            ]
+        },
+        "33": {
+            "content": "Which country is home to the source region of the Blue Nile ?",
+            "answer": "Ethiopia",
+            "reward": 60,
+            "widgets": [
+                "button text='Sudan'",
+                "button text='Egypt'",
+                "button text='Uganda'",
+                "button text='Ethiopia'"
+            ]
+        },
+        "34": {
+            "content": "Which country contains the largest part of the Congo rainforest ?",
+            "answer": "Democratic Republic of the Congo",
+            "reward": 60,
+            "widgets": [
+                "button text='Republic of the Congo'",
+                "button text='Cameroon'",
+                "button text='Gabon'",
+                "button text='Democratic Republic of the Congo'"
+            ]
+        },
+        "35": {
+            "content": "Which country has the city of Timbuktu near the Niger River ?",
+            "answer": "Mali",
+            "reward": 60,
+            "widgets": [
+                "button text='Chad'",
+                "button text='Mali'",
+                "button text='Niger'",
+                "button text='Senegal'"
+            ]
+        },
+        "36": {
+            "content": "Which country is famous for the fjords around Bergen ?",
+            "answer": "Norway",
+            "reward": 60,
+            "widgets": [
+                "button text='Norway'",
+                "button text='Sweden'",
+                "button text='Finland'",
+                "button text='Iceland'"
+            ]
+        },
+        "37": {
+            "content": "Which country is home to the ancient city of Petra ?",
+            "answer": "Jordan",
+            "reward": 60,
+            "widgets": [
+                "button text='Lebanon'",
+                "button text='Jordan'",
+                "button text='Iraq'",
+                "button text='Syria'"
+            ]
+        },
+        "38": {
+            "content": "Which country is home to Angkor Wat ?",
+            "answer": "Cambodia",
+            "reward": 60,
+            "widgets": [
+                "button text='Thailand'",
+                "button text='Vietnam'",
+                "button text='Cambodia'",
+                "button text='Laos'"
+            ]
+        },
+        "39": {
+            "content": "Which country is home to Borobudur ?",
+            "answer": "Indonesia",
+            "reward": 60,
+            "widgets": [
+                "button text='Philippines'",
+                "button text='Malaysia'",
+                "button text='Thailand'",
+                "button text='Indonesia'"
+            ]
+        },
+        "40": {
+            "content": "Which country is home to the Serengeti ecosystem ?",
+            "answer": "Tanzania",
+            "reward": 60,
+            "widgets": [
+                "button text='Rwanda'",
+                "button text='Uganda'",
+                "button text='Tanzania'",
+                "button text='Kenya'"
+            ]
+        },
+        "41": {
+            "content": "Which country is home to Lake Baikal ?",
+            "answer": "Russia",
+            "reward": 60,
+            "widgets": [
+                "button text='Russia'",
+                "button text='Mongolia'",
+                "button text='Kazakhstan'",
+                "button text='China'"
+            ]
+        },
+        "42": {
+            "content": "Which country is home to Salar de Uyuni ?",
+            "answer": "Bolivia",
+            "reward": 60,
+            "widgets": [
+                "button text='Bolivia'",
+                "button text='Peru'",
+                "button text='Chile'",
+                "button text='Argentina'"
+            ]
+        },
+        "43": {
+            "content": "Which country is home to Angel Falls ?",
+            "answer": "Venezuela",
+            "reward": 60,
+            "widgets": [
+                "button text='Brazil'",
+                "button text='Guyana'",
+                "button text='Colombia'",
+                "button text='Venezuela'"
+            ]
+        },
+        "44": {
+            "content": "Which country is home to Ha Long Bay ?",
+            "answer": "Vietnam",
+            "reward": 60,
+            "widgets": [
+                "button text='Cambodia'",
+                "button text='Thailand'",
+                "button text='Vietnam'",
+                "button text='China'"
+            ]
+        },
+        "45": {
+            "content": "Which country contains Mount Kilimanjaro ?",
+            "answer": "Tanzania",
+            "reward": 60,
+            "widgets": [
+                "button text='Kenya'",
+                "button text='Rwanda'",
+                "button text='Uganda'",
+                "button text='Tanzania'"
+            ]
+        },
+        "46": {
+            "content": "Which country contains Mount Fuji ?",
+            "answer": "Japan",
+            "reward": 60,
+            "widgets": [
+                "button text='Japan'",
+                "button text='Philippines'",
+                "button text='South Korea'",
+                "button text='China'"
+            ]
+        },
+        "47": {
+            "content": "Which country contains Aconcagua ?",
+            "answer": "Argentina",
+            "reward": 60,
+            "widgets": [
+                "button text='Chile'",
+                "button text='Argentina'",
+                "button text='Peru'",
+                "button text='Bolivia'"
+            ]
+        },
+        "48": {
+            "content": "Which country contains Denali ?",
+            "answer": "United States",
+            "reward": 60,
+            "widgets": [
+                "button text='United States'",
+                "button text='Canada'",
+                "button text='Norway'",
+                "button text='Russia'"
+            ]
+        },
+        "49": {
+            "content": "Which country contains the Atacama Desert ?",
+            "answer": "Chile",
+            "reward": 60,
+            "widgets": [
+                "button text='Argentina'",
+                "button text='Bolivia'",
+                "button text='Chile'",
+                "button text='Peru'"
+            ]
+        },
+        "50": {
+            "content": "Which country contains much of the Kalahari Desert ?",
+            "answer": "Botswana",
+            "reward": 60,
+            "widgets": [
+                "button text='Nigeria'",
+                "button text='Ethiopia'",
+                "button text='Kenya'",
+                "button text='Botswana'"
+            ]
+        },
+        "51": {
+            "content": "Which river forms part of the border between the United States and Mexico ?",
+            "answer": "Rio Grande",
+            "reward": 60,
+            "widgets": [
+                "button text='Mississippi'",
+                "button text='Rio Grande'",
+                "button text='Colorado'",
+                "button text='Columbia'"
+            ]
+        },
+        "52": {
+            "content": "Which river passes through several European capitals including Vienna and Budapest ?",
+            "answer": "Danube",
+            "reward": 60,
+            "widgets": [
+                "button text='Rhine'",
+                "button text='Danube'",
+                "button text='Volga'",
+                "button text='Seine'"
+            ]
+        },
+        "53": {
+            "content": "Which river flows through Baghdad ?",
+            "answer": "Tigris",
+            "reward": 60,
+            "widgets": [
+                "button text='Euphrates'",
+                "button text='Nile'",
+                "button text='Jordan'",
+                "button text='Tigris'"
+            ]
+        },
+        "54": {
+            "content": "Which river flows through central London ?",
+            "answer": "Thames",
+            "reward": 60,
+            "widgets": [
+                "button text='Rhine'",
+                "button text='Seine'",
+                "button text='Danube'",
+                "button text='Thames'"
+            ]
+        },
+        "55": {
+            "content": "Which river flows through Paris ?",
+            "answer": "Seine",
+            "reward": 60,
+            "widgets": [
+                "button text='Seine'",
+                "button text='Loire'",
+                "button text='Thames'",
+                "button text='Rhine'"
+            ]
+        },
+        "56": {
+            "content": "Which country has no coastline: Bolivia or Chile ?",
+            "answer": "Bolivia",
+            "reward": 60,
+            "widgets": [
+                "button text='Both'",
+                "button text='Bolivia'",
+                "button text='Neither'",
+                "button text='Chile'"
+            ]
+        },
+        "57": {
+            "content": "Which country has no coastline: Switzerland or Italy ?",
+            "answer": "Switzerland",
+            "reward": 60,
+            "widgets": [
+                "button text='Italy'",
+                "button text='Switzerland'",
+                "button text='Neither'",
+                "button text='Both'"
+            ]
+        },
+        "58": {
+            "content": "Which country has no coastline: Mongolia or Vietnam ?",
+            "answer": "Mongolia",
+            "reward": 60,
+            "widgets": [
+                "button text='Neither'",
+                "button text='Both'",
+                "button text='Vietnam'",
+                "button text='Mongolia'"
+            ]
+        },
+        "59": {
+            "content": "Which country has no coastline: Botswana or Mozambique ?",
+            "answer": "Botswana",
+            "reward": 60,
+            "widgets": [
+                "button text='Mozambique'",
+                "button text='Botswana'",
+                "button text='Neither'",
+                "button text='Both'"
+            ]
+        },
+        "60": {
+            "content": "Which country has no coastline: Paraguay or Uruguay ?",
+            "answer": "Paraguay",
+            "reward": 60,
+            "widgets": [
+                "button text='Uruguay'",
+                "button text='Paraguay'",
+                "button text='Neither'",
+                "button text='Both'"
+            ]
+        },
+        "61": {
+            "content": "Which country lies directly north of the United States ?",
+            "answer": "Canada",
+            "reward": 60,
+            "widgets": [
+                "button text='Canada'",
+                "button text='Greenland'",
+                "button text='Mexico'",
+                "button text='Russia'"
+            ]
+        },
+        "62": {
+            "content": "Which country lies directly west of Argentina across much of its length ?",
+            "answer": "Chile",
+            "reward": 60,
+            "widgets": [
+                "button text='Uruguay'",
+                "button text='Peru'",
+                "button text='Brazil'",
+                "button text='Chile'"
+            ]
+        },
+        "63": {
+            "content": "Which country lies south of Egypt ?",
+            "answer": "Sudan",
+            "reward": 60,
+            "widgets": [
+                "button text='Morocco'",
+                "button text='Libya'",
+                "button text='Sudan'",
+                "button text='Tunisia'"
+            ]
+        },
+        "64": {
+            "content": "Which country lies east of Germany ?",
+            "answer": "Poland",
+            "reward": 60,
+            "widgets": [
+                "button text='France'",
+                "button text='Netherlands'",
+                "button text='Belgium'",
+                "button text='Poland'"
+            ]
+        },
+        "65": {
+            "content": "Which country lies west of Spain ?",
+            "answer": "Portugal",
+            "reward": 60,
+            "widgets": [
+                "button text='Morocco'",
+                "button text='Portugal'",
+                "button text='Italy'",
+                "button text='France'"
+            ]
+        },
+        "66": {
+            "content": "Which country lies north of Greece ?",
+            "answer": "North Macedonia",
+            "reward": 60,
+            "widgets": [
+                "button text='Egypt'",
+                "button text='Cyprus'",
+                "button text='Lebanon'",
+                "button text='North Macedonia'"
+            ]
+        },
+        "67": {
+            "content": "Which country lies east of Thailand ?",
+            "answer": "Cambodia",
+            "reward": 60,
+            "widgets": [
+                "button text='Nepal'",
+                "button text='Bangladesh'",
+                "button text='India'",
+                "button text='Cambodia'"
+            ]
+        },
+        "68": {
+            "content": "Which country lies south of Kazakhstan ?",
+            "answer": "Uzbekistan",
+            "reward": 60,
+            "widgets": [
+                "button text='Russia'",
+                "button text='Finland'",
+                "button text='Uzbekistan'",
+                "button text='Japan'"
+            ]
+        },
+        "69": {
+            "content": "Which country lies east of Iran ?",
+            "answer": "Afghanistan",
+            "reward": 60,
+            "widgets": [
+                "button text='Syria'",
+                "button text='Iraq'",
+                "button text='Turkey'",
+                "button text='Afghanistan'"
+            ]
+        },
+        "70": {
+            "content": "Which country lies north of South Africa ?",
+            "answer": "Botswana",
+            "reward": 60,
+            "widgets": [
+                "button text='Somalia'",
+                "button text='Botswana'",
+                "button text='Ghana'",
+                "button text='Madagascar'"
+            ]
+        },
+        "71": {
+            "content": "The capital of Bolivia named in many constitutional contexts is Sucre.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "72": {
+            "content": "La Paz is the seat of government of Bolivia.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "73": {
+            "content": "South Africa has more than one capital city.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "74": {
+            "content": "Sri Jayawardenepura Kotte is the legislative capital of Sri Lanka.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "75": {
+            "content": "Istanbul is the capital of Turkey.",
+            "answer": "No",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "76": {
+            "content": "Rio de Janeiro is the capital of Brazil.",
+            "answer": "No",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "77": {
+            "content": "Zurich is the capital of Switzerland.",
+            "answer": "No",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "78": {
+            "content": "Canberra is the capital of Australia.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "79": {
+            "content": "Astana is the capital of Kazakhstan.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "80": {
+            "content": "Ngerulmud is the capital of Palau.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "81": {
+            "content": "The Caspian Sea has no natural outlet to the world's oceans.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "82": {
+            "content": "The Dead Sea is a freshwater lake.",
+            "answer": "No",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "83": {
+            "content": "The Amazon River drains into the Atlantic Ocean.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "84": {
+            "content": "The Danube drains into the Black Sea.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "85": {
+            "content": "The Volga drains into the Caspian Sea.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "86": {
+            "content": "The Rhine drains into the North Sea.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "87": {
+            "content": "The Andes run mainly north-south.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "88": {
+            "content": "The Himalayas lie north of the Indian subcontinent.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "89": {
+            "content": "The Atlas Mountains are in northwestern Africa.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "90": {
+            "content": "The Great Dividing Range is in Australia.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "91": {
+            "content": "The Equator crosses Indonesia.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "92": {
+            "content": "The Equator crosses Brazil.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "93": {
+            "content": "The Equator crosses Spain.",
+            "answer": "No",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "94": {
+            "content": "The Tropic of Capricorn crosses Australia.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "95": {
+            "content": "The Tropic of Cancer crosses Mexico.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "96": {
+            "content": "The Arctic Circle crosses Norway.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "97": {
+            "content": "The Antarctic Circle crosses Chilean mainland territory.",
+            "answer": "No",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "98": {
+            "content": "Greenland is larger than Madagascar.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "99": {
+            "content": "Borneo is shared by more than one country.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        },
+        "100": {
+            "content": "New Guinea is shared by Indonesia and Papua New Guinea.",
+            "answer": "Yes",
+            "reward": 60,
+            "widgets": [
+                "button text='Yes'",
+                "button text='No'"
+            ]
+        }
+    }
+}

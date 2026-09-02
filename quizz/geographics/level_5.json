@@ -1,0 +1,1106 @@
+{
+    "theme": "geography",
+    "level": 5,
+    "questions": {
+        "1": {
+            "content": "In which country is Petra located ?",
+            "answer": "Jordan",
+            "reward": 35,
+            "widgets": [
+                "button text='Jordan'",
+                "button text='Slovenia'",
+                "button text='Vietnam'",
+                "button text='Morocco'"
+            ]
+        },
+        "2": {
+            "content": "In which country is Angkor Wat located ?",
+            "answer": "Cambodia",
+            "reward": 35,
+            "widgets": [
+                "button text='Czech Republic'",
+                "button text='Cambodia'",
+                "button text='China'",
+                "button text='Iceland'"
+            ]
+        },
+        "3": {
+            "content": "In which country is Christ the Redeemer located ?",
+            "answer": "Brazil",
+            "reward": 35,
+            "widgets": [
+                "button text='Romania'",
+                "button text='Brazil'",
+                "button text='Spain'",
+                "button text='United Arab Emirates'"
+            ]
+        },
+        "4": {
+            "content": "In which country is Chichen Itza located ?",
+            "answer": "Mexico",
+            "reward": 35,
+            "widgets": [
+                "button text='Japan'",
+                "button text='Philippines'",
+                "button text='Mexico'",
+                "button text='Tanzania'"
+            ]
+        },
+        "5": {
+            "content": "In which country is Alhambra located ?",
+            "answer": "Spain",
+            "reward": 35,
+            "widgets": [
+                "button text='Tanzania'",
+                "button text='Cambodia'",
+                "button text='Canada'",
+                "button text='Spain'"
+            ]
+        },
+        "6": {
+            "content": "In which country is Acropolis of Athens located ?",
+            "answer": "Greece",
+            "reward": 35,
+            "widgets": [
+                "button text='Romania'",
+                "button text='Brazil'",
+                "button text='Czech Republic'",
+                "button text='Greece'"
+            ]
+        },
+        "7": {
+            "content": "In which country is Brandenburg Gate located ?",
+            "answer": "Germany",
+            "reward": 35,
+            "widgets": [
+                "button text='Morocco'",
+                "button text='Germany'",
+                "button text='Tanzania'",
+                "button text='Brazil'"
+            ]
+        },
+        "8": {
+            "content": "In which country is Sagrada Familia located ?",
+            "answer": "Spain",
+            "reward": 35,
+            "widgets": [
+                "button text='Venezuela'",
+                "button text='Greece'",
+                "button text='Spain'",
+                "button text='Ecuador'"
+            ]
+        },
+        "9": {
+            "content": "In which country is Burj Khalifa located ?",
+            "answer": "United Arab Emirates",
+            "reward": 35,
+            "widgets": [
+                "button text='Romania'",
+                "button text='United Arab Emirates'",
+                "button text='China'",
+                "button text='Russia'"
+            ]
+        },
+        "10": {
+            "content": "In which country is Mount Fuji located ?",
+            "answer": "Japan",
+            "reward": 35,
+            "widgets": [
+                "button text='Belgium'",
+                "button text='Tanzania'",
+                "button text='Mexico'",
+                "button text='Japan'"
+            ]
+        },
+        "11": {
+            "content": "In which country is Moai statues of Easter Island located ?",
+            "answer": "Chile",
+            "reward": 35,
+            "widgets": [
+                "button text='Myanmar'",
+                "button text='Romania'",
+                "button text='Russia'",
+                "button text='Chile'"
+            ]
+        },
+        "12": {
+            "content": "In which country is Serengeti National Park located ?",
+            "answer": "Tanzania",
+            "reward": 35,
+            "widgets": [
+                "button text='Slovenia'",
+                "button text='Cambodia'",
+                "button text='Ecuador'",
+                "button text='Tanzania'"
+            ]
+        },
+        "13": {
+            "content": "In which country is Table Mountain located ?",
+            "answer": "South Africa",
+            "reward": 35,
+            "widgets": [
+                "button text='United Arab Emirates'",
+                "button text='Singapore'",
+                "button text='South Africa'",
+                "button text='Spain'"
+            ]
+        },
+        "14": {
+            "content": "In which country is Golden Gate Bridge located ?",
+            "answer": "United States",
+            "reward": 35,
+            "widgets": [
+                "button text='Morocco'",
+                "button text='Myanmar'",
+                "button text='Canada'",
+                "button text='United States'"
+            ]
+        },
+        "15": {
+            "content": "In which country is CN Tower located ?",
+            "answer": "Canada",
+            "reward": 35,
+            "widgets": [
+                "button text='Canada'",
+                "button text='Brazil'",
+                "button text='Chile'",
+                "button text='Mexico'"
+            ]
+        },
+        "16": {
+            "content": "In which country is Sydney Opera House located ?",
+            "answer": "Australia",
+            "reward": 35,
+            "widgets": [
+                "button text='United States'",
+                "button text='Spain'",
+                "button text='Australia'",
+                "button text='Turkey'"
+            ]
+        },
+        "17": {
+            "content": "In which country is Hagia Sophia located ?",
+            "answer": "Turkey",
+            "reward": 35,
+            "widgets": [
+                "button text='Turkey'",
+                "button text='Romania'",
+                "button text='China'",
+                "button text='Spain'"
+            ]
+        },
+        "18": {
+            "content": "In which country is Neuschwanstein Castle located ?",
+            "answer": "Germany",
+            "reward": 35,
+            "widgets": [
+                "button text='Myanmar'",
+                "button text='Germany'",
+                "button text='Bolivia'",
+                "button text='Vietnam'"
+            ]
+        },
+        "19": {
+            "content": "In which country is Mont-Saint-Michel located ?",
+            "answer": "France",
+            "reward": 35,
+            "widgets": [
+                "button text='Iceland'",
+                "button text='Myanmar'",
+                "button text='France'",
+                "button text='Australia'"
+            ]
+        },
+        "20": {
+            "content": "In which country is Stonehenge located ?",
+            "answer": "United Kingdom",
+            "reward": 35,
+            "widgets": [
+                "button text='China'",
+                "button text='Myanmar'",
+                "button text='Mexico'",
+                "button text='United Kingdom'"
+            ]
+        },
+        "21": {
+            "content": "In which country is Forbidden City located ?",
+            "answer": "China",
+            "reward": 35,
+            "widgets": [
+                "button text='China'",
+                "button text='Slovenia'",
+                "button text='Ecuador'",
+                "button text='Germany'"
+            ]
+        },
+        "22": {
+            "content": "In which country is Borobudur located ?",
+            "answer": "Indonesia",
+            "reward": 35,
+            "widgets": [
+                "button text='South Africa'",
+                "button text='Cambodia'",
+                "button text='Indonesia'",
+                "button text='Bolivia'"
+            ]
+        },
+        "23": {
+            "content": "In which country is Potala Palace located ?",
+            "answer": "China",
+            "reward": 35,
+            "widgets": [
+                "button text='China'",
+                "button text='Cambodia'",
+                "button text='Philippines'",
+                "button text='Tanzania'"
+            ]
+        },
+        "24": {
+            "content": "In which country is Blue Mosque located ?",
+            "answer": "Turkey",
+            "reward": 35,
+            "widgets": [
+                "button text='China'",
+                "button text='Slovenia'",
+                "button text='Mexico'",
+                "button text='Turkey'"
+            ]
+        },
+        "25": {
+            "content": "In which country is Kremlin located ?",
+            "answer": "Russia",
+            "reward": 35,
+            "widgets": [
+                "button text='United Arab Emirates'",
+                "button text='Singapore'",
+                "button text='Russia'",
+                "button text='Canada'"
+            ]
+        },
+        "26": {
+            "content": "In which country is Atomium located ?",
+            "answer": "Belgium",
+            "reward": 35,
+            "widgets": [
+                "button text='Vietnam'",
+                "button text='South Africa'",
+                "button text='Tanzania'",
+                "button text='Belgium'"
+            ]
+        },
+        "27": {
+            "content": "In which country is Charles Bridge located ?",
+            "answer": "Czech Republic",
+            "reward": 35,
+            "widgets": [
+                "button text='Romania'",
+                "button text='France'",
+                "button text='Indonesia'",
+                "button text='Czech Republic'"
+            ]
+        },
+        "28": {
+            "content": "In which country is Hallgrimskirkja located ?",
+            "answer": "Iceland",
+            "reward": 35,
+            "widgets": [
+                "button text='Germany'",
+                "button text='Iceland'",
+                "button text='Vietnam'",
+                "button text='Venezuela'"
+            ]
+        },
+        "29": {
+            "content": "In which country is Bled Castle located ?",
+            "answer": "Slovenia",
+            "reward": 35,
+            "widgets": [
+                "button text='Indonesia'",
+                "button text='Ecuador'",
+                "button text='Slovenia'",
+                "button text='Chile'"
+            ]
+        },
+        "30": {
+            "content": "In which country is Bran Castle located ?",
+            "answer": "Romania",
+            "reward": 35,
+            "widgets": [
+                "button text='Romania'",
+                "button text='Cambodia'",
+                "button text='Ecuador'",
+                "button text='France'"
+            ]
+        },
+        "31": {
+            "content": "In which country is Temple of Karnak located ?",
+            "answer": "Egypt",
+            "reward": 35,
+            "widgets": [
+                "button text='Turkey'",
+                "button text='Ecuador'",
+                "button text='Philippines'",
+                "button text='Egypt'"
+            ]
+        },
+        "32": {
+            "content": "In which country is Ait Benhaddou located ?",
+            "answer": "Morocco",
+            "reward": 35,
+            "widgets": [
+                "button text='Myanmar'",
+                "button text='Morocco'",
+                "button text='Brazil'",
+                "button text='Jordan'"
+            ]
+        },
+        "33": {
+            "content": "In which country is Victoria Falls located ?",
+            "answer": "Zambia and Zimbabwe",
+            "reward": 35,
+            "widgets": [
+                "button text='Zambia and Zimbabwe'",
+                "button text='Botswana'",
+                "button text='Zambia'",
+                "button text='Zimbabwe'"
+            ]
+        },
+        "34": {
+            "content": "In which country is Iguazu Falls located ?",
+            "answer": "Argentina and Brazil",
+            "reward": 35,
+            "widgets": [
+                "button text='Zimbabwe'",
+                "button text='Zambia'",
+                "button text='Botswana'",
+                "button text='Argentina and Brazil'"
+            ]
+        },
+        "35": {
+            "content": "In which country is Salar de Uyuni located ?",
+            "answer": "Bolivia",
+            "reward": 35,
+            "widgets": [
+                "button text='Canada'",
+                "button text='Bolivia'",
+                "button text='Morocco'",
+                "button text='Chile'"
+            ]
+        },
+        "36": {
+            "content": "In which country is Galapagos Islands located ?",
+            "answer": "Ecuador",
+            "reward": 35,
+            "widgets": [
+                "button text='Turkey'",
+                "button text='Ecuador'",
+                "button text='Greece'",
+                "button text='Philippines'"
+            ]
+        },
+        "37": {
+            "content": "In which country is Torres del Paine located ?",
+            "answer": "Chile",
+            "reward": 35,
+            "widgets": [
+                "button text='Brazil'",
+                "button text='Chile'",
+                "button text='China'",
+                "button text='Turkey'"
+            ]
+        },
+        "38": {
+            "content": "In which country is Angel Falls located ?",
+            "answer": "Venezuela",
+            "reward": 35,
+            "widgets": [
+                "button text='Venezuela'",
+                "button text='Bolivia'",
+                "button text='France'",
+                "button text='United States'"
+            ]
+        },
+        "39": {
+            "content": "In which country is Ha Long Bay located ?",
+            "answer": "Vietnam",
+            "reward": 35,
+            "widgets": [
+                "button text='Vietnam'",
+                "button text='Egypt'",
+                "button text='Tanzania'",
+                "button text='Venezuela'"
+            ]
+        },
+        "40": {
+            "content": "In which country is Bagan located ?",
+            "answer": "Myanmar",
+            "reward": 35,
+            "widgets": [
+                "button text='Romania'",
+                "button text='Slovenia'",
+                "button text='Spain'",
+                "button text='Myanmar'"
+            ]
+        },
+        "41": {
+            "content": "In which country is Chocolate Hills located ?",
+            "answer": "Philippines",
+            "reward": 35,
+            "widgets": [
+                "button text='Philippines'",
+                "button text='Romania'",
+                "button text='Cambodia'",
+                "button text='Chile'"
+            ]
+        },
+        "42": {
+            "content": "In which country is Marina Bay Sands located ?",
+            "answer": "Singapore",
+            "reward": 35,
+            "widgets": [
+                "button text='Singapore'",
+                "button text='Philippines'",
+                "button text='Canada'",
+                "button text='Ecuador'"
+            ]
+        },
+        "43": {
+            "content": "Which country is Melbourne located in ?",
+            "answer": "Australia",
+            "reward": 35,
+            "widgets": [
+                "button text='Sri Lanka'",
+                "button text='Tunisia'",
+                "button text='Australia'",
+                "button text='Suriname'"
+            ]
+        },
+        "44": {
+            "content": "Which country is Auckland located in ?",
+            "answer": "New Zealand",
+            "reward": 35,
+            "widgets": [
+                "button text='Guyana'",
+                "button text='Jamaica'",
+                "button text='New Zealand'",
+                "button text='Poland'"
+            ]
+        },
+        "45": {
+            "content": "Which country is Kyoto located in ?",
+            "answer": "Japan",
+            "reward": 35,
+            "widgets": [
+                "button text='Lithuania'",
+                "button text='Spain'",
+                "button text='Japan'",
+                "button text='Sweden'"
+            ]
+        },
+        "46": {
+            "content": "Which country is Shanghai located in ?",
+            "answer": "China",
+            "reward": 35,
+            "widgets": [
+                "button text='El Salvador'",
+                "button text='China'",
+                "button text='Honduras'",
+                "button text='Denmark'"
+            ]
+        },
+        "47": {
+            "content": "Which country is Mumbai located in ?",
+            "answer": "India",
+            "reward": 35,
+            "widgets": [
+                "button text='China'",
+                "button text='Costa Rica'",
+                "button text='El Salvador'",
+                "button text='India'"
+            ]
+        },
+        "48": {
+            "content": "Which country is Busan located in ?",
+            "answer": "South Korea",
+            "reward": 35,
+            "widgets": [
+                "button text='Uruguay'",
+                "button text='Nicaragua'",
+                "button text='Panama'",
+                "button text='South Korea'"
+            ]
+        },
+        "49": {
+            "content": "Which country is Chiang Mai located in ?",
+            "answer": "Thailand",
+            "reward": 35,
+            "widgets": [
+                "button text='Slovakia'",
+                "button text='Chile'",
+                "button text='Thailand'",
+                "button text='Samoa'"
+            ]
+        },
+        "50": {
+            "content": "Which country is Ho Chi Minh City located in ?",
+            "answer": "Vietnam",
+            "reward": 35,
+            "widgets": [
+                "button text='Vietnam'",
+                "button text='Slovakia'",
+                "button text='Tanzania'",
+                "button text='Democratic Republic of the Congo'"
+            ]
+        },
+        "51": {
+            "content": "Which country is Alexandria located in ?",
+            "answer": "Egypt",
+            "reward": 35,
+            "widgets": [
+                "button text='Egypt'",
+                "button text='Liberia'",
+                "button text='Italy'",
+                "button text='Austria'"
+            ]
+        },
+        "52": {
+            "content": "Which country is Casablanca located in ?",
+            "answer": "Morocco",
+            "reward": 35,
+            "widgets": [
+                "button text='Mexico'",
+                "button text='Morocco'",
+                "button text='Vanuatu'",
+                "button text='Vietnam'"
+            ]
+        },
+        "53": {
+            "content": "Which country is Oran located in ?",
+            "answer": "Algeria",
+            "reward": 35,
+            "widgets": [
+                "button text='Algeria'",
+                "button text='Honduras'",
+                "button text='Dominican Republic'",
+                "button text='Namibia'"
+            ]
+        },
+        "54": {
+            "content": "Which country is Mombasa located in ?",
+            "answer": "Kenya",
+            "reward": 35,
+            "widgets": [
+                "button text='Mozambique'",
+                "button text='Ghana'",
+                "button text='Kenya'",
+                "button text='Jamaica'"
+            ]
+        },
+        "55": {
+            "content": "Which country is Johannesburg located in ?",
+            "answer": "South Africa",
+            "reward": 35,
+            "widgets": [
+                "button text='France'",
+                "button text='Saudi Arabia'",
+                "button text='China'",
+                "button text='South Africa'"
+            ]
+        },
+        "56": {
+            "content": "Which country is Lagos located in ?",
+            "answer": "Nigeria",
+            "reward": 35,
+            "widgets": [
+                "button text='Peru'",
+                "button text='Bulgaria'",
+                "button text='Italy'",
+                "button text='Nigeria'"
+            ]
+        },
+        "57": {
+            "content": "Which country is Dubai located in ?",
+            "answer": "United Arab Emirates",
+            "reward": 35,
+            "widgets": [
+                "button text='Zimbabwe'",
+                "button text='United Arab Emirates'",
+                "button text='Croatia'",
+                "button text='Georgia'"
+            ]
+        },
+        "58": {
+            "content": "Which country is Marrakesh located in ?",
+            "answer": "Morocco",
+            "reward": 35,
+            "widgets": [
+                "button text='Bosnia and Herzegovina'",
+                "button text='Morocco'",
+                "button text='Lithuania'",
+                "button text='El Salvador'"
+            ]
+        },
+        "59": {
+            "content": "Which country is Kandy located in ?",
+            "answer": "Sri Lanka",
+            "reward": 35,
+            "widgets": [
+                "button text='Jordan'",
+                "button text='Liberia'",
+                "button text='Sri Lanka'",
+                "button text='Bahamas'"
+            ]
+        },
+        "60": {
+            "content": "Which country is Lahore located in ?",
+            "answer": "Pakistan",
+            "reward": 35,
+            "widgets": [
+                "button text='Italy'",
+                "button text='El Salvador'",
+                "button text='Bolivia'",
+                "button text='Pakistan'"
+            ]
+        },
+        "61": {
+            "content": "Which country is Isfahan located in ?",
+            "answer": "Iran",
+            "reward": 35,
+            "widgets": [
+                "button text='Iceland'",
+                "button text='Sri Lanka'",
+                "button text='Iran'",
+                "button text='Uganda'"
+            ]
+        },
+        "62": {
+            "content": "Which country is Basra located in ?",
+            "answer": "Iraq",
+            "reward": 35,
+            "widgets": [
+                "button text='Iraq'",
+                "button text='Tunisia'",
+                "button text='Namibia'",
+                "button text='Ghana'"
+            ]
+        },
+        "63": {
+            "content": "Which country is Aqaba located in ?",
+            "answer": "Jordan",
+            "reward": 35,
+            "widgets": [
+                "button text='Slovakia'",
+                "button text='Montenegro'",
+                "button text='Algeria'",
+                "button text='Jordan'"
+            ]
+        },
+        "64": {
+            "content": "Which country is Salalah located in ?",
+            "answer": "Oman",
+            "reward": 35,
+            "widgets": [
+                "button text='Costa Rica'",
+                "button text='Egypt'",
+                "button text='Oman'",
+                "button text='Peru'"
+            ]
+        },
+        "65": {
+            "content": "Which country is Jeddah located in ?",
+            "answer": "Saudi Arabia",
+            "reward": 35,
+            "widgets": [
+                "button text='Guinea'",
+                "button text='Fiji'",
+                "button text='Canada'",
+                "button text='Saudi Arabia'"
+            ]
+        },
+        "66": {
+            "content": "Which country is Yerevan located in ?",
+            "answer": "Armenia",
+            "reward": 35,
+            "widgets": [
+                "button text='Slovenia'",
+                "button text='South Korea'",
+                "button text='Morocco'",
+                "button text='Armenia'"
+            ]
+        },
+        "67": {
+            "content": "Which country is Batumi located in ?",
+            "answer": "Georgia",
+            "reward": 35,
+            "widgets": [
+                "button text='Argentina'",
+                "button text='Georgia'",
+                "button text='Panama'",
+                "button text='Saudi Arabia'"
+            ]
+        },
+        "68": {
+            "content": "Which country is Sarajevo located in ?",
+            "answer": "Bosnia and Herzegovina",
+            "reward": 35,
+            "widgets": [
+                "button text='Algeria'",
+                "button text='Guinea'",
+                "button text='Bosnia and Herzegovina'",
+                "button text='Lithuania'"
+            ]
+        },
+        "69": {
+            "content": "Which country is Podgorica located in ?",
+            "answer": "Montenegro",
+            "reward": 35,
+            "widgets": [
+                "button text='Democratic Republic of the Congo'",
+                "button text='Bolivia'",
+                "button text='Montenegro'",
+                "button text='Sweden'"
+            ]
+        },
+        "70": {
+            "content": "Which country is Minsk located in ?",
+            "answer": "Belarus",
+            "reward": 35,
+            "widgets": [
+                "button text='Belarus'",
+                "button text='Namibia'",
+                "button text='Jordan'",
+                "button text='Austria'"
+            ]
+        },
+        "71": {
+            "content": "Which country is Valletta located in ?",
+            "answer": "Malta",
+            "reward": 35,
+            "widgets": [
+                "button text='Argentina'",
+                "button text='Iraq'",
+                "button text='Vanuatu'",
+                "button text='Malta'"
+            ]
+        },
+        "72": {
+            "content": "Which country is Dakar located in ?",
+            "answer": "Senegal",
+            "reward": 35,
+            "widgets": [
+                "button text='South Africa'",
+                "button text='United Arab Emirates'",
+                "button text='Suriname'",
+                "button text='Senegal'"
+            ]
+        },
+        "73": {
+            "content": "Which country is Accra located in ?",
+            "answer": "Ghana",
+            "reward": 35,
+            "widgets": [
+                "button text='China'",
+                "button text='Ghana'",
+                "button text='Ireland'",
+                "button text='Austria'"
+            ]
+        },
+        "74": {
+            "content": "Which country is Kampala located in ?",
+            "answer": "Uganda",
+            "reward": 35,
+            "widgets": [
+                "button text='Switzerland'",
+                "button text='Uganda'",
+                "button text='Morocco'",
+                "button text='Thailand'"
+            ]
+        },
+        "75": {
+            "content": "Which country is Kigali located in ?",
+            "answer": "Rwanda",
+            "reward": 35,
+            "widgets": [
+                "button text='Belarus'",
+                "button text='China'",
+                "button text='Rwanda'",
+                "button text='Uganda'"
+            ]
+        },
+        "76": {
+            "content": "Which country is Dar es Salaam located in ?",
+            "answer": "Tanzania",
+            "reward": 35,
+            "widgets": [
+                "button text='Tanzania'",
+                "button text='Dominican Republic'",
+                "button text='Honduras'",
+                "button text='Austria'"
+            ]
+        },
+        "77": {
+            "content": "Which country is Harare located in ?",
+            "answer": "Zimbabwe",
+            "reward": 35,
+            "widgets": [
+                "button text='Panama'",
+                "button text='France'",
+                "button text='Mozambique'",
+                "button text='Zimbabwe'"
+            ]
+        },
+        "78": {
+            "content": "Which country is Maputo located in ?",
+            "answer": "Mozambique",
+            "reward": 35,
+            "widgets": [
+                "button text='Bahamas'",
+                "button text='Mozambique'",
+                "button text='Ghana'",
+                "button text='Iraq'"
+            ]
+        },
+        "79": {
+            "content": "Which country is Windhoek located in ?",
+            "answer": "Namibia",
+            "reward": 35,
+            "widgets": [
+                "button text='Namibia'",
+                "button text='Lithuania'",
+                "button text='Italy'",
+                "button text='Kenya'"
+            ]
+        },
+        "80": {
+            "content": "Which country is Luanda located in ?",
+            "answer": "Angola",
+            "reward": 35,
+            "widgets": [
+                "button text='Angola'",
+                "button text='Nicaragua'",
+                "button text='Denmark'",
+                "button text='Thailand'"
+            ]
+        },
+        "81": {
+            "content": "Which country is Libreville located in ?",
+            "answer": "Gabon",
+            "reward": 35,
+            "widgets": [
+                "button text='United Arab Emirates'",
+                "button text='Lithuania'",
+                "button text='Bolivia'",
+                "button text='Gabon'"
+            ]
+        },
+        "82": {
+            "content": "Which country is Yaounde located in ?",
+            "answer": "Cameroon",
+            "reward": 35,
+            "widgets": [
+                "button text='Guinea'",
+                "button text='Paraguay'",
+                "button text='Iceland'",
+                "button text='Cameroon'"
+            ]
+        },
+        "83": {
+            "content": "Which country is Kinshasa located in ?",
+            "answer": "Democratic Republic of the Congo",
+            "reward": 35,
+            "widgets": [
+                "button text='Democratic Republic of the Congo'",
+                "button text='Suriname'",
+                "button text='Guinea'",
+                "button text='Honduras'"
+            ]
+        },
+        "84": {
+            "content": "Which country is Conakry located in ?",
+            "answer": "Guinea",
+            "reward": 35,
+            "widgets": [
+                "button text='Mexico'",
+                "button text='Guinea'",
+                "button text='Cuba'",
+                "button text='Thailand'"
+            ]
+        },
+        "85": {
+            "content": "Which country is Monrovia located in ?",
+            "answer": "Liberia",
+            "reward": 35,
+            "widgets": [
+                "button text='Iraq'",
+                "button text='Liberia'",
+                "button text='United Arab Emirates'",
+                "button text='Slovakia'"
+            ]
+        },
+        "86": {
+            "content": "Which country is Tunis located in ?",
+            "answer": "Tunisia",
+            "reward": 35,
+            "widgets": [
+                "button text='Suriname'",
+                "button text='Tunisia'",
+                "button text='Belize'",
+                "button text='South Africa'"
+            ]
+        },
+        "87": {
+            "content": "Which country is Tripoli located in ?",
+            "answer": "Libya",
+            "reward": 35,
+            "widgets": [
+                "button text='Armenia'",
+                "button text='Colombia'",
+                "button text='Libya'",
+                "button text='Senegal'"
+            ]
+        },
+        "88": {
+            "content": "Which country is Quito located in ?",
+            "answer": "Ecuador",
+            "reward": 35,
+            "widgets": [
+                "button text='Ecuador'",
+                "button text='Spain'",
+                "button text='Belarus'",
+                "button text='Finland'"
+            ]
+        },
+        "89": {
+            "content": "Which country is La Paz located in ?",
+            "answer": "Bolivia",
+            "reward": 35,
+            "widgets": [
+                "button text='Bolivia'",
+                "button text='Senegal'",
+                "button text='Australia'",
+                "button text='Portugal'"
+            ]
+        },
+        "90": {
+            "content": "Which country is Asuncion located in ?",
+            "answer": "Paraguay",
+            "reward": 35,
+            "widgets": [
+                "button text='Italy'",
+                "button text='Zimbabwe'",
+                "button text='Malta'",
+                "button text='Paraguay'"
+            ]
+        },
+        "91": {
+            "content": "Which country is Montevideo located in ?",
+            "answer": "Uruguay",
+            "reward": 35,
+            "widgets": [
+                "button text='Uruguay'",
+                "button text='Oman'",
+                "button text='Jordan'",
+                "button text='Ireland'"
+            ]
+        },
+        "92": {
+            "content": "Which country is Georgetown located in ?",
+            "answer": "Guyana",
+            "reward": 35,
+            "widgets": [
+                "button text='Guyana'",
+                "button text='Cameroon'",
+                "button text='Armenia'",
+                "button text='Finland'"
+            ]
+        },
+        "93": {
+            "content": "Which country is Paramaribo located in ?",
+            "answer": "Suriname",
+            "reward": 35,
+            "widgets": [
+                "button text='Suriname'",
+                "button text='Peru'",
+                "button text='Gabon'",
+                "button text='Canada'"
+            ]
+        },
+        "94": {
+            "content": "Which country is Belize City located in ?",
+            "answer": "Belize",
+            "reward": 35,
+            "widgets": [
+                "button text='El Salvador'",
+                "button text='Slovakia'",
+                "button text='Belize'",
+                "button text='Greece'"
+            ]
+        },
+        "95": {
+            "content": "Which country is San Salvador located in ?",
+            "answer": "El Salvador",
+            "reward": 35,
+            "widgets": [
+                "button text='El Salvador'",
+                "button text='Montenegro'",
+                "button text='Belize'",
+                "button text='China'"
+            ]
+        },
+        "96": {
+            "content": "Which country is Tegucigalpa located in ?",
+            "answer": "Honduras",
+            "reward": 35,
+            "widgets": [
+                "button text='Bosnia and Herzegovina'",
+                "button text='Honduras'",
+                "button text='Hungary'",
+                "button text='Tanzania'"
+            ]
+        },
+        "97": {
+            "content": "Which country is Managua located in ?",
+            "answer": "Nicaragua",
+            "reward": 35,
+            "widgets": [
+                "button text='Peru'",
+                "button text='Greece'",
+                "button text='Nicaragua'",
+                "button text='Paraguay'"
+            ]
+        },
+        "98": {
+            "content": "Which country is San Jose located in ?",
+            "answer": "Costa Rica",
+            "reward": 35,
+            "widgets": [
+                "button text='Italy'",
+                "button text='Norway'",
+                "button text='Estonia'",
+                "button text='Costa Rica'"
+            ]
+        },
+        "99": {
+            "content": "Which country is Panama City located in ?",
+            "answer": "Panama",
+            "reward": 35,
+            "widgets": [
+                "button text='Panama'",
+                "button text='Fiji'",
+                "button text='Armenia'",
+                "button text='New Zealand'"
+            ]
+        },
+        "100": {
+            "content": "Which country is Havana located in ?",
+            "answer": "Cuba",
+            "reward": 35,
+            "widgets": [
+                "button text='Peru'",
+                "button text='Mozambique'",
+                "button text='Chile'",
+                "button text='Cuba'"
+            ]
+        }
+    }
+}

@@ -1,0 +1,1106 @@
+{
+    "theme": "geography",
+    "level": 2,
+    "questions": {
+        "1": {
+            "content": "What is the capital of Kazakhstan ?",
+            "answer": "Astana",
+            "reward": 20,
+            "widgets": [
+                "button text='Tashkent'",
+                "button text='Almaty'",
+                "button text='Bishkek'",
+                "button text='Astana'"
+            ]
+        },
+        "2": {
+            "content": "What is the capital of Uzbekistan ?",
+            "answer": "Tashkent",
+            "reward": 20,
+            "widgets": [
+                "button text='Dushanbe'",
+                "button text='Bishkek'",
+                "button text='Tashkent'",
+                "button text='Samarkand'"
+            ]
+        },
+        "3": {
+            "content": "What is the capital of Kyrgyzstan ?",
+            "answer": "Bishkek",
+            "reward": 20,
+            "widgets": [
+                "button text='Osh'",
+                "button text='Tashkent'",
+                "button text='Astana'",
+                "button text='Bishkek'"
+            ]
+        },
+        "4": {
+            "content": "What is the capital of Tajikistan ?",
+            "answer": "Dushanbe",
+            "reward": 20,
+            "widgets": [
+                "button text='Khujand'",
+                "button text='Bishkek'",
+                "button text='Dushanbe'",
+                "button text='Ashgabat'"
+            ]
+        },
+        "5": {
+            "content": "What is the capital of Turkmenistan ?",
+            "answer": "Ashgabat",
+            "reward": 20,
+            "widgets": [
+                "button text='Mary'",
+                "button text='Tashkent'",
+                "button text='Dushanbe'",
+                "button text='Ashgabat'"
+            ]
+        },
+        "6": {
+            "content": "What is the capital of Mongolia ?",
+            "answer": "Ulaanbaatar",
+            "reward": 20,
+            "widgets": [
+                "button text='Erdenet'",
+                "button text='Beijing'",
+                "button text='Astana'",
+                "button text='Ulaanbaatar'"
+            ]
+        },
+        "7": {
+            "content": "What is the capital of Nepal ?",
+            "answer": "Kathmandu",
+            "reward": 20,
+            "widgets": [
+                "button text='Thimphu'",
+                "button text='Pokhara'",
+                "button text='Kathmandu'",
+                "button text='Dhaka'"
+            ]
+        },
+        "8": {
+            "content": "What is the capital of Bhutan ?",
+            "answer": "Thimphu",
+            "reward": 20,
+            "widgets": [
+                "button text='Paro'",
+                "button text='Dhaka'",
+                "button text='Thimphu'",
+                "button text='Kathmandu'"
+            ]
+        },
+        "9": {
+            "content": "What is the capital of Bangladesh ?",
+            "answer": "Dhaka",
+            "reward": 20,
+            "widgets": [
+                "button text='Dhaka'",
+                "button text='Kathmandu'",
+                "button text='Chittagong'",
+                "button text='Colombo'"
+            ]
+        },
+        "10": {
+            "content": "What is the capital of Sri Lanka ?",
+            "answer": "Sri Jayawardenepura Kotte",
+            "reward": 20,
+            "widgets": [
+                "button text='Kandy'",
+                "button text='Male'",
+                "button text='Sri Jayawardenepura Kotte'",
+                "button text='Colombo'"
+            ]
+        },
+        "11": {
+            "content": "What is the capital of Maldives ?",
+            "answer": "Male",
+            "reward": 20,
+            "widgets": [
+                "button text='Colombo'",
+                "button text='Addu City'",
+                "button text='Muscat'",
+                "button text='Male'"
+            ]
+        },
+        "12": {
+            "content": "What is the capital of Pakistan ?",
+            "answer": "Islamabad",
+            "reward": 20,
+            "widgets": [
+                "button text='Peshawar'",
+                "button text='Lahore'",
+                "button text='Karachi'",
+                "button text='Islamabad'"
+            ]
+        },
+        "13": {
+            "content": "What is the capital of Afghanistan ?",
+            "answer": "Kabul",
+            "reward": 20,
+            "widgets": [
+                "button text='Islamabad'",
+                "button text='Herat'",
+                "button text='Kabul'",
+                "button text='Kandahar'"
+            ]
+        },
+        "14": {
+            "content": "What is the capital of Iran ?",
+            "answer": "Tehran",
+            "reward": 20,
+            "widgets": [
+                "button text='Shiraz'",
+                "button text='Baghdad'",
+                "button text='Isfahan'",
+                "button text='Tehran'"
+            ]
+        },
+        "15": {
+            "content": "What is the capital of Iraq ?",
+            "answer": "Baghdad",
+            "reward": 20,
+            "widgets": [
+                "button text='Baghdad'",
+                "button text='Basra'",
+                "button text='Amman'",
+                "button text='Mosul'"
+            ]
+        },
+        "16": {
+            "content": "What is the capital of Jordan ?",
+            "answer": "Amman",
+            "reward": 20,
+            "widgets": [
+                "button text='Damascus'",
+                "button text='Amman'",
+                "button text='Beirut'",
+                "button text='Aqaba'"
+            ]
+        },
+        "17": {
+            "content": "What is the capital of Lebanon ?",
+            "answer": "Beirut",
+            "reward": 20,
+            "widgets": [
+                "button text='Tripoli'",
+                "button text='Damascus'",
+                "button text='Amman'",
+                "button text='Beirut'"
+            ]
+        },
+        "18": {
+            "content": "What is the capital of Syria ?",
+            "answer": "Damascus",
+            "reward": 20,
+            "widgets": [
+                "button text='Aleppo'",
+                "button text='Amman'",
+                "button text='Damascus'",
+                "button text='Beirut'"
+            ]
+        },
+        "19": {
+            "content": "What is the capital of Oman ?",
+            "answer": "Muscat",
+            "reward": 20,
+            "widgets": [
+                "button text='Manama'",
+                "button text='Doha'",
+                "button text='Salalah'",
+                "button text='Muscat'"
+            ]
+        },
+        "20": {
+            "content": "What is the capital of Qatar ?",
+            "answer": "Doha",
+            "reward": 20,
+            "widgets": [
+                "button text='Doha'",
+                "button text='Al Rayyan'",
+                "button text='Manama'",
+                "button text='Abu Dhabi'"
+            ]
+        },
+        "21": {
+            "content": "What is the capital of Bahrain ?",
+            "answer": "Manama",
+            "reward": 20,
+            "widgets": [
+                "button text='Manama'",
+                "button text='Kuwait City'",
+                "button text='Muscat'",
+                "button text='Doha'"
+            ]
+        },
+        "22": {
+            "content": "What is the capital of Kuwait ?",
+            "answer": "Kuwait City",
+            "reward": 20,
+            "widgets": [
+                "button text='Kuwait City'",
+                "button text='Riyadh'",
+                "button text='Manama'",
+                "button text='Doha'"
+            ]
+        },
+        "23": {
+            "content": "What is the capital of United Arab Emirates ?",
+            "answer": "Abu Dhabi",
+            "reward": 20,
+            "widgets": [
+                "button text='Dubai'",
+                "button text='Doha'",
+                "button text='Sharjah'",
+                "button text='Abu Dhabi'"
+            ]
+        },
+        "24": {
+            "content": "What is the capital of Saudi Arabia ?",
+            "answer": "Riyadh",
+            "reward": 20,
+            "widgets": [
+                "button text='Mecca'",
+                "button text='Doha'",
+                "button text='Riyadh'",
+                "button text='Jeddah'"
+            ]
+        },
+        "25": {
+            "content": "What is the capital of Yemen ?",
+            "answer": "Sanaa",
+            "reward": 20,
+            "widgets": [
+                "button text='Muscat'",
+                "button text='Sanaa'",
+                "button text='Aden'",
+                "button text='Riyadh'"
+            ]
+        },
+        "26": {
+            "content": "What is the capital of Armenia ?",
+            "answer": "Yerevan",
+            "reward": 20,
+            "widgets": [
+                "button text='Gyumri'",
+                "button text='Baku'",
+                "button text='Yerevan'",
+                "button text='Tbilisi'"
+            ]
+        },
+        "27": {
+            "content": "What is the capital of Georgia ?",
+            "answer": "Tbilisi",
+            "reward": 20,
+            "widgets": [
+                "button text='Baku'",
+                "button text='Yerevan'",
+                "button text='Batumi'",
+                "button text='Tbilisi'"
+            ]
+        },
+        "28": {
+            "content": "What is the capital of Azerbaijan ?",
+            "answer": "Baku",
+            "reward": 20,
+            "widgets": [
+                "button text='Ganja'",
+                "button text='Yerevan'",
+                "button text='Baku'",
+                "button text='Tbilisi'"
+            ]
+        },
+        "29": {
+            "content": "What is the capital of Cyprus ?",
+            "answer": "Nicosia",
+            "reward": 20,
+            "widgets": [
+                "button text='Athens'",
+                "button text='Limassol'",
+                "button text='Nicosia'",
+                "button text='Larnaca'"
+            ]
+        },
+        "30": {
+            "content": "What is the capital of Albania ?",
+            "answer": "Tirana",
+            "reward": 20,
+            "widgets": [
+                "button text='Tirana'",
+                "button text='Durres'",
+                "button text='Skopje'",
+                "button text='Pristina'"
+            ]
+        },
+        "31": {
+            "content": "What is the capital of North Macedonia ?",
+            "answer": "Skopje",
+            "reward": 20,
+            "widgets": [
+                "button text='Tirana'",
+                "button text='Skopje'",
+                "button text='Sofia'",
+                "button text='Ohrid'"
+            ]
+        },
+        "32": {
+            "content": "What is the capital of Bosnia and Herzegovina ?",
+            "answer": "Sarajevo",
+            "reward": 20,
+            "widgets": [
+                "button text='Sarajevo'",
+                "button text='Zagreb'",
+                "button text='Belgrade'",
+                "button text='Mostar'"
+            ]
+        },
+        "33": {
+            "content": "What is the capital of Montenegro ?",
+            "answer": "Podgorica",
+            "reward": 20,
+            "widgets": [
+                "button text='Podgorica'",
+                "button text='Kotor'",
+                "button text='Sarajevo'",
+                "button text='Belgrade'"
+            ]
+        },
+        "34": {
+            "content": "What is the capital of Moldova ?",
+            "answer": "Chisinau",
+            "reward": 20,
+            "widgets": [
+                "button text='Balti'",
+                "button text='Kyiv'",
+                "button text='Chisinau'",
+                "button text='Bucharest'"
+            ]
+        },
+        "35": {
+            "content": "What is the capital of Belarus ?",
+            "answer": "Minsk",
+            "reward": 20,
+            "widgets": [
+                "button text='Brest'",
+                "button text='Vilnius'",
+                "button text='Minsk'",
+                "button text='Warsaw'"
+            ]
+        },
+        "36": {
+            "content": "What is the capital of Luxembourg ?",
+            "answer": "Luxembourg",
+            "reward": 20,
+            "widgets": [
+                "button text='Esch-sur-Alzette'",
+                "button text='Brussels'",
+                "button text='Bern'",
+                "button text='Luxembourg'"
+            ]
+        },
+        "37": {
+            "content": "What is the capital of Malta ?",
+            "answer": "Valletta",
+            "reward": 20,
+            "widgets": [
+                "button text='Mdina'",
+                "button text='Valletta'",
+                "button text='Nicosia'",
+                "button text='Rome'"
+            ]
+        },
+        "38": {
+            "content": "What is the capital of Andorra ?",
+            "answer": "Andorra la Vella",
+            "reward": 20,
+            "widgets": [
+                "button text='Andorra la Vella'",
+                "button text='Madrid'",
+                "button text='Escaldes-Engordany'",
+                "button text='Toulouse'"
+            ]
+        },
+        "39": {
+            "content": "What is the capital of Liechtenstein ?",
+            "answer": "Vaduz",
+            "reward": 20,
+            "widgets": [
+                "button text='Schaan'",
+                "button text='Vaduz'",
+                "button text='Vienna'",
+                "button text='Bern'"
+            ]
+        },
+        "40": {
+            "content": "What is the capital of San Marino ?",
+            "answer": "San Marino",
+            "reward": 20,
+            "widgets": [
+                "button text='Valletta'",
+                "button text='Serravalle'",
+                "button text='Rome'",
+                "button text='San Marino'"
+            ]
+        },
+        "41": {
+            "content": "What is the capital of Monaco ?",
+            "answer": "Monaco",
+            "reward": 20,
+            "widgets": [
+                "button text='Andorra la Vella'",
+                "button text='Monte Carlo'",
+                "button text='Monaco'",
+                "button text='Nice'"
+            ]
+        },
+        "42": {
+            "content": "What is the capital of Kosovo ?",
+            "answer": "Pristina",
+            "reward": 20,
+            "widgets": [
+                "button text='Skopje'",
+                "button text='Prizren'",
+                "button text='Pristina'",
+                "button text='Tirana'"
+            ]
+        },
+        "43": {
+            "content": "What is the capital of Ghana ?",
+            "answer": "Accra",
+            "reward": 20,
+            "widgets": [
+                "button text='Abuja'",
+                "button text='Kumasi'",
+                "button text='Lome'",
+                "button text='Accra'"
+            ]
+        },
+        "44": {
+            "content": "What is the capital of Senegal ?",
+            "answer": "Dakar",
+            "reward": 20,
+            "widgets": [
+                "button text='Nouakchott'",
+                "button text='Dakar'",
+                "button text='Bamako'",
+                "button text='Saint-Louis'"
+            ]
+        },
+        "45": {
+            "content": "What is the capital of Mali ?",
+            "answer": "Bamako",
+            "reward": 20,
+            "widgets": [
+                "button text='Timbuktu'",
+                "button text='Bamako'",
+                "button text='Niamey'",
+                "button text='Dakar'"
+            ]
+        },
+        "46": {
+            "content": "What is the capital of Niger ?",
+            "answer": "Niamey",
+            "reward": 20,
+            "widgets": [
+                "button text='Bamako'",
+                "button text='Niamey'",
+                "button text='N'Djamena'",
+                "button text='Agadez'"
+            ]
+        },
+        "47": {
+            "content": "What is the capital of Chad ?",
+            "answer": "N'Djamena",
+            "reward": 20,
+            "widgets": [
+                "button text='Khartoum'",
+                "button text='Moundou'",
+                "button text='Niamey'",
+                "button text='N'Djamena'"
+            ]
+        },
+        "48": {
+            "content": "What is the capital of Sudan ?",
+            "answer": "Khartoum",
+            "reward": 20,
+            "widgets": [
+                "button text='Port Sudan'",
+                "button text='Juba'",
+                "button text='Khartoum'",
+                "button text='Cairo'"
+            ]
+        },
+        "49": {
+            "content": "What is the capital of South Sudan ?",
+            "answer": "Juba",
+            "reward": 20,
+            "widgets": [
+                "button text='Kampala'",
+                "button text='Juba'",
+                "button text='Wau'",
+                "button text='Khartoum'"
+            ]
+        },
+        "50": {
+            "content": "What is the capital of Ethiopia ?",
+            "answer": "Addis Ababa",
+            "reward": 20,
+            "widgets": [
+                "button text='Dire Dawa'",
+                "button text='Nairobi'",
+                "button text='Asmara'",
+                "button text='Addis Ababa'"
+            ]
+        },
+        "51": {
+            "content": "What is the capital of Eritrea ?",
+            "answer": "Asmara",
+            "reward": 20,
+            "widgets": [
+                "button text='Djibouti'",
+                "button text='Massawa'",
+                "button text='Addis Ababa'",
+                "button text='Asmara'"
+            ]
+        },
+        "52": {
+            "content": "What is the capital of Djibouti ?",
+            "answer": "Djibouti",
+            "reward": 20,
+            "widgets": [
+                "button text='Ali Sabieh'",
+                "button text='Mogadishu'",
+                "button text='Asmara'",
+                "button text='Djibouti'"
+            ]
+        },
+        "53": {
+            "content": "What is the capital of Somalia ?",
+            "answer": "Mogadishu",
+            "reward": 20,
+            "widgets": [
+                "button text='Mogadishu'",
+                "button text='Djibouti'",
+                "button text='Nairobi'",
+                "button text='Hargeisa'"
+            ]
+        },
+        "54": {
+            "content": "What is the capital of Uganda ?",
+            "answer": "Kampala",
+            "reward": 20,
+            "widgets": [
+                "button text='Kampala'",
+                "button text='Nairobi'",
+                "button text='Kigali'",
+                "button text='Entebbe'"
+            ]
+        },
+        "55": {
+            "content": "What is the capital of Rwanda ?",
+            "answer": "Kigali",
+            "reward": 20,
+            "widgets": [
+                "button text='Bujumbura'",
+                "button text='Kigali'",
+                "button text='Kampala'",
+                "button text='Butare'"
+            ]
+        },
+        "56": {
+            "content": "What is the capital of Burundi ?",
+            "answer": "Gitega",
+            "reward": 20,
+            "widgets": [
+                "button text='Gitega'",
+                "button text='Dodoma'",
+                "button text='Bujumbura'",
+                "button text='Kigali'"
+            ]
+        },
+        "57": {
+            "content": "What is the capital of Tanzania ?",
+            "answer": "Dodoma",
+            "reward": 20,
+            "widgets": [
+                "button text='Dodoma'",
+                "button text='Dar es Salaam'",
+                "button text='Nairobi'",
+                "button text='Kampala'"
+            ]
+        },
+        "58": {
+            "content": "What is the capital of Zambia ?",
+            "answer": "Lusaka",
+            "reward": 20,
+            "widgets": [
+                "button text='Ndola'",
+                "button text='Harare'",
+                "button text='Lilongwe'",
+                "button text='Lusaka'"
+            ]
+        },
+        "59": {
+            "content": "What is the capital of Zimbabwe ?",
+            "answer": "Harare",
+            "reward": 20,
+            "widgets": [
+                "button text='Lusaka'",
+                "button text='Maputo'",
+                "button text='Bulawayo'",
+                "button text='Harare'"
+            ]
+        },
+        "60": {
+            "content": "What is the capital of Malawi ?",
+            "answer": "Lilongwe",
+            "reward": 20,
+            "widgets": [
+                "button text='Harare'",
+                "button text='Lilongwe'",
+                "button text='Lusaka'",
+                "button text='Blantyre'"
+            ]
+        },
+        "61": {
+            "content": "What is the capital of Mozambique ?",
+            "answer": "Maputo",
+            "reward": 20,
+            "widgets": [
+                "button text='Beira'",
+                "button text='Harare'",
+                "button text='Mbabane'",
+                "button text='Maputo'"
+            ]
+        },
+        "62": {
+            "content": "What is the capital of Madagascar ?",
+            "answer": "Antananarivo",
+            "reward": 20,
+            "widgets": [
+                "button text='Port Louis'",
+                "button text='Maputo'",
+                "button text='Antananarivo'",
+                "button text='Toamasina'"
+            ]
+        },
+        "63": {
+            "content": "What is the capital of Mauritius ?",
+            "answer": "Port Louis",
+            "reward": 20,
+            "widgets": [
+                "button text='Curepipe'",
+                "button text='Antananarivo'",
+                "button text='Port Louis'",
+                "button text='Victoria'"
+            ]
+        },
+        "64": {
+            "content": "What is the capital of Seychelles ?",
+            "answer": "Victoria",
+            "reward": 20,
+            "widgets": [
+                "button text='Victoria'",
+                "button text='Beau Vallon'",
+                "button text='Male'",
+                "button text='Port Louis'"
+            ]
+        },
+        "65": {
+            "content": "What is the capital of Botswana ?",
+            "answer": "Gaborone",
+            "reward": 20,
+            "widgets": [
+                "button text='Pretoria'",
+                "button text='Gaborone'",
+                "button text='Windhoek'",
+                "button text='Francistown'"
+            ]
+        },
+        "66": {
+            "content": "Which country is the city of Lyon located in ?",
+            "answer": "France",
+            "reward": 20,
+            "widgets": [
+                "button text='France'",
+                "button text='Tunisia'",
+                "button text='Japan'",
+                "button text='Finland'"
+            ]
+        },
+        "67": {
+            "content": "Which country is the city of Hamburg located in ?",
+            "answer": "Germany",
+            "reward": 20,
+            "widgets": [
+                "button text='Germany'",
+                "button text='Georgia'",
+                "button text='Romania'",
+                "button text='Slovenia'"
+            ]
+        },
+        "68": {
+            "content": "Which country is the city of Valencia located in ?",
+            "answer": "Spain",
+            "reward": 20,
+            "widgets": [
+                "button text='Angola'",
+                "button text='Uruguay'",
+                "button text='Japan'",
+                "button text='Spain'"
+            ]
+        },
+        "69": {
+            "content": "Which country is the city of Florence located in ?",
+            "answer": "Italy",
+            "reward": 20,
+            "widgets": [
+                "button text='Belarus'",
+                "button text='Uruguay'",
+                "button text='Italy'",
+                "button text='Bosnia and Herzegovina'"
+            ]
+        },
+        "70": {
+            "content": "Which country is the city of Porto located in ?",
+            "answer": "Portugal",
+            "reward": 20,
+            "widgets": [
+                "button text='South Africa'",
+                "button text='Portugal'",
+                "button text='Uganda'",
+                "button text='Peru'"
+            ]
+        },
+        "71": {
+            "content": "Which country is the city of Rotterdam located in ?",
+            "answer": "Netherlands",
+            "reward": 20,
+            "widgets": [
+                "button text='Japan'",
+                "button text='Argentina'",
+                "button text='Norway'",
+                "button text='Netherlands'"
+            ]
+        },
+        "72": {
+            "content": "Which country is the city of Geneva located in ?",
+            "answer": "Switzerland",
+            "reward": 20,
+            "widgets": [
+                "button text='Sweden'",
+                "button text='Ukraine'",
+                "button text='Lithuania'",
+                "button text='Switzerland'"
+            ]
+        },
+        "73": {
+            "content": "Which country is the city of Graz located in ?",
+            "answer": "Austria",
+            "reward": 20,
+            "widgets": [
+                "button text='Angola'",
+                "button text='Italy'",
+                "button text='Austria'",
+                "button text='Bulgaria'"
+            ]
+        },
+        "74": {
+            "content": "Which country is the city of Thessaloniki located in ?",
+            "answer": "Greece",
+            "reward": 20,
+            "widgets": [
+                "button text='Montenegro'",
+                "button text='Italy'",
+                "button text='Belarus'",
+                "button text='Greece'"
+            ]
+        },
+        "75": {
+            "content": "Which country is the city of Bergen located in ?",
+            "answer": "Norway",
+            "reward": 20,
+            "widgets": [
+                "button text='Guinea'",
+                "button text='Kenya'",
+                "button text='Norway'",
+                "button text='Slovakia'"
+            ]
+        },
+        "76": {
+            "content": "Which country is the city of Gothenburg located in ?",
+            "answer": "Sweden",
+            "reward": 20,
+            "widgets": [
+                "button text='Armenia'",
+                "button text='China'",
+                "button text='Germany'",
+                "button text='Sweden'"
+            ]
+        },
+        "77": {
+            "content": "Which country is the city of Aarhus located in ?",
+            "answer": "Denmark",
+            "reward": 20,
+            "widgets": [
+                "button text='Belarus'",
+                "button text='Denmark'",
+                "button text='Sweden'",
+                "button text='Algeria'"
+            ]
+        },
+        "78": {
+            "content": "Which country is the city of Tampere located in ?",
+            "answer": "Finland",
+            "reward": 20,
+            "widgets": [
+                "button text='Democratic Republic of the Congo'",
+                "button text='Liberia'",
+                "button text='Finland'",
+                "button text='Belarus'"
+            ]
+        },
+        "79": {
+            "content": "Which country is the city of Cork located in ?",
+            "answer": "Ireland",
+            "reward": 20,
+            "widgets": [
+                "button text='Mexico'",
+                "button text='Bosnia and Herzegovina'",
+                "button text='Sri Lanka'",
+                "button text='Ireland'"
+            ]
+        },
+        "80": {
+            "content": "Which country is the city of Krakow located in ?",
+            "answer": "Poland",
+            "reward": 20,
+            "widgets": [
+                "button text='Sweden'",
+                "button text='Belize'",
+                "button text='Algeria'",
+                "button text='Poland'"
+            ]
+        },
+        "81": {
+            "content": "Which country is the city of Brno located in ?",
+            "answer": "Czech Republic",
+            "reward": 20,
+            "widgets": [
+                "button text='Brazil'",
+                "button text='United Arab Emirates'",
+                "button text='Czech Republic'",
+                "button text='Cameroon'"
+            ]
+        },
+        "82": {
+            "content": "Which country is the city of Debrecen located in ?",
+            "answer": "Hungary",
+            "reward": 20,
+            "widgets": [
+                "button text='Hungary'",
+                "button text='Brazil'",
+                "button text='Jordan'",
+                "button text='Oman'"
+            ]
+        },
+        "83": {
+            "content": "Which country is the city of Cluj-Napoca located in ?",
+            "answer": "Romania",
+            "reward": 20,
+            "widgets": [
+                "button text='Vanuatu'",
+                "button text='Romania'",
+                "button text='India'",
+                "button text='Austria'"
+            ]
+        },
+        "84": {
+            "content": "Which country is the city of Plovdiv located in ?",
+            "answer": "Bulgaria",
+            "reward": 20,
+            "widgets": [
+                "button text='Zimbabwe'",
+                "button text='India'",
+                "button text='Bulgaria'",
+                "button text='South Africa'"
+            ]
+        },
+        "85": {
+            "content": "Which country is the city of Split located in ?",
+            "answer": "Croatia",
+            "reward": 20,
+            "widgets": [
+                "button text='Spain'",
+                "button text='Armenia'",
+                "button text='Croatia'",
+                "button text='Argentina'"
+            ]
+        },
+        "86": {
+            "content": "Which country is the city of Maribor located in ?",
+            "answer": "Slovenia",
+            "reward": 20,
+            "widgets": [
+                "button text='China'",
+                "button text='South Africa'",
+                "button text='Iran'",
+                "button text='Slovenia'"
+            ]
+        },
+        "87": {
+            "content": "Which country is the city of Kosice located in ?",
+            "answer": "Slovakia",
+            "reward": 20,
+            "widgets": [
+                "button text='Slovenia'",
+                "button text='Pakistan'",
+                "button text='Slovakia'",
+                "button text='Rwanda'"
+            ]
+        },
+        "88": {
+            "content": "Which country is the city of Tartu located in ?",
+            "answer": "Estonia",
+            "reward": 20,
+            "widgets": [
+                "button text='Greece'",
+                "button text='Estonia'",
+                "button text='Suriname'",
+                "button text='Honduras'"
+            ]
+        },
+        "89": {
+            "content": "Which country is the city of Daugavpils located in ?",
+            "answer": "Latvia",
+            "reward": 20,
+            "widgets": [
+                "button text='Latvia'",
+                "button text='Australia'",
+                "button text='Cameroon'",
+                "button text='Ghana'"
+            ]
+        },
+        "90": {
+            "content": "Which country is the city of Kaunas located in ?",
+            "answer": "Lithuania",
+            "reward": 20,
+            "widgets": [
+                "button text='Sweden'",
+                "button text='Lithuania'",
+                "button text='South Korea'",
+                "button text='Bolivia'"
+            ]
+        },
+        "91": {
+            "content": "Which country is the city of Akureyri located in ?",
+            "answer": "Iceland",
+            "reward": 20,
+            "widgets": [
+                "button text='Oman'",
+                "button text='Guyana'",
+                "button text='Iceland'",
+                "button text='Ghana'"
+            ]
+        },
+        "92": {
+            "content": "Which country is the city of Lviv located in ?",
+            "answer": "Ukraine",
+            "reward": 20,
+            "widgets": [
+                "button text='Lithuania'",
+                "button text='Iran'",
+                "button text='Barbados'",
+                "button text='Ukraine'"
+            ]
+        },
+        "93": {
+            "content": "Which country is the city of Izmir located in ?",
+            "answer": "Turkey",
+            "reward": 20,
+            "widgets": [
+                "button text='Greece'",
+                "button text='Lithuania'",
+                "button text='Colombia'",
+                "button text='Turkey'"
+            ]
+        },
+        "94": {
+            "content": "Which country is the city of Toronto located in ?",
+            "answer": "Canada",
+            "reward": 20,
+            "widgets": [
+                "button text='Fiji'",
+                "button text='Canada'",
+                "button text='Slovakia'",
+                "button text='Oman'"
+            ]
+        },
+        "95": {
+            "content": "Which country is the city of Guadalajara located in ?",
+            "answer": "Mexico",
+            "reward": 20,
+            "widgets": [
+                "button text='New Zealand'",
+                "button text='Mexico'",
+                "button text='Cameroon'",
+                "button text='Ireland'"
+            ]
+        },
+        "96": {
+            "content": "Which country is the city of Sao Paulo located in ?",
+            "answer": "Brazil",
+            "reward": 20,
+            "widgets": [
+                "button text='Bosnia and Herzegovina'",
+                "button text='Honduras'",
+                "button text='Brazil'",
+                "button text='Ireland'"
+            ]
+        },
+        "97": {
+            "content": "Which country is the city of Cordoba located in ?",
+            "answer": "Argentina",
+            "reward": 20,
+            "widgets": [
+                "button text='Argentina'",
+                "button text='Portugal'",
+                "button text='Angola'",
+                "button text='Italy'"
+            ]
+        },
+        "98": {
+            "content": "Which country is the city of Valparaiso located in ?",
+            "answer": "Chile",
+            "reward": 20,
+            "widgets": [
+                "button text='Brazil'",
+                "button text='Chile'",
+                "button text='Costa Rica'",
+                "button text='Angola'"
+            ]
+        },
+        "99": {
+            "content": "Which country is the city of Cusco located in ?",
+            "answer": "Peru",
+            "reward": 20,
+            "widgets": [
+                "button text='Rwanda'",
+                "button text='Montenegro'",
+                "button text='Namibia'",
+                "button text='Peru'"
+            ]
+        },
+        "100": {
+            "content": "Which country is the city of Medellin located in ?",
+            "answer": "Colombia",
+            "reward": 20,
+            "widgets": [
+                "button text='Peru'",
+                "button text='Samoa'",
+                "button text='Colombia'",
+                "button text='Uganda'"
+            ]
+        }
+    }
+}
