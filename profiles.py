@@ -54,6 +54,7 @@ def save_profile(player, profiles:dict) -> None:
 
     with profiles_file.open("w", encoding="utf-8") as f:
         profiles[player_id] = {
+            "level": player.level,
             "xp": player.xp,
             "themes": player.themes
         }

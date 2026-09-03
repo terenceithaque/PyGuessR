@@ -52,6 +52,12 @@ class Player:
 
         self.xp = 0 # Total player XP
 
+        self.level = 0 # Player level (determined by XP)
+        self.level_upgraded = False
+
+
+
+
         self.pseudo = pseudo
         self.__hashed_pseudo = self.generate_id()
 
@@ -117,6 +123,7 @@ class Player:
 
         # Set up only if the player's pseudo is recorded in the profiles
         if self.pseudo_exists():
+            self.level = self.profile["level"]
             self.xp = self.profile["xp"]
             self.themes = self.profile["themes"]
 
@@ -137,7 +144,18 @@ class Player:
     def update_xp(self) -> None:
         """Updates the player's total XP score."""
 
-        self.xp += self.score       
+        self.xp += self.score
+
+    def update_level(self) -> None:
+        """Updates the player's global level based on XP."""
+
+        if self.xp >= (self.level + 1)*100:
+            self.level += 1
+            self.xp = 0
+            self.level_upgraded = True
+
+        else:
+            self.level_upgraded = False               
 
     def pseudo_exists(self) -> bool:
         """Returns True if the player's hashed pseudo is present within the player profiles or False otherwise."""
