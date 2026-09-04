@@ -161,6 +161,7 @@ class QuizzWindow(QMainWindow):
         self.central_widget.setLayout(parent_layout)
         self.setCentralWidget(self.central_widget)
 
+
         # The QStackedWidget allows to handle several quizz pages all by displaying only one at a time
         self.question_stack = QStackedWidget()
         
@@ -264,4 +265,21 @@ class QuizzWindow(QMainWindow):
     def quizz_ended(self) -> bool:
         """Returns True if all the questions of the quizz where answered, False if not."""
 
-        return self.completed_questions == self.quizz_questions       
+        return self.completed_questions == self.quizz_questions
+
+    def closeEvent(self, event) -> None:
+        """Displays a warning message box when the player is about to close the window."""
+
+        confirm_quit = QMessageBox.warning(self, 
+                                           "Do you really want to quit ?", 
+                                           "If you quit the game now, you'll loose any unsaved progress.\n Do you really want to quit ?",
+                                           QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
+
+        # Close the window if the player clicked "Yes"
+        if confirm_quit == QMessageBox.StandardButton.Yes:
+            event.accept()
+
+        else:
+            event.ignore()    
+
+                   
