@@ -149,9 +149,11 @@ class Player:
     def update_level(self) -> None:
         """Updates the player's global level based on XP."""
 
-        if self.xp >= (self.level + 1)*100:
+        required_xp = (self.level + 1)*100
+
+        if self.xp >= required_xp:
             self.level += 1
-            self.xp = 0
+            self.xp -= required_xp
             self.level_upgraded = True
 
         else:

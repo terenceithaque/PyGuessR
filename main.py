@@ -135,6 +135,16 @@ class MainAppWindow(QMainWindow):
         # Layout for the widgets
         parent_layout = QGridLayout(self.central_widget)
 
+        # Labels displaying player level and XP
+        level_label = QLabel(f"Level: {self.player.level}")
+        xp_label = QLabel(f"XP: {self.player.xp}")
+
+        level_label.setAlignment(Qt.AlignmentFlag.AlignRight)
+        xp_label.setAlignment(Qt.AlignmentFlag.AlignRight)
+
+        parent_layout.addWidget(level_label)
+        parent_layout.addWidget(xp_label)
+
         self.settings_stack = QStackedWidget()
         self.current_setting_page = SelectPage(self, "theme")
         self.current_setting_index = 0
